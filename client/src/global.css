@@ -1,0 +1,18 @@
+/* Web-only globals. */
+html, body { background: #FCF0F1; }
+@media (prefers-color-scheme: dark) { html, body { background: #1D1517; } }
+
+/* The website itself is the product: no printing or PDF export. */
+@media print {
+  body * { display: none !important; }
+  body::after {
+    content: "DANSK PÅ ARBEJDE доступний тільки на сайті. Created by Anna Melnykova";
+    display: block; padding: 40px; font: 18px sans-serif;
+  }
+}
+
+.dpa-blur { margin: 0; }
+.dpa-spot { border-radius: 24px; flex: 1; display: flex; flex-direction: column; }
+.dpa-spot > * { flex: 1; }
+
+:focus-visible { outline: 2px solid #C95777; outline-offset: 2px; }

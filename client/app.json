@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Dansk på arbejde",
+    "slug": "dansk-paa-arbejde",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "danskpaaarbejde",
+    "userInterfaceStyle": "automatic",
+    "ios": {},
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FCF0F1",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Dansk på arbejde",
+      "shortName": "Dansk",
+      "lang": "uk",
+      "themeColor": "#FCF0F1",
+      "backgroundColor": "#FCF0F1",
+      "description": "Практична данська для роботи. Created by Anna Melnykova."
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FCF0F1",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true,
+      "baseUrl": "/danish-book-anna"
+    }
+  }
+}

@@ -2,27 +2,36 @@
 
 A private interactive website-book of practical workplace Danish for Ukrainian speakers. Created by Anna Melnykova.
 
-## Status
+**Live:** https://sevastian-bahynskyi.github.io/danish-book-anna/
+**Style prototype:** https://sevastian-bahynskyi.github.io/danish-book-anna/prototype/
 
-**Stage 1 is the style prototype** (`prototype/index.html`). It shows five visual variants of the same sample screens (home, chapter index, chapter page, saved phrases, login, completion).
+## How access works
 
-- Switch variants with the bar at the top or the ← → keys.
-- ✨ toggles animations between "спокійно" (calm, the spec default) and "більше" (more React Bits-style effects).
-- ◐ cycles the colour theme: system, light, dark.
-- **Обрати цей** copies your choice so you can paste it into the chat.
+1. **The very first account that registers becomes the admin.** Open the site, choose «Реєстрація», and register with your phone number and a password.
+2. After someone pays, the admin opens **Ще → Адмін-панель** and adds their phone number.
+3. That person registers with the same number and their own password.
+4. One active session per account. Signing in on a new device ends the old session, and the old device shows a notice.
+5. Forgotten password: in the admin panel, open the person, press «Створити код», and send them the prepared message. They choose «Новий пароль» on the sign-in screen.
 
-Open it locally by double-clicking `prototype/index.html`, or on GitHub Pages:
-https://sevastian-bahynskyi.github.io/danish-book-anna/
+The admin panel can also block, unblock, delete users, end a session, and shows usage statistics.
 
-Direct links: `#phrasebook`, `#nordic`, `#messenger`, `#notebook`, `#glass`.
+## Repository
 
-**Stage 2** is the full app (Expo / React Native Web + Supabase), built in the chosen style.
+| Path | What |
+| --- | --- |
+| `client/` | Expo app (React Native + React Native Web), see `client/README.md` |
+| `supabase/migrations/` | Database schema, row level security, session and admin functions |
+| `supabase/functions/account/` | Edge Function: registration and password reset |
+| `supabase/content/` | Anna's source text + chapter material; `build-seed.mjs` generates `supabase/seed.sql` |
+| `prototype/` | The five-variant style prototype (variant 3, «Messenger від Анни», was chosen) |
+| `.claude/skills/` | Claude Code skills used for design: `taste`, `apple-design` |
 
-## Design skills
+Backend: Supabase project `dansk-paa-arbejde` (eu-north-1). Paid content is only readable by an active account on its current session; the browser only holds the public publishable key.
 
-The project's Claude Code skills live in `.claude/skills/`:
+Not in this version: audio (the spec's audio blocks are left out for now).
 
-- `taste`: [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) (MIT). Anti-template frontend rules.
-- `apple-design`: [dickwu/apple-design-skill](https://github.com/dickwu/apple-design-skill). Review against Apple's Human Interface Guidelines.
+## Credits
 
-Icons are a vendored subset of [Phosphor Icons](https://phosphoricons.com) (MIT) in `prototype/vendor/phosphor/`.
+- Design skills: [taste-skill](https://github.com/Leonxlnx/taste-skill) (MIT), [apple-design-skill](https://github.com/dickwu/apple-design-skill)
+- Animations and backgrounds: [React Bits](https://reactbits.dev) (MIT + Commons Clause)
+- Icons: [Phosphor](https://phosphoricons.com) (MIT). Fonts: Nunito, Neucha (OFL)

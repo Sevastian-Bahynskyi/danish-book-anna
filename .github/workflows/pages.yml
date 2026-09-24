@@ -20,17 +20,29 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    defaults:
+      run:
+        working-directory: client
     steps:
       - uses: actions/checkout@v4
-      # Stage 1: the style prototype is served at the site root.
-      - name: Assemble site
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: client/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npx expo lint
+      # Static web export of the Expo app (served under /danish-book-anna).
+      - run: npm run build:web
+      - name: Add the style prototype and disable Jekyll
         run: |
-          mkdir -p _site
-          cp -r prototype/. _site/
-          touch _site/.nojekyll
+          mkdir -p dist/prototype
+          cp -r ../prototype/. dist/prototype/
+          touch dist/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: client/dist
       - id: deployment
         uses: actions/deploy-pages@v4
