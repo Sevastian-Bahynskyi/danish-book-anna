@@ -30,3 +30,13 @@ Options:
 - `SHOTS=<dir>` saves screenshots.
 
 Run it before every release that touches layout.
+
+## Checking the live API from a cloud session
+
+The sandbox can't open `*.supabase.co` directly. Use the Supabase MCP instead:
+
+1. `create extension if not exists http` (as its own `execute_sql` call).
+2. Sign in with the test account: POST `/auth/v1/token?grant_type=password` with the email `p4500000099@phone.dansk-paa-arbejde.app` and the publishable key from `client/.env`.
+3. Call `/rest/v1/rpc/claim_session`, then read the content with the `x-session-id` header.
+4. Run each step as a separate `execute_sql` call, because work inside one transaction isn't visible to the HTTP calls.
+5. Finish with `drop extension if exists http;`.
