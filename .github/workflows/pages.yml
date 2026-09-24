@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main, "claude/**"]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -35,11 +35,8 @@ jobs:
       - run: npx expo lint
       # Static web export of the Expo app (served under /danish-book-anna).
       - run: npm run build:web
-      - name: Add the style prototype and disable Jekyll
-        run: |
-          mkdir -p dist/prototype
-          cp -r ../prototype/. dist/prototype/
-          touch dist/.nojekyll
+      - name: Disable Jekyll (Expo output uses underscore folders)
+        run: touch dist/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

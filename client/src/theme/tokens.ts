@@ -1,7 +1,7 @@
-// "Messenger від Анни" (variant 3 of the style prototype).
+// "Messenger від Анни": the style chosen from the prototype variants.
 // Pink is the single accent (actions, saved, progress); blue is only for
 // informational surfaces (explanations, translations). Every text colour
-// pair here was checked for WCAG AA in the prototype.
+// pair here was checked for WCAG AA.
 export const palette = {
   light: {
     bg: '#FCF0F1',

@@ -1,6 +1,6 @@
 import { InfoIcon, LockKeyIcon, SignInIcon, UserPlusIcon, WarningCircleIcon } from 'phosphor-react-native';
 import { useState } from 'react';
-import { KeyboardAvoidingView, Platform, Pressable, ScrollView, Text, View } from 'react-native';
+import { Image, KeyboardAvoidingView, Platform, Pressable, ScrollView, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { SilkBackground } from '@/components/effects/SilkBackground';
@@ -58,6 +58,7 @@ export default function Login() {
         <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', padding: space(4), paddingTop: insets.top + space(8), paddingBottom: insets.bottom + space(8) }} keyboardShouldPersistTaps="handled">
           <View style={{ width: '100%', maxWidth: 460, alignSelf: 'center', gap: space(5) }}>
             <View style={{ gap: 4 }}>
+              <Image source={require('@/assets/images/favicon.png')} style={{ width: 72, height: 72, marginBottom: space(3) }} accessibilityIgnoresInvertColors />
               <Text style={{ fontFamily: fonts.heavy, fontSize: 15, letterSpacing: 1.5, color: c.ink }}>DANSK PÅ ARBEJDE</Text>
               <H1 style={{ fontSize: 30, lineHeight: 36 }}>Практична данська для роботи</H1>
               <Hand style={{ fontSize: 22 }}>Created by Anna Melnykova</Hand>

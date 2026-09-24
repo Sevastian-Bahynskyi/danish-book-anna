@@ -1,6 +1,6 @@
 import { Link, usePathname, type Href } from 'expo-router';
 import { BookOpenIcon, BooksIcon, DotsThreeCircleIcon, HeartIcon, HouseIcon, MagnifyingGlassIcon } from 'phosphor-react-native';
-import { Platform, Text, View, useWindowDimensions, type ViewStyle } from 'react-native';
+import { Image, Platform, Text, View, useWindowDimensions, type ViewStyle } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useCompletedCount } from '@/lib/content';
@@ -48,9 +48,12 @@ function Brand() {
   const { c } = useTheme();
   return (
     <Link href="/" asChild>
-      <Tap accessibilityLabel="DANSK PÅ ARBEJDE, на головну" style={{ minHeight: 44, justifyContent: 'center' }}>
-        <Text style={{ fontFamily: fonts.heavy, fontSize: 14, letterSpacing: 1, color: c.ink }}>DANSK PÅ ARBEJDE</Text>
-        <Text style={{ fontFamily: fonts.hand, fontSize: 17, lineHeight: 18, color: c.accentInk }}>by Anna Melnykova</Text>
+      <Tap accessibilityLabel="DANSK PÅ ARBEJDE, на головну" style={{ minHeight: 44, flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+        <Image source={require('@/assets/images/favicon.png')} style={{ width: 36, height: 36 }} accessibilityIgnoresInvertColors />
+        <View>
+          <Text style={{ fontFamily: fonts.heavy, fontSize: 14, letterSpacing: 1, color: c.ink }}>DANSK PÅ ARBEJDE</Text>
+          <Text style={{ fontFamily: fonts.hand, fontSize: 17, lineHeight: 18, color: c.accentInk }}>by Anna Melnykova</Text>
+        </View>
       </Tap>
     </Link>
   );
