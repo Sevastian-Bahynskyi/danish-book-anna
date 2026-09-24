@@ -149,7 +149,7 @@ export function MessageCard({ m }: { m: Message }) {
   const { c } = useTheme();
   const [copied, setCopied] = useState(false);
   return (
-    <Surface style={{ gap: space(3), borderTopRightRadius: radius.card, borderBottomRightRadius: radius.bubbleTail, flex: 1 }}>
+    <Surface style={{ gap: space(3), borderTopRightRadius: radius.card, borderBottomRightRadius: radius.bubbleTail, flexGrow: 1 }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
         <ChatCircleTextIcon size={18} color={c.muted} />
         <Muted style={{ fontSize: 14, lineHeight: 20 }}>{m.audience_ua}</Muted>
@@ -257,7 +257,7 @@ export function ChapterCard({ ch, done, visited }: { ch: Chapter; done: boolean;
           role="link"
           accessibilityLabel={`Розділ ${ch.id}: ${ch.title_da}${done ? ', пройдено' : ''}`}
           pressStyle={({ hovered, pressed }) => ({
-            flex: 1,
+            flexGrow: 1,
             minHeight: 170,
             padding: space(5),
             borderRadius: radius.card,
@@ -276,7 +276,7 @@ export function ChapterCard({ ch, done, visited }: { ch: Chapter; done: boolean;
             {visited && !done ? <Muted style={{ fontSize: 13 }}>відкрито</Muted> : null}
           </View>
           <H3 style={{ fontSize: 20 }}>{ch.title_da}</H3>
-          <Muted style={{ fontSize: 15, lineHeight: 22, flex: 1 }}>{ch.description_ua}</Muted>
+          <Muted style={{ fontSize: 15, lineHeight: 22, flexGrow: 1 }}>{ch.description_ua}</Muted>
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 6 }}>
             <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: c.muted }}>{ch.phrase_count} фраз</Text>
             {done ? (

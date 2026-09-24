@@ -127,11 +127,11 @@ export default function Admin() {
           <Loading />
         )}
       </Section>
-      <View style={{ flexDirection: wide ? 'row' : 'column', gap: space(4) }}>
-        <View style={{ flex: 1 }}>
+      <View style={{ flexDirection: wide ? 'row' : 'column', gap: space(4), alignItems: 'flex-start' }}>
+        <View style={{ flexGrow: 1, flexBasis: wide ? 0 : 'auto', alignSelf: 'stretch' }}>
           <AddPhone />
         </View>
-        <View style={{ flex: 1 }}>
+        <View style={{ flexGrow: 1, flexBasis: wide ? 0 : 'auto', alignSelf: 'stretch' }}>
           <Waiting />
         </View>
       </View>

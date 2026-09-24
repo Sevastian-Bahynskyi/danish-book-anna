@@ -44,6 +44,7 @@
     "@types/three": "^0.186.0",
     "eslint": "^9.0.0",
     "eslint-config-expo": "~57.0.2",
+    "playwright": "^1.56.1",
     "typescript": "~6.0.3"
   },
   "scripts": {
@@ -51,7 +52,8 @@
     "web": "expo start --web",
     "build:web": "EXPO_UNSTABLE_METRO_OPTIMIZE_GRAPH=1 EXPO_UNSTABLE_TREE_SHAKING=1 expo export -p web && cp dist/index.html dist/404.html",
     "typecheck": "tsc --noEmit",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "test:layout": "node e2e/layout.mjs"
   },
   "private": true
 }

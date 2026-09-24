@@ -1,13 +1,13 @@
 import { Link, type Href } from 'expo-router';
-import { BookOpenTextIcon, CaretRightIcon, FlowerIcon, ShieldCheckIcon, SignOutIcon } from 'phosphor-react-native';
+import { BookOpenTextIcon, CaretRightIcon, CircleHalfIcon, FlowerIcon, MoonIcon, ShieldCheckIcon, SignOutIcon, SunIcon } from 'phosphor-react-native';
 import { Text, View } from 'react-native';
 
 import { Screen, Section } from '@/components/Screen';
 import { Footer } from '@/components/shared';
-import { H1, Muted, type Icon } from '@/components/ui';
+import { H1, H3, Muted, type Icon } from '@/components/ui';
 import { useAuth, useProfile } from '@/lib/auth';
 import { formatPhone } from '@/lib/phone';
-import { fonts, radius, space, useTheme } from '@/theme';
+import { fonts, radius, space, useTheme, type ThemePref } from '@/theme';
 import { Tap } from '@/components/Tap';
 
 function Row({ icon: I, label, href, onPress, danger }: { icon: Icon; label: string; href?: Href; onPress?: () => void; danger?: boolean }) {
@@ -32,6 +32,40 @@ function Row({ icon: I, label, href, onPress, danger }: { icon: Icon; label: str
   );
 }
 
+const THEMES: { id: ThemePref; label: string; icon: Icon }[] = [
+  { id: 'system', label: 'Системна', icon: CircleHalfIcon },
+  { id: 'light', label: 'Світла', icon: SunIcon },
+  { id: 'dark', label: 'Темна', icon: MoonIcon },
+];
+
+function ThemePicker() {
+  const { c, pref, setPref } = useTheme();
+  return (
+    <View style={{ gap: space(3), maxWidth: 560 }}>
+      <H3>Тема</H3>
+      <View role="radiogroup" accessibilityLabel="Тема" style={{ flexDirection: 'row', backgroundColor: c.surface2, borderRadius: radius.pill, padding: 4 }}>
+        {THEMES.map((t) => {
+          const on = pref === t.id;
+          const I = t.icon;
+          return (
+            <Tap
+              key={t.id}
+              role="radio"
+              aria-checked={on}
+              accessibilityLabel={t.label}
+              onPress={() => setPref(t.id)}
+              style={{ flex: 1, minHeight: 44, borderRadius: radius.pill, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, backgroundColor: on ? c.surface : 'transparent' }}
+            >
+              <I size={18} color={on ? c.accentInk : c.muted} weight={on ? 'fill' : 'regular'} />
+              <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: on ? c.accentInk : c.muted }}>{t.label}</Text>
+            </Tap>
+          );
+        })}
+      </View>
+    </View>
+  );
+}
+
 export default function More() {
   const { c } = useTheme();
   const profile = useProfile();
@@ -46,6 +80,9 @@ export default function More() {
             {formatPhone(profile.phone)}
           </Muted>
         ) : null}
+      </Section>
+      <Section>
+        <ThemePicker />
       </Section>
       <Section>
         <View style={{ borderRadius: radius.card, overflow: 'hidden', borderWidth: 1, borderColor: c.line, maxWidth: 560 }}>
