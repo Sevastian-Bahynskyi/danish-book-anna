@@ -25,6 +25,8 @@ npm run test:layout            # CHROMIUM=/path/to/chrome if Playwright's browse
 - anything sticks out past the right edge of the screen,
 - or the page throws an error.
 
+It also opens the install guide (`/?install`) as iPhone Safari (iOS 18 and 26), Chrome on iPhone, Messenger on iPhone and Android, Android Chrome with and without the install prompt, Samsung Internet and desktop, at 320 and 390px, and fails if the sheet's buttons fall off screen.
+
 Options:
 - `WIDTHS=375` limits the run to one width.
 - `SHOTS=<dir>` saves screenshots.

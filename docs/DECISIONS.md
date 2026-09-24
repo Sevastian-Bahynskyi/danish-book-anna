@@ -44,6 +44,7 @@ The original brief is [SPEC.md](SPEC.md).
 | T7 | The PWA is installable (manifest plus Apple meta tags), full screen with its own icon. It has no service worker and no offline mode. | Owner asked for a PWA icon; offline caching would complicate the session rule |
 | T8 | Design skills `taste` and `apple-design` are installed in `.claude/skills/`, and every UI change should follow them. | Owner |
 | T9 | Phosphor icons, Nunito and Neucha fonts. | Chosen with the style |
+| T10 | **Install guide.** On a phone's first entry the book opens a guide fitted to the phone and browser. Android Chrome/Samsung (and desktop Chrome/Edge): one «Встановити» button that opens the browser's own install dialog. iPhone Safari/Chrome: numbered steps with pictures and an arrow pointing at the real Share button (iOS 26 «•••», iPad and Chrome at the top). Messenger/Facebook in-app browsers and other browsers: one button that reopens the site in Safari (`x-safari-https:`) or Chrome (`intent:`), plus copy address. It is repeatable from «Ще» and via `?install`. iPhone can't be installed by code, so steps are the minimum there. Still no service worker (T7). | Owner: readers are 30 to 60 and not technical, so as few taps as possible |
 
 ## Design
 
@@ -79,3 +80,4 @@ See [VISUAL-IDENTITY.md](VISUAL-IDENTITY.md) for the full style.
   - Hidden test account added.
   - Theme picker added.
   - Layout test and handover docs added.
+  - Install guide for iPhone and Android, auto-shown once and in «Ще».

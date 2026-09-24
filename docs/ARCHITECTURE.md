@@ -43,7 +43,8 @@ supabase/
   - `src/theme` holds the tokens and the ThemeProvider (theme preference).
   - `src/components` holds `ui.tsx` (primitives), `book.tsx` (textbook blocks), `nav.tsx`, `shared.tsx`, `Screen.tsx` and `Tap.tsx`.
   - `effects/` wraps React Bits (`reactbits/`, vendored, excluded from lint).
-- **PWA**: `public/index.html` (meta, manifest link, base styles), `public/manifest.json`, and the icons made by `scripts/make-icons.mjs`.
+- **PWA**: `public/index.html` (meta, manifest link, base styles, and an inline script that keeps Chrome's `beforeinstallprompt`), `public/manifest.json`, and the icons made by `scripts/make-icons.mjs`.
+- **Install guide**: `src/lib/pwa.ts` (phone/browser detection, install prompt, auto-open) and `src/components/InstallGuide.tsx` (the sheet). It opens once per device on a phone's first entry, from «Ще» → «Показати, як встановити», or with any link ending in `?install`.
 - **Commands**: `npm run web`, `typecheck`, `lint`, `build:web` (sets the tree-shaking env flags and copies 404.html), and `test:layout`.
 
 Gotchas that already cost time:

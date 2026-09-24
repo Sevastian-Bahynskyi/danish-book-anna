@@ -1,12 +1,13 @@
 import { Link, type Href } from 'expo-router';
-import { BookOpenTextIcon, CaretRightIcon, CircleHalfIcon, FlowerIcon, MoonIcon, ShieldCheckIcon, SignOutIcon, SunIcon } from 'phosphor-react-native';
+import { BookOpenTextIcon, CaretRightIcon, CircleHalfIcon, DeviceMobileIcon, FlowerIcon, MoonIcon, ShieldCheckIcon, SignOutIcon, SunIcon } from 'phosphor-react-native';
 import { Text, View } from 'react-native';
 
 import { Screen, Section } from '@/components/Screen';
 import { Footer } from '@/components/shared';
-import { H1, H3, Muted, type Icon } from '@/components/ui';
+import { Button, H1, H3, Muted, Surface, type Icon } from '@/components/ui';
 import { useAuth, useProfile } from '@/lib/auth';
 import { formatPhone } from '@/lib/phone';
+import { canInstallHere, detectDevice, openInstallGuide } from '@/lib/pwa';
 import { fonts, radius, space, useTheme, type ThemePref } from '@/theme';
 import { Tap } from '@/components/Tap';
 
@@ -66,6 +67,27 @@ function ThemePicker() {
   );
 }
 
+// Shown in the browser only: inside the installed app there is nothing to do.
+function InstallCard() {
+  const { c } = useTheme();
+  if (!canInstallHere()) return null;
+  const phone = detectDevice().os !== 'desktop';
+  return (
+    <Surface tone="soft" style={{ maxWidth: 560, gap: space(3) }}>
+      <View style={{ flexDirection: 'row', gap: 12, alignItems: 'center' }}>
+        <DeviceMobileIcon size={28} color={c.accentInk} weight="duotone" />
+        <H3 style={{ flex: 1 }}>{phone ? 'Книжка на екрані телефону' : 'Книжка на телефоні'}</H3>
+      </View>
+      <Muted>
+        {phone
+          ? 'Поставте іконку книжки на екран телефону. Тоді вона відкриватиметься однією кнопкою, на весь екран, як звичайний застосунок.'
+          : 'Книжку можна поставити на екран телефону як застосунок. Покажемо, як це зробити.'}
+      </Muted>
+      <Button label="Показати, як встановити" icon={DeviceMobileIcon} variant="primary" onPress={openInstallGuide} />
+    </Surface>
+  );
+}
+
 export default function More() {
   const { c } = useTheme();
   const profile = useProfile();
@@ -80,6 +102,9 @@ export default function More() {
             {formatPhone(profile.phone)}
           </Muted>
         ) : null}
+      </Section>
+      <Section>
+        <InstallCard />
       </Section>
       <Section>
         <ThemePicker />

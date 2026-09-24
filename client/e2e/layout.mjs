@@ -106,7 +106,8 @@ function findProblems() {
   const vw = document.documentElement.clientWidth;
   const inFlow = (el) => {
     const s = getComputedStyle(el);
-    if (s.position === 'absolute' || s.position === 'fixed' || s.display === 'none' || s.visibility === 'hidden') return false;
+    // Inline text runs (bold words inside a sentence) wrap across lines and may share a box.
+    if (s.position === 'absolute' || s.position === 'fixed' || s.display === 'none' || s.display === 'inline' || s.visibility === 'hidden') return false;
     const r = el.getBoundingClientRect();
     return r.width > 1 && r.height > 1;
   };
@@ -166,6 +167,60 @@ for (const width of widths) {
     await ctx.close();
   }
 }
+// The install guide («Книжка на екрані телефону») as each kind of phone sees it.
+const UA = {
+  iphone: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1',
+  iphone26: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1',
+  iphoneChrome: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/140.0 Mobile/15E148 Safari/604.1',
+  iphoneMessenger: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/22F76 [FBAN/MessengerForiOS;FBAV/500.0]',
+  android: 'Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36',
+  samsung: 'Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/28.0 Chrome/130.0.0.0 Mobile Safari/537.36',
+  androidMessenger: 'Mozilla/5.0 (Linux; Android 14; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/140.0.0.0 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/500.0;]',
+};
+const guides = [
+  ['iphone', UA.iphone, false],
+  ['iphone-ios26', UA.iphone26, false],
+  ['iphone-chrome', UA.iphoneChrome, false],
+  ['iphone-messenger', UA.iphoneMessenger, false],
+  ['android-install', UA.android, true],
+  ['android-menu', UA.android, false],
+  ['android-samsung', UA.samsung, false],
+  ['android-messenger', UA.androidMessenger, false],
+  ['desktop', undefined, false],
+];
+for (const [name, userAgent, prompt] of guides) {
+  for (const [w, h] of [[320, 568], [390, 664]]) {
+    const ctx = await browser.newContext({ viewport: { width: w, height: h }, userAgent, deviceScaleFactor: 1, reducedMotion: 'reduce', hasTouch: !!userAgent });
+    const page = await ctx.newPage();
+    await mockBackend(page);
+    if (prompt) await page.addInitScript(() => { window.__dpaInstall = Object.assign(new Event('beforeinstallprompt'), { prompt: async () => {}, userChoice: Promise.resolve({ outcome: 'accepted' }) }); });
+    const errors = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.goto(origin + base + '/?install');
+    await page.waitForSelector('[role="dialog"]', { timeout: 20000 });
+    await page.waitForTimeout(500);
+    const problems = [...(await page.evaluate(findProblems)), ...errors.map((e) => `page error: ${e}`)];
+    // The sheet's buttons outside its scrolling part must stay on screen.
+    const offscreen = await page.evaluate(() =>
+      [...document.querySelectorAll('[role="dialog"] [role="button"]')]
+        .filter((b) => {
+          for (let p = b.parentElement; p; p = p.parentElement) if (['auto', 'scroll'].includes(getComputedStyle(p).overflowY)) return false;
+          const r = b.getBoundingClientRect();
+          return r.bottom > innerHeight + 1 || r.top < -1;
+        })
+        .map((b) => b.getAttribute('aria-label')),
+    );
+    problems.push(...offscreen.map((l) => `guide button off screen: «${l}»`));
+    if (shots) await page.screenshot({ path: join(shots, `guide-${name}-${w}.png`) });
+    const tag = `guide ${name} ${w}px`;
+    if (problems.length) {
+      failures += problems.length;
+      console.log(`✗ ${tag}\n  - ${problems.join('\n  - ')}`);
+    } else console.log(`✓ ${tag}`);
+    await ctx.close();
+  }
+}
+
 await browser.close();
 server.close();
 if (failures) {
