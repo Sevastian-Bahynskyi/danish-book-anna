@@ -4,13 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: Generate one real MP3 to review, or the whole book
+        description: Generate one MP3, generate the book, or upload saved MP3s to Supabase
         required: true
         default: sample
         type: choice
         options:
           - sample
           - all
+          - upload
       slowdown:
         description: Jeppe speaking speed, percent slower than normal
         required: true
@@ -42,6 +43,7 @@ jobs:
         with:
           node-version: '22'
       - name: Check Azure credentials
+        if: inputs.mode != 'upload'
         env:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
         run: |
@@ -50,6 +52,7 @@ jobs:
             exit 1
           fi
       - name: Generate recordings
+        if: inputs.mode != 'upload'
         env:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: northeurope
@@ -62,6 +65,11 @@ jobs:
           else
             node scripts/generate-audio.mjs
           fi
+      - name: Upload recordings to Supabase
+        if: inputs.mode == 'upload'
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/upload-audio-to-supabase.mjs
       # Preserve successful recordings if a later Azure request fails.
       - name: Commit audio to this branch
         if: always()
