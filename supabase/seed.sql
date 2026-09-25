@@ -488,4 +488,6 @@ insert into public.exercises (chapter_id, sort, question_ua, options, correct, e
 insert into public.exercises (chapter_id, sort, question_ua, options, correct, explain_ua) values (12, 3, 'Колега просить про допомогу, а ви зайняті. Що скажете?', '["Vi ses senere.","Lige et øjeblik.","Nej tak."]'::jsonb, 1, null);
 insert into public.exercises (chapter_id, sort, question_ua, options, correct, explain_ua) values (12, 4, 'Як сказати «Я сумніваюся»?', '["Jeg er i tvivl.","Jeg er tvivl.","Jeg har tvivlet."]'::jsonb, 0, null);
 insert into public.vocab (chapter_id, sort, da, ua) values (12, 1, 'øjeblik', 'мить, хвилинка'), (12, 2, 'tvivl', 'сумнів'), (12, 3, 'næsten', 'майже'), (12, 4, 'færdig', 'готово'), (12, 5, 'lige', 'щойно, зараз'), (12, 6, 'hjælp', 'допомога'), (12, 7, 'senere', 'пізніше'), (12, 8, 'skridt', 'крок'), (12, 9, 'mene', 'мати на увазі'), (12, 10, 'om lidt', 'трохи згодом');
+insert into public.chapters (id, title_da, description_ua, intro_ua) values (13, 'Sådan bygger man sætninger på dansk', 'Як будувати речення данською', '');
+insert into public.chapters (id, title_da, description_ua, intro_ua) values (14, 'Små ord, man tit blander sammen', 'Маленькі слова, які постійно плутають', '');
 commit;

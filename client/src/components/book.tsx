@@ -250,7 +250,9 @@ export function VocabGrid({ items, columns }: { items: Vocab[]; columns: number 
 }
 
 // ---------------------------------------------------------------- chapter cards
-export function ChapterCard({ ch, done, visited }: { ch: Chapter; done: boolean; visited: boolean }) {
+type CardChapter = Pick<Chapter, 'id' | 'title_da' | 'description_ua'> & { phrase_count?: number };
+
+export function ChapterCard({ ch, done, visited, meta }: { ch: CardChapter; done: boolean; visited: boolean; meta?: string }) {
   const { c } = useTheme();
   return (
     <Spotlight>
@@ -280,7 +282,7 @@ export function ChapterCard({ ch, done, visited }: { ch: Chapter; done: boolean;
           <H3 style={{ fontSize: 20 }}>{ch.title_da}</H3>
           <Muted style={{ fontSize: 15, lineHeight: 22, flexGrow: 1 }}>{ch.description_ua}</Muted>
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 6 }}>
-            <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: c.muted }}>{ch.phrase_count} фраз</Text>
+            <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: c.muted }}>{meta ?? `${ch.phrase_count ?? 0} фраз`}</Text>
             {done ? (
               <View style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
                 <CheckIcon size={15} color={c.ok} weight="bold" />

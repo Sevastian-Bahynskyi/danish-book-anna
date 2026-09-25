@@ -72,6 +72,13 @@ for (const c of chapters) {
   });
   out.push("insert into public.vocab (chapter_id, sort, da, ua) values " + x.vocab.map(([da, ua], i) => `(${c.id}, ${i + 1}, ${q(da)}, ${q(ua)})`).join(", ") + ";");
 }
+// Grammar chapters 13-14: their text lives in the app (client/src/content/grammar.json);
+// the rows exist so progress and admin statistics treat them like any chapter.
+const grammar = JSON.parse(readFileSync(new URL("../../client/src/content/grammar.json", import.meta.url), "utf8"));
+for (const g of grammar.chapters) {
+  out.push(`insert into public.chapters (id, title_da, description_ua, intro_ua) values (${g.id}, ${q(g.title_da)}, ${q(g.title)}, '');`);
+  lib.chapters.push({ id: g.id, title_da: g.title_da, description_ua: g.title, intro_ua: "" });
+}
 out.push("commit;");
 // Inventory consumers can obtain the exact library without touching seed.sql.
 if (!process.argv.includes("--json-only")) writeFileSync(new URL("../seed.sql", import.meta.url), out.join("\n") + "\n");

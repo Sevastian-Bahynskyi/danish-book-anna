@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Pressable, Text, TextInput, View, useWindowDimensions } from 'react-native';
 
 import { useLibrary, useProgress, useSaved } from '@/lib/content';
+import { grammarChapter } from '@/lib/grammar';
 import { POPULAR } from '@/lib/search';
 import { fonts, radius, space, useTheme } from '@/theme';
 import { ChapterCard } from './book';
@@ -79,12 +80,18 @@ export function ChapterGrid() {
         const p = progress.data?.find((x) => x.chapter_id === ch.id);
         return (
           <View key={ch.id} style={{ width: `${100 / cols}%`, padding: 6 }}>
-            <ChapterCard ch={ch} done={!!p?.completed_at} visited={!!p} />
+            <ChapterCard ch={ch} done={!!p?.completed_at} visited={!!p} meta={topicCount(ch.id)} />
           </View>
         );
       })}
     </View>
   );
+}
+
+// Grammar chapters (13, 14) list topics instead of phrases.
+function topicCount(id: number): string | undefined {
+  const grammar = grammarChapter(id);
+  return grammar ? `${grammar.topics.length} тем` : undefined;
 }
 
 // The chapter to continue with: first chapter that is not completed.
@@ -93,18 +100,18 @@ export function useNextChapter() {
   const progress = useProgress();
   const done = new Set(progress.data?.filter((p) => p.completed_at).map((p) => p.chapter_id));
   const next = lib.data?.chapters.find((c) => !done.has(c.id));
-  return { next, done: done.size, started: (progress.data?.length ?? 0) > 0 };
+  return { next, done: done.size, total: lib.data?.chapters.length ?? 14, started: (progress.data?.length ?? 0) > 0 };
 }
 
 export function ContinueCard() {
   const { c } = useTheme();
-  const { next, done, started } = useNextChapter();
+  const { next, done, total, started } = useNextChapter();
   const { width } = useWindowDimensions();
   const row = width >= 700;
   if (!next) {
     return (
       <Surface tone="soft" style={{ gap: space(3) }}>
-        <H3>🌸 Ви пройшли всі 12 розділів</H3>
+        <H3>🌸 Ви пройшли всі {total} розділів</H3>
         <Link href="/finish" asChild>
           <Button variant="primary" label="Відкрити фінальну сторінку" icon={ArrowRightIcon} />
         </Link>
@@ -123,7 +130,7 @@ export function ContinueCard() {
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: space(5), flexWrap: 'wrap' }}>
         <View style={{ flexDirection: 'row', alignItems: 'baseline' }}>
           <Count to={done} style={{ fontFamily: fonts.heavy, fontSize: 44, lineHeight: 48, color: c.accentInk }} />
-          <Text style={{ fontFamily: fonts.bold, fontSize: 18, color: c.muted }}> / 12</Text>
+          <Text style={{ fontFamily: fonts.bold, fontSize: 18, color: c.muted }}> / {total}</Text>
         </View>
         <Link href={{ pathname: '/chapter/[id]', params: { id: String(next.id) } }} asChild>
           <Button variant="primary" label={started ? 'Читати далі' : 'Почати'} icon={ArrowRightIcon} />

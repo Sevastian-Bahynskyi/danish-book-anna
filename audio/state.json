@@ -2789,6 +2789,14 @@
     "audio/da/68f41c3757a3e17e42c86748.mp3": {
       "rate": "-15%",
       "sha256": "72b625c013e503da2b47424da6f46462ed7f3a6590997812087eb7e394c23354"
+    },
+    "audio/da/a434da0e88fa88d8c70a9061.mp3": {
+      "rate": "-15%",
+      "sha256": "6f6667ebda68ab8e78cec5ed733d1deb282604272af5ae25498e7e546d901269"
+    },
+    "audio/da/9acaecbb6afcf1063a8cab7a.mp3": {
+      "rate": "-15%",
+      "sha256": "67bffea153a72ab91390ce15cc994abe7bbee676e23d739145e9379fdfe128a0"
     }
   }
 }

@@ -4,12 +4,13 @@ import { useState } from 'react';
 import { View } from 'react-native';
 
 import { Quiz } from '@/components/book';
+import { Eyebrow } from '@/components/GrammarChapter';
 import { GrammarText } from '@/components/GrammarText';
 import { Screen, Section } from '@/components/Screen';
 import { Footer } from '@/components/shared';
 import { Body, Button, Field, H1, H2, Muted, Surface } from '@/components/ui';
-import { grammarContent } from '@/lib/grammar';
-import { fonts, space } from '@/theme';
+import { LAST_CHAPTER, grammarContent } from '@/lib/grammar';
+import { space } from '@/theme';
 
 const groups = [...new Set(grammarContent.quiz.map((question) => question.group))];
 
@@ -23,8 +24,10 @@ export default function GrammarReview() {
   return (
     <Screen>
       <Section style={{ paddingTop: space(8) }}>
-        <Link href="/grammar" asChild><Button label="Усі теми" icon={ArrowLeftIcon} variant="ghost" /></Link>
-        <Muted style={{ fontFamily: fonts.bold, letterSpacing: 1.3 }}>ПОВТОРЕННЯ</Muted>
+        <Link href={{ pathname: '/chapter/[id]', params: { id: String(LAST_CHAPTER) } }} asChild>
+          <Button label={`Розділ ${LAST_CHAPTER}`} icon={ArrowLeftIcon} variant="ghost" style={{ alignSelf: 'flex-start' }} />
+        </Link>
+        <Eyebrow>{`Kapitel ${LAST_CHAPTER} · повторення`}</Eyebrow>
         <H1>Шпаргалка і тест</H1>
         <Body>Прочитайте короткі моделі, а потім оберіть відповіді. До кожної теми можна повернутися в будь-який момент.</Body>
       </Section>
@@ -81,7 +84,9 @@ export default function GrammarReview() {
       <Section>
         <H2>На завершення</H2>
         <GrammarText text={grammarContent.extras['🌿 На завершення']} />
-        <Link href="/grammar" asChild><Button label="Повернутися до тем" icon={ArrowRightIcon} variant="primary" /></Link>
+        <Link href="/chapters" asChild>
+          <Button label="До всіх розділів" icon={ArrowRightIcon} variant="primary" style={{ alignSelf: 'flex-start' }} />
+        </Link>
       </Section>
       <Footer />
     </Screen>

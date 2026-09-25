@@ -5,6 +5,7 @@ import { Text, TextInput, View, useWindowDimensions } from 'react-native';
 
 import { Screen, Section } from '@/components/Screen';
 import { Banner, Button, Empty, Field, H1, H2, H3, Loading, Muted, Surface } from '@/components/ui';
+import { useChapterTotal } from '@/lib/content';
 import { timeAgo, useAdminAction, useAdminUsers, useAllowedPhones, useStats, type AdminUser } from '@/lib/admin';
 import { formatPhone } from '@/lib/phone';
 import { fonts, radius, space, useTheme } from '@/theme';
@@ -78,6 +79,7 @@ function Waiting() {
 
 function UserRow({ u }: { u: AdminUser }) {
   const { c } = useTheme();
+  const total = useChapterTotal();
   return (
     <Link href={{ pathname: '/admin/user/[id]', params: { id: u.id } }} asChild>
       <Tap role="link" pressStyle={({ hovered }) => ({ flexDirection: 'row', alignItems: 'center', gap: space(3), paddingVertical: space(3), paddingHorizontal: space(4), backgroundColor: hovered ? c.surface2 : c.surface, borderTopWidth: 1, borderTopColor: c.line })}>
@@ -88,7 +90,7 @@ function UserRow({ u }: { u: AdminUser }) {
             {formatPhone(u.phone)}
           </Text>
           <Muted style={{ fontSize: 14 }}>
-            {u.status === 'blocked' ? 'Заблоковано · ' : ''}Останній вхід: {timeAgo(u.last_login_at)} · {u.chapters_done}/12 розділів
+            {u.status === 'blocked' ? 'Заблоковано · ' : ''}Останній вхід: {timeAgo(u.last_login_at)} · {u.chapters_done}/{total} розділів
           </Muted>
         </View>
         {u.online && u.status === 'active' ? <CircleIcon size={10} color={c.ok} weight="fill" aria-label="Має активну сесію" /> : null}

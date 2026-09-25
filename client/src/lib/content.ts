@@ -164,3 +164,8 @@ export function useCompletedCount() {
   const { data } = useProgress();
   return data?.filter((p) => p.completed_at).length ?? 0;
 }
+
+// Book chapters 1–12 plus grammar chapters 13–14.
+export function useChapterTotal() {
+  return useLibrary().data?.chapters.length ?? 14;
+}

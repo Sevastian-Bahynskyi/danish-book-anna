@@ -81,8 +81,8 @@ export default function AdminUser() {
           <Body>Зареєструвалася: {new Date(p.created_at).toLocaleDateString('uk-UA')}</Body>
           <Body>Останній вхід: {timeAgo(p.last_login_at)}</Body>
           <Body>Зараз: {p.online ? 'має активну сесію' : 'не в системі'}</Body>
-          <Body>Збережених фраз: {d.saved}</Body>
-          <Body>Пройдено розділів: {d.progress.filter((x) => x.completed_at).length} / 12</Body>
+          <Body>Збережено: {d.saved}</Body>
+          <Body>Пройдено розділів: {d.progress.filter((x) => x.completed_at).length} / {lib.data?.chapters.length ?? 14}</Body>
           {d.logins.length ? (
             <View style={{ marginTop: space(2), gap: 4 }}>
               <Text style={{ fontFamily: fonts.bold, fontSize: 15, color: c.ink }}>Останні входи</Text>

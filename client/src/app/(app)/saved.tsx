@@ -28,7 +28,7 @@ export default function Saved() {
           <HeartIcon size={30} color={c.accent} weight="fill" />
           <H1>Мої збережені фрази</H1>
         </View>
-        <Muted>Книжкові фрази зберігаються у вашому акаунті. Граматичні приклади й теми для повторення — на цьому пристрої.</Muted>
+        <Muted>Фрази, приклади й теми, які реально можуть знадобитися саме вам. Вони збережені у вашому акаунті.</Muted>
       </Section>
       <Section>
         {saved.isLoading || lib.isLoading || grammarSaved.isLoading ? (
@@ -61,7 +61,7 @@ export default function Saved() {
       </Section>
       {savedTopics.length > 0 || savedExamples.length > 0 ? (
         <Section>
-          <Muted>Граматика · збережено на цьому пристрої</Muted>
+          <Muted>Граматика</Muted>
           <View style={{ gap: space(3), maxWidth: 760 }}>
             {savedTopics.map((topic) => (
               <Surface key={topic.id} style={{ gap: space(3) }}>

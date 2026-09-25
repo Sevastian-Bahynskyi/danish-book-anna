@@ -6,12 +6,13 @@ import { BlurHeading } from '@/components/effects/BlurHeading';
 import { SilkBackground } from '@/components/effects/SilkBackground';
 import { Screen, Section } from '@/components/Screen';
 import { Body, Button, Hand, Muted } from '@/components/ui';
-import { useCompletedCount } from '@/lib/content';
+import { useChapterTotal, useCompletedCount } from '@/lib/content';
 import { fonts, radius, space, useTheme } from '@/theme';
 
 export default function Finish() {
   const { c } = useTheme();
   const done = useCompletedCount();
+  const total = useChapterTotal();
   return (
     <Screen>
       <Section style={{ paddingTop: space(8) }}>
@@ -19,7 +20,7 @@ export default function Finish() {
           <SilkBackground />
           <View style={{ padding: space(8), paddingVertical: space(14), alignItems: 'center', gap: space(3), backgroundColor: c.surface + 'B3' }}>
             <BlurHeading text="🌸 Du gjorde det!" style={{ fontFamily: fonts.heavy, fontSize: 46, lineHeight: 52, color: c.ink, textAlign: 'center' }} />
-            {done >= 12 ? (
+            {done >= total ? (
               <>
                 <Body style={{ fontFamily: fonts.heavy, fontSize: 20, textAlign: 'center' }}>Ви пройшли весь матеріал.</Body>
                 <Body style={{ fontSize: 18, lineHeight: 28, textAlign: 'center', maxWidth: 520 }}>Тепер, коли вам потрібно щось сказати на роботі, ви знаєте, де це знайти.</Body>
@@ -28,7 +29,7 @@ export default function Finish() {
               </>
             ) : (
               <>
-                <Muted style={{ textAlign: 'center', maxWidth: 480 }}>Ця сторінка відкриється повністю, коли ви пройдете всі 12 розділів. Зараз: {done} / 12.</Muted>
+                <Muted style={{ textAlign: 'center', maxWidth: 480 }}>Ця сторінка відкриється повністю, коли ви пройдете всі {total} розділів. Зараз: {done} / {total}.</Muted>
                 <Link href="/chapters" asChild>
                   <Button variant="primary" icon={ArrowRightIcon} label="До розділів" />
                 </Link>

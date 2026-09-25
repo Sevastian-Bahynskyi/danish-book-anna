@@ -3,10 +3,11 @@ import '@/global.css';
 import { Neucha_400Regular } from '@expo-google-fonts/neucha';
 import { Nunito_400Regular, Nunito_600SemiBold, Nunito_700Bold, Nunito_800ExtraBold, useFonts } from '@expo-google-fonts/nunito';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { Stack } from 'expo-router';
+import Constants from 'expo-constants';
+import { Stack, router, type Href } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Platform, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
@@ -16,11 +17,28 @@ import { ThemeProvider, useTheme } from '@/theme';
 
 SplashScreen.preventAutoHideAsync();
 
+// The page a link pointed to (for example /chapter/13). A signed-out reader is
+// sent to the login screen first; after signing in they land back on it.
+function linkedPage(): string | null {
+  if (Platform.OS !== 'web' || typeof window === 'undefined') return null;
+  const base = Constants.expoConfig?.experiments?.baseUrl ?? '';
+  const path = window.location.pathname.startsWith(base) ? window.location.pathname.slice(base.length) : window.location.pathname;
+  if (!path || path === '/' || path === '/login' || !/^\/[\w\-/.]*$/.test(path)) return null;
+  return path;
+}
+
 function Routes() {
   const { state } = useAuth();
   const { c, dark } = useTheme();
+  const pending = useRef(linkedPage());
+  const wasSignedOut = useRef(false);
   useEffect(() => {
     if (state.status !== 'loading') SplashScreen.hideAsync();
+    if (state.status === 'signedOut') wasSignedOut.current = true;
+    if (state.status !== 'ready') return;
+    const target = pending.current;
+    pending.current = null;
+    if (target && wasSignedOut.current) router.replace(target as Href);
   }, [state.status]);
   if (state.status === 'loading') {
     return (

@@ -3,9 +3,9 @@ import { BookOpenIcon, BooksIcon, DotsThreeCircleIcon, HeartIcon, HouseIcon, Mag
 import { Image, Platform, Text, View, useWindowDimensions, type ViewStyle } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { useCompletedCount } from '@/lib/content';
 import { MAX_WIDTH, WIDE, fonts, radius, space, useTheme } from '@/theme';
 import { Count } from './effects/Count';
+import { useNextChapter } from './shared';
 import type { Icon } from './ui';
 import { Tap } from './Tap';
 
@@ -28,16 +28,16 @@ function glass(bg: string): ViewStyle {
 
 export function ProgressPill() {
   const { c } = useTheme();
-  const done = useCompletedCount();
+  const { done, total } = useNextChapter();
   return (
     <Link href="/chapters" asChild>
       <Tap
-        accessibilityLabel={`Прогрес: ${done} з 12 розділів`}
+        accessibilityLabel={`Прогрес: ${done} з ${total} розділів`}
         style={{ flexDirection: 'row', alignItems: 'center', gap: 6, minHeight: 36, paddingHorizontal: space(3), borderRadius: radius.pill, backgroundColor: c.surface, borderWidth: 1, borderColor: c.line }}
       >
         <BookOpenIcon size={18} color={c.accent} weight="fill" />
         <Count to={done} style={{ fontFamily: fonts.heavy, fontSize: 14, color: c.ink }} />
-        <Text style={{ fontFamily: fonts.heavy, fontSize: 14, color: c.ink }}>/ 12</Text>
+        <Text style={{ fontFamily: fonts.heavy, fontSize: 14, color: c.ink }}>/ {total}</Text>
         <Text style={{ fontFamily: fonts.semibold, fontSize: 14, color: c.muted }}>kapitler</Text>
       </Tap>
     </Link>

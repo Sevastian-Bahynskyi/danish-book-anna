@@ -69,6 +69,12 @@ See [VISUAL-IDENTITY.md](VISUAL-IDENTITY.md) for the full style.
 
 ## Change history
 
+- **2026-09-25**
+  - Grammar added as chapters 13–14 in the chapter list, not a separate section. Their text ships with the app (`grammar.json`); rows in `chapters` let progress sync and count in admin stats (the book is now 14 chapters, and "finished all" means 14).
+  - Grammar saves and read topics sync to Supabase (`grammar_saved`, `grammar_topics_read`); anything saved on a device before sync is imported once.
+  - All grammar examples use pre-generated Jeppe audio (same voice and speed as the book); device speech was removed.
+  - After signing in, a deep link opens the page it pointed to instead of Home.
+
 - **2026-09-24**
   - Prototype with 5 variants, then revised with the design skills.
   - Style 3 chosen and the full site built.

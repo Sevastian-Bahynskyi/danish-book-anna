@@ -30,13 +30,14 @@ supabase/
 - **Routes** (`src/app`, Expo Router):
   - `login.tsx`: sign in, register and new password.
   - `(app)/` requires a signed-in account:
-    - `index` (home), `chapters`, `chapter/[id]`, `search`, `saved`, `more` («Ще»: theme, about, final page, admin, sign out), `about`, `finish`.
+    - `index` (home), `chapters`, `chapter/[id]` (1–12 are book chapters, 13–14 render the grammar view), `grammar/[id]` (a grammar topic such as `13.1`), `grammar/review` (cheat sheet and final test), `search`, `saved`, `more` («Ще»: theme, about, final page, admin, sign out), `about`, `finish`.
     - `admin/` (admin role only): `index` (stats, add phone, waiting list, users), `user/[id]` (detail, block, end session, reset code, delete).
 - **Auth**:
   - `src/lib/auth.tsx`: AuthProvider, sign in/register/reset through the `account` function, and a session watchdog (polls `session_status` every 60 seconds and on window focus).
   - `src/lib/supabase.ts`: a custom fetch that adds `x-session-id` to every request.
 - **Data**:
   - `src/lib/content.ts`: the library (whole book), saved items and progress.
+  - `src/lib/grammar.ts` + `src/content/grammar.json`: chapters 13–14 (grammar text ships with the app), synced grammar saves and read topics.
   - `src/lib/admin.ts`: admin RPC hooks.
   - `src/lib/search.ts`: folding, synonyms, `POPULAR` and `SITUATIONS` quick searches.
 - **UI**:
@@ -59,7 +60,8 @@ Gotchas that already cost time:
 
 Tables:
 - **Content**: `chapters`, `phrases`, `dialogues`, `notes`, `mistakes`, `messages`, `exercises`, `vocab`. Readable only when `private.has_access()`: the account is active and either an admin, or the `x-session-id` header equals `profiles.active_session`.
-- **Per user**: `profiles` (role user/admin, status active/blocked, `active_session`, `is_test`), `saved_items`, `progress`, `login_events`.
+- **Per user**: `profiles` (role user/admin, status active/blocked, `active_session`, `is_test`), `saved_items`, `progress`, `grammar_saved` (`topic:13.1`, `example:13.1:4`), `grammar_topics_read`, `login_events`.
+- Chapters 13–14 have rows in `chapters` (title only) so `progress` and admin stats count them; their text lives in `client/src/content/grammar.json`.
 - **Admin only**: `allowed_phones`, `private.reset_codes`.
 
 Functions (all `security definer` with a fixed `search_path`; execute is revoked from public/anon):

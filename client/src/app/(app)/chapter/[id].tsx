@@ -3,13 +3,15 @@ import { ArrowLeftIcon, ArrowRightIcon, CheckCircleIcon, CircleIcon, MagnifyingG
 import { useEffect, useRef } from 'react';
 import { ScrollView, View, useWindowDimensions } from 'react-native';
 
+import { GrammarChapterView } from '@/components/GrammarChapter';
 import { AnnaNote, DialogueView, MessageCard, MistakeCard, PhraseRow, Quiz, VocabGrid } from '@/components/book';
 import { Reveal } from '@/components/effects/Reveal';
 import { useIsWide } from '@/components/nav';
 import { Screen, Section, useAnchors } from '@/components/Screen';
 import { Footer } from '@/components/shared';
 import { Body, Button, Chip, Empty, H1, H2, Loading, Muted, Surface } from '@/components/ui';
-import { useChapter, useMarkProgress, useProgress } from '@/lib/content';
+import { useChapter, useChapterTotal, useMarkProgress, useProgress } from '@/lib/content';
+import { grammarChapter } from '@/lib/grammar';
 import { fonts, space, useTheme } from '@/theme';
 
 const PARTS = [
@@ -34,11 +36,17 @@ function Contents() {
 }
 
 export default function ChapterScreen() {
+  const id = Number(useLocalSearchParams<{ id: string }>().id);
+  const grammar = grammarChapter(id);
+  return grammar ? <GrammarChapterView key={id} chapter={grammar} /> : <BookChapter key={id} id={id} />;
+}
+
+function BookChapter({ id }: { id: number }) {
   const { c } = useTheme();
   const wide = useIsWide();
   const { width } = useWindowDimensions();
-  const id = Number(useLocalSearchParams<{ id: string }>().id);
   const ch = useChapter(id);
+  const total = useChapterTotal();
   const progress = useProgress();
   const mark = useMarkProgress();
   const visited = useRef(false);
@@ -65,12 +73,13 @@ export default function ChapterScreen() {
 
   const { chapter } = ch;
   const prev = id > 1 ? id - 1 : null;
-  const next = id < 12 ? id + 1 : null;
+  // Chapter 12 leads on to the grammar chapters.
+  const next = id + 1;
   const vocabCols = width >= 1024 ? 3 : 2;
 
   const complete = async () => {
     await mark.mutateAsync({ chapterId: id, completed: !done });
-    if (!done && completedOthers >= 11) router.push('/finish');
+    if (!done && completedOthers >= total - 1) router.push('/finish');
   };
 
   return (
@@ -176,11 +185,9 @@ export default function ChapterScreen() {
           ) : (
             <View />
           )}
-          {next ? (
-            <Link href={{ pathname: '/chapter/[id]', params: { id: String(next) } }} asChild>
-              <Button icon={ArrowRightIcon} label="Наступний розділ" />
-            </Link>
-          ) : null}
+          <Link href={{ pathname: '/chapter/[id]', params: { id: String(next) } }} asChild>
+            <Button icon={ArrowRightIcon} label="Наступний розділ" />
+          </Link>
         </View>
       </Section>
       <Footer />
