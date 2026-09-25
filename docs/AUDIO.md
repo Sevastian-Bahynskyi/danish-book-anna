@@ -11,7 +11,10 @@ Repeated identical text uses one recording, with all occurrences listed in
 
 Requirements: Node 20+ and an Azure Speech resource. The intended voice is
 `da-DK-JeppeNeural`, regardless of any `AZURE_SPEECH_VOICE` entry in the
-provided environment file. The output is 24 kHz, 48 kbps MP3.
+provided environment file. The output is 24 kHz, 48 kbps MP3. The GitHub
+workflow lets you choose 10%, 15%, 20%, or 30% slower speech, with 15% as
+its default. For local generation, set `AZURE_SPEECH_RATE=-15%` or omit it
+for Jeppe's normal pace.
 
 ```bash
 node scripts/generate-audio.mjs --inventory
@@ -46,11 +49,17 @@ Playback and protected delivery can be designed separately.
    private `secrets.env`. The region is already configured as `northeurope`
    in the workflow. Do not paste the key into a workflow input.
 2. Open **Actions → Generate Danish audio → Run workflow**. Choose the
-   `feat/azure-jeppe-audio-generator` branch and the `sample` mode.
+   `feat/azure-jeppe-audio-generator` branch, the `sample` mode, and a
+   speaking-speed setting.
    The job commits the first book sentence as one MP3 on that branch.
 3. Listen to that file in `audio/da/`. Then rerun the same workflow with
-   mode `all`. It skips the sample, generates the remaining recordings,
+   mode `all` and **the same speaking speed**. It skips the sample,
+   generates the remaining recordings,
    and commits the full `audio/manifest.json` index.
+
+Speed is included in each MP3's content hash and in the manifest. A later
+change to speed creates new files, leaving any old-speed MP3s for you to
+remove after reviewing the new recordings.
 
 The workflow is registered on the repository's current default branch so
 GitHub displays its Run workflow button. It can only generate audio when
