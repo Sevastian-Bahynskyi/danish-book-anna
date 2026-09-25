@@ -12,6 +12,11 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const output = join(root, 'audio');
 const voice = 'da-DK-JeppeNeural';
 const format = 'audio-24khz-48kbitrate-mono-mp3';
+// Part of the recording identity: changing pace must generate new files.
+const rate = process.env.AZURE_SPEECH_RATE || '0%';
+if (!['0%', '-10%', '-15%', '-20%', '-30%'].includes(rate)) {
+  throw new Error('AZURE_SPEECH_RATE must be 0%, -10%, -15%, -20%, or -30%');
+}
 const minIntervalMs = 3500; // 17 starts/minute, with headroom below F0's 20/60s.
 const args = process.argv.slice(2);
 const inventoryOnly = args.includes('--inventory');
@@ -54,7 +59,7 @@ function catalog(lib) {
     const clean = normalize(text);
     if (!clean) return;
     // Preserve punctuation and case in the hash: these can affect pronunciation.
-    const key = hash(JSON.stringify([voice, format, clean])).slice(0, 24);
+    const key = hash(JSON.stringify([voice, format, rate, clean])).slice(0, 24);
     const existing = byText.get(clean);
     if (existing) existing.sources.push(source);
     else byText.set(clean, { text: clean, file: `audio/da/${key}.mp3`, sources: [source] });
@@ -90,7 +95,7 @@ async function pace() {
 }
 
 async function synthesize(item, key, region) {
-  const xml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="da-DK"><voice name="${voice}">${escapeXml(item.text)}</voice></speak>`;
+  const xml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="da-DK"><voice name="${voice}"><prosody rate="${rate}">${escapeXml(item.text)}</prosody></voice></speak>`;
   const url = `https://${region}.tts.speech.microsoft.com/cognitiveservices/v1`;
   for (let attempt = 0; attempt < 8; attempt++) {
     await pace();
@@ -132,7 +137,7 @@ async function main() {
   const entries = catalog(library());
   const chars = entries.reduce((n, x) => n + x.text.length, 0);
   const missing = entries.filter((x) => !existsSync(join(root, x.file)) || statSync(join(root, x.file)).size < 128);
-  console.log(`${entries.length} unique Danish recordings; ${chars} characters; ${missing.length} files to create; ~${Math.ceil(missing.length * minIntervalMs / 60000)} minutes minimum.`);
+  console.log(`${entries.length} unique Danish recordings at ${rate}; ${chars} characters; ${missing.length} files to create; ~${Math.ceil(missing.length * minIntervalMs / 60000)} minutes minimum.`);
   if (inventoryOnly) return;
   const sample = sampleOnly ? entries.find((x) => x.sources.some((s) => s.kind === 'phrase')) : null;
   const pending = sample ? missing.filter((x) => x.file === sample.file) : missing;
@@ -162,7 +167,7 @@ async function main() {
     return;
   }
   mkdirSync(output, { recursive: true });
-  const manifest = { voice, format, entries };
+  const manifest = { voice, format, rate, entries };
   const target = join(output, 'manifest.json');
   const temp = `${target}.tmp-${process.pid}`;
   writeFileSync(temp, JSON.stringify(manifest, null, 2) + '\n');
