@@ -15,7 +15,7 @@ provided environment file. The output is 24 kHz, 48 kbps MP3.
 
 ```bash
 node scripts/generate-audio.mjs --inventory
-node scripts/generate-audio.mjs --env /absolute/path/to/secrets.env --limit 1
+node scripts/generate-audio.mjs --env /absolute/path/to/secrets.env --sample
 node scripts/generate-audio.mjs --env /absolute/path/to/secrets.env
 ```
 
@@ -38,3 +38,21 @@ The output folder is deliberately `audio/`, **not** `client/public/`.
 GitHub Pages is public even when the repository is private. Publishing MP3s
 as static assets would make them directly accessible without signing in.
 Playback and protected delivery can be designed separately.
+
+## Run on GitHub, without a local computer
+
+1. In the repository, open **Settings → Secrets and variables → Actions →
+   New repository secret**. Add `AZURE_SPEECH_KEY` using the key from your
+   private `secrets.env`. The region is already configured as `northeurope`
+   in the workflow. Do not paste the key into a workflow input.
+2. Open **Actions → Generate Danish audio → Run workflow**. Choose the
+   `feat/azure-jeppe-audio-generator` branch and the `sample` mode.
+   The job commits the first book sentence as one MP3 on that branch.
+3. Listen to that file in `audio/da/`. Then rerun the same workflow with
+   mode `all`. It skips the sample, generates the remaining recordings,
+   and commits the full `audio/manifest.json` index.
+
+The workflow is registered on the repository's current default branch so
+GitHub displays its Run workflow button. It can only generate audio when
+the feature branch is selected. Each run commits completed MP3s even if a
+later request fails; rerunning continues from existing files.
