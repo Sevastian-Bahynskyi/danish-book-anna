@@ -4,6 +4,7 @@ import { CaretDownIcon, CaretUpIcon, ChatCircleTextIcon, CheckIcon, CheckCircleI
 import { useState } from 'react';
 import { Text, View } from 'react-native';
 
+import { AudioButton } from '@/components/AudioButton';
 import { type Chapter, type Dialogue, type Exercise, type Message, type Mistake, type Phrase, type SavedKind, type Vocab, useIsSaved, useToggleSaved } from '@/lib/content';
 import { fonts, radius, space, useTheme } from '@/theme';
 import { Spark } from './effects/Spark';
@@ -45,6 +46,7 @@ export function PhraseRow({ phrase, number, first }: { phrase: Phrase; number?: 
       <View style={{ flex: 1, gap: space(3) }}>
         <DaUa da={phrase.da} ua={phrase.ua} />
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
+          <AudioButton text={phrase.da} />
           <SaveButton kind="phrase" id={phrase.id} />
           {phrase.explanation_ua ? (
             <Button label="Пояснення" icon={open ? CaretUpIcon : CaretDownIcon} aria-expanded={open} onPress={() => setOpen(!open)} />
