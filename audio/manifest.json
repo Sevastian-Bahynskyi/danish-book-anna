@@ -1,0 +1,7566 @@
+{
+  "voice": "da-DK-JeppeNeural",
+  "format": "audio-24khz-48kbitrate-mono-mp3",
+  "rate": "-15%",
+  "entries": [
+    {
+      "text": "Sygdom & fravær",
+      "file": "audio/da/07bf151c0b583a2231db3276.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 1,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "text": "Arbejdstid & vagtplan",
+      "file": "audio/da/6e3e5b8744db5d27a0fa596b.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 2,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "text": "Opgaver & instruktioner",
+      "file": "audio/da/42d4069ade7d797eee26e068.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 3,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "text": "Møder & samtaler",
+      "file": "audio/da/0da9aea84e45863625241f19.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 4,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "text": "Samtale med chefen",
+      "file": "audio/da/9643296942ad3219461be405.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 5,
+          "id": 5
+        }
+      ]
+    },
+    {
+      "text": "Kollegaskab & small talk",
+      "file": "audio/da/2a965c4c53b283a17275656f.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 6,
+          "id": 6
+        }
+      ]
+    },
+    {
+      "text": "Fejl, problemer & konflikter",
+      "file": "audio/da/2a79b131e82488b31f44a9ca.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 7,
+          "id": 7
+        }
+      ]
+    },
+    {
+      "text": "Telefon, beskeder & e-mail",
+      "file": "audio/da/78dd70b2bd36a6e1a62c0d3b.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 8,
+          "id": 8
+        }
+      ]
+    },
+    {
+      "text": "Løn, ferie & vilkår",
+      "file": "audio/da/b700cbbde835caf8c005ad8f.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 9,
+          "id": 9
+        }
+      ]
+    },
+    {
+      "text": "Chef, HR & arbejdsplads",
+      "file": "audio/da/3f828a48a8d1dfb9c1334bae.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 10,
+          "id": 10
+        }
+      ]
+    },
+    {
+      "text": "Ny på arbejdspladsen",
+      "file": "audio/da/6a378392277c502490524307.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 11,
+          "id": 11
+        }
+      ]
+    },
+    {
+      "text": "Dansk på dansk",
+      "file": "audio/da/22b770daab8030ac7c37e058.mp3",
+      "sources": [
+        {
+          "kind": "chapter",
+          "chapter_id": 12,
+          "id": 12
+        }
+      ]
+    },
+    {
+      "text": "Jeg er syg i dag og kan ikke komme på arbejde.",
+      "file": "audio/da/fb7a79180c6a1f2819e88753.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg har det ikke godt i dag.",
+      "file": "audio/da/4270782a8765b58a03b4f18f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 2
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 1,
+          "id": 3,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg bliver nødt til at blive hjemme i dag.",
+      "file": "audio/da/1064c9f0ef9e283793e5f4d1.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan desværre ikke komme på arbejde.",
+      "file": "audio/da/022585fec3c8a5ef8cd703d5.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "text": "Jeg har feber.",
+      "file": "audio/da/da1e61526fd7fa99a0efd117.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 5
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 1,
+          "id": 2
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 1,
+          "id": 2,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg har ondt i halsen.",
+      "file": "audio/da/76a0604a86354dee7e24d673.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 6
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 1,
+          "id": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg har hovedpine.",
+      "file": "audio/da/eec3d195c9b8089c01a654a7.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 7
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 1,
+          "id": 2,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg har været syg siden i går.",
+      "file": "audio/da/7a7cf7dc9e1b621524ed7a0c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 8
+        }
+      ]
+    },
+    {
+      "text": "Jeg giver besked, når jeg har det bedre.",
+      "file": "audio/da/9aad983a9dbafd55a92901d7.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 9
+        }
+      ]
+    },
+    {
+      "text": "Hvornår forventer du at være tilbage?",
+      "file": "audio/da/6cd40ded7c907c60ebba093d.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 10
+        }
+      ]
+    },
+    {
+      "text": "Jeg håber at være tilbage i morgen.",
+      "file": "audio/da/1c83bf2b95bd247a8aa62f92.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 11
+        }
+      ]
+    },
+    {
+      "text": "Jeg er stadig syg og bliver hjemme i dag.",
+      "file": "audio/da/13af3e3e9eac7450d23399f2.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 12
+        }
+      ]
+    },
+    {
+      "text": "Jeg har en lægetid i dag.",
+      "file": "audio/da/aae261ecb773d08f718ed4b8.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 13
+        }
+      ]
+    },
+    {
+      "text": "Jeg skal til lægen.",
+      "file": "audio/da/88dd374e940717d5f3de3fc4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 14
+        }
+      ]
+    },
+    {
+      "text": "Jeg sender dokumentationen senere.",
+      "file": "audio/da/0468f7188817b209c0039acd.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 15
+        }
+      ]
+    },
+    {
+      "text": "Jeg beklager det sene varsel.",
+      "file": "audio/da/6177c1c127129f2841d2234e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 16
+        }
+      ]
+    },
+    {
+      "text": "Jeg melder mig syg i dag.",
+      "file": "audio/da/fdb74778613608447c10282e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 17
+        }
+      ]
+    },
+    {
+      "text": "Skal jeg ringe til dig senere?",
+      "file": "audio/da/c94db74bfa2f3cbafa48f631.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 18
+        }
+      ]
+    },
+    {
+      "text": "Jeg er ikke i stand til at arbejde i dag.",
+      "file": "audio/da/325872441d6141c89e58c073.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 19
+        }
+      ]
+    },
+    {
+      "text": "Jeg regner med at være tilbage på mandag.",
+      "file": "audio/da/7c9a9bb8d58d247fe4731a39.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 20
+        }
+      ]
+    },
+    {
+      "text": "Jeg giver besked, hvis noget ændrer sig.",
+      "file": "audio/da/f4fa44d26f1230a97b1c6073.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 21
+        }
+      ]
+    },
+    {
+      "text": "Jeg er blevet dårlig i løbet af dagen.",
+      "file": "audio/da/f3cb94d18f42f78f3c680032.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 22
+        }
+      ]
+    },
+    {
+      "text": "Jeg bliver nødt til at gå hjem.",
+      "file": "audio/da/efaae11ebd938d270201c759.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 23
+        }
+      ]
+    },
+    {
+      "text": "Er det okay, at jeg går hjem?",
+      "file": "audio/da/5a46c82355114c5b27615281.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 24
+        }
+      ]
+    },
+    {
+      "text": "Jeg føler mig bedre nu.",
+      "file": "audio/da/9f4bc7a291f3d94c8048154a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 1,
+          "id": 25
+        }
+      ]
+    },
+    {
+      "text": "Hvornår starter min vagt?",
+      "file": "audio/da/54d731e067beb9167df60292.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 26
+        }
+      ]
+    },
+    {
+      "text": "Hvornår slutter min vagt?",
+      "file": "audio/da/4e7afe9053ddb0a0a62a25af.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 27
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 2,
+          "id": 6,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Hvilken vagt har jeg i morgen?",
+      "file": "audio/da/550fd9005a7823565e61dc3f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 28
+        }
+      ]
+    },
+    {
+      "text": "Kan du sende mig vagtplanen?",
+      "file": "audio/da/5e825678bd58f00a0e4d4c56.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 29
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan arbejde på mandag.",
+      "file": "audio/da/d6c5d1bf647f8f91666d9bde.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 30
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan ikke arbejde på fredag.",
+      "file": "audio/da/d0e21786f703062b3edb1bbf.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 31
+        }
+      ]
+    },
+    {
+      "text": "Kan jeg bytte vagt med en kollega?",
+      "file": "audio/da/237e5aded2b119f1c8a0cfd6.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 32
+        }
+      ]
+    },
+    {
+      "text": "Jeg har brug for at bytte min vagt.",
+      "file": "audio/da/9e9e3918f67f8715c3b601fb.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 33
+        }
+      ]
+    },
+    {
+      "text": "Kan jeg tage en ekstra vagt?",
+      "file": "audio/da/ee96dbf0acac88cc3e9d9d78.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 34
+        }
+      ]
+    },
+    {
+      "text": "Er der flere timer til mig?",
+      "file": "audio/da/392552ce0ea16e5705dc437d.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 35
+        }
+      ]
+    },
+    {
+      "text": "Hvor mange timer arbejder jeg i denne uge?",
+      "file": "audio/da/ae5bf5e66274c51746516f8c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 36
+        }
+      ]
+    },
+    {
+      "text": "Hvornår har jeg pause?",
+      "file": "audio/da/e502ce88650c3f8b12183582.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 37
+        }
+      ]
+    },
+    {
+      "text": "Hvor lang er min pause?",
+      "file": "audio/da/ca309cc807f1eff8171a915f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 38
+        }
+      ]
+    },
+    {
+      "text": "Må jeg tage min pause nu?",
+      "file": "audio/da/8f97dbe582c6a8bf5712c774.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 39
+        }
+      ]
+    },
+    {
+      "text": "Jeg kommer ti minutter senere.",
+      "file": "audio/da/4c12184aa6e9dc66d8455a8d.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 40
+        }
+      ]
+    },
+    {
+      "text": "Jeg er på vej.",
+      "file": "audio/da/f48c2c7894d70a46ec22c532.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 41
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 2,
+          "id": 5,
+          "index": 1
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 8,
+          "id": 29,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg er lidt forsinket.",
+      "file": "audio/da/6e2ed7b86ee429ba8c2b3cb7.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 42
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 2,
+          "id": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg er her nu.",
+      "file": "audio/da/b0fab55e9927fd67a7479485.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 43
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 2,
+          "id": 5,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan blive lidt længere i dag.",
+      "file": "audio/da/0b6d43105d967552ee7d21c5.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 44
+        }
+      ]
+    },
+    {
+      "text": "Kan jeg gå lidt tidligere i dag?",
+      "file": "audio/da/9c8875923957c86ef195bd36.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 45
+        }
+      ]
+    },
+    {
+      "text": "Jeg har en aftale efter arbejde.",
+      "file": "audio/da/4a6726216f8df5dc6c391ce8.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 46
+        }
+      ]
+    },
+    {
+      "text": "Jeg har fri i morgen.",
+      "file": "audio/da/027c6b16d39b967575b61fcc.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 47
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder i weekenden.",
+      "file": "audio/da/be987a78dae6605363380e99.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 48
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 2,
+          "id": 6
+        }
+      ]
+    },
+    {
+      "text": "Hvornår får jeg min næste vagtplan?",
+      "file": "audio/da/d566873e56980bf6a516eac6.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 49
+        }
+      ]
+    },
+    {
+      "text": "Kan vi tale om mine arbejdstider?",
+      "file": "audio/da/ab049ef4924144dfd7d6696d.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 2,
+          "id": 50
+        }
+      ]
+    },
+    {
+      "text": "Hvad skal jeg lave først?",
+      "file": "audio/da/7957feb4503596ca3d2cb1e8.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 51
+        }
+      ]
+    },
+    {
+      "text": "Hvad skal jeg gøre bagefter?",
+      "file": "audio/da/337d2bb7a8faacbbe4d4905a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 52
+        }
+      ]
+    },
+    {
+      "text": "Kan du vise mig, hvordan man gør?",
+      "file": "audio/da/0921ea46bde74548781bbf19.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 53
+        }
+      ]
+    },
+    {
+      "text": "Kan du forklare det igen?",
+      "file": "audio/da/67c293e059ea4538d546a870.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 54
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 3,
+          "id": 8
+        }
+      ]
+    },
+    {
+      "text": "Jeg er ikke helt sikker på, hvad du mener.",
+      "file": "audio/da/6258f5206a61513f8704ef70.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 55
+        }
+      ]
+    },
+    {
+      "text": "Kan du tale lidt langsommere?",
+      "file": "audio/da/46a654db39c19cf5ef346d58.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 56
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 178
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 3,
+          "id": 9,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg forstår ikke den del.",
+      "file": "audio/da/7b7ca6a93960dbcbd6ae9763.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 57
+        }
+      ]
+    },
+    {
+      "text": "Hvad betyder det?",
+      "file": "audio/da/06312c0a0b02c78344a366af.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 58
+        }
+      ]
+    },
+    {
+      "text": "Skal jeg gøre det nu?",
+      "file": "audio/da/1795c21ad898a16e35d085a4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 59
+        }
+      ]
+    },
+    {
+      "text": "Skal jeg gøre det på samme måde som sidst?",
+      "file": "audio/da/7ce14d82ab462e8bf5ff15e8.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 60
+        }
+      ]
+    },
+    {
+      "text": "Er det sådan, du mener?",
+      "file": "audio/da/6ea9b9e5776bfff35c360ccf.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 61
+        }
+      ]
+    },
+    {
+      "text": "Har jeg forstået det rigtigt?",
+      "file": "audio/da/a14c93c038afaaffee8c7382.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 62
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 3,
+          "id": 10,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg er færdig med denne opgave.",
+      "file": "audio/da/25af69b27a1a13a7e2f5dcea.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 63
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 3,
+          "id": 9
+        }
+      ]
+    },
+    {
+      "text": "Hvad skal jeg tage fat på nu?",
+      "file": "audio/da/49e348c863ebdf1ec1469c54.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 64
+        }
+      ]
+    },
+    {
+      "text": "Jeg mangler lige den sidste del.",
+      "file": "audio/da/5a6eb36428ab82b206e32326.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 65
+        }
+      ]
+    },
+    {
+      "text": "Jeg har brug for lidt hjælp.",
+      "file": "audio/da/1d6b2418ceb002ae97f8e5fb.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 66
+        }
+      ]
+    },
+    {
+      "text": "Kan du komme et øjeblik?",
+      "file": "audio/da/b364ed3d8f05831896868cce.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 67
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 3,
+          "id": 9,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Hvor finder jeg det?",
+      "file": "audio/da/91400c4abb06199ae1055528.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 68
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 3,
+          "id": 9,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Hvor skal jeg lægge det?",
+      "file": "audio/da/49f02f9baf7f2a28b768d954.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 69
+        }
+      ]
+    },
+    {
+      "text": "Hvor skal jeg skrive det?",
+      "file": "audio/da/17b29fb6cbf0a164a0e67fb4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 70
+        }
+      ]
+    },
+    {
+      "text": "Hvem skal jeg spørge?",
+      "file": "audio/da/44d268fa69b7415fcfbc6e04.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 71
+        }
+      ]
+    },
+    {
+      "text": "Er der en bestemt måde, vi gør det på?",
+      "file": "audio/da/cfc2b49c661113555e429ddf.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 72
+        }
+      ]
+    },
+    {
+      "text": "Jeg prøver lige.",
+      "file": "audio/da/c5b1c429f3b997fd7f5cb73e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 73
+        }
+      ]
+    },
+    {
+      "text": "Jeg er næsten færdig.",
+      "file": "audio/da/29665b3ceb0dae380aac1940.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 74
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 296
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 3,
+          "id": 12,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Sig endelig til, hvis jeg gør noget forkert.",
+      "file": "audio/da/e1568c665e96f5aa58e15761.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 3,
+          "id": 75
+        }
+      ]
+    },
+    {
+      "text": "Hvornår starter mødet?",
+      "file": "audio/da/eba0637c5f421a5e9dbc9980.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 76
+        }
+      ]
+    },
+    {
+      "text": "Hvor skal mødet være?",
+      "file": "audio/da/c5ae96f5b695c094a3de3628.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 77
+        }
+      ]
+    },
+    {
+      "text": "Skal jeg deltage i mødet?",
+      "file": "audio/da/3103db0ee1c92e8287eb04e6.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 78
+        }
+      ]
+    },
+    {
+      "text": "Hvad handler mødet om?",
+      "file": "audio/da/b866ed39e07160ed3b6073a2.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 79
+        }
+      ]
+    },
+    {
+      "text": "Kan du gentage det?",
+      "file": "audio/da/bfa5dc6a8c4e5d628e735989.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 80
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 180
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 292
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 4,
+          "id": 11
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 4,
+          "id": 14,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne tilføje noget.",
+      "file": "audio/da/38e1707bbd8002d1324859f5.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 81
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 4,
+          "id": 12
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 4,
+          "id": 13,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg har et spørgsmål.",
+      "file": "audio/da/bab00ed664cc79ec4d8b6bdb.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 82
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 192
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 299
+        }
+      ]
+    },
+    {
+      "text": "Jeg er enig.",
+      "file": "audio/da/14037bc5dcd1bdd32f898ef9.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 83
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 4,
+          "id": 10
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 4,
+          "id": 16,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Det giver mening.",
+      "file": "audio/da/e926d68d5abbc0c5a47e5510.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 84
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 277
+        }
+      ]
+    },
+    {
+      "text": "Jeg er ikke helt sikker.",
+      "file": "audio/da/d523968204f8ff6d217f918e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 85
+        }
+      ]
+    },
+    {
+      "text": "Hvad tænker I om det?",
+      "file": "audio/da/dbe7411a603b50f2f851ac75.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 86
+        }
+      ]
+    },
+    {
+      "text": "Kan vi tale om det bagefter?",
+      "file": "audio/da/b3ef9847da126fdf644acc99.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 87
+        }
+      ]
+    },
+    {
+      "text": "Jeg skriver det ned.",
+      "file": "audio/da/8011dbf8cac0234da9678806.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 88
+        }
+      ]
+    },
+    {
+      "text": "Jeg sender det senere.",
+      "file": "audio/da/efa6e77ea2fabde86f9a4768.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 89
+        }
+      ]
+    },
+    {
+      "text": "Lad os tage det punkt først.",
+      "file": "audio/da/9143d93542737ad10d2a20fe.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 90
+        }
+      ]
+    },
+    {
+      "text": "Skal vi gå videre?",
+      "file": "audio/da/86e91f4a9fa110df29a8b873.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 91
+        }
+      ]
+    },
+    {
+      "text": "Har alle forstået det?",
+      "file": "audio/da/7f9a57c836b0fef1b7fe72db.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 92
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil lige være sikker på, at jeg har forstået det.",
+      "file": "audio/da/6793a5cbc89391986c2e13c8.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 93
+        }
+      ]
+    },
+    {
+      "text": "Kan du forklare det med et eksempel?",
+      "file": "audio/da/fe813e796cd62516283f9856.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 94
+        }
+      ]
+    },
+    {
+      "text": "Hvad er næste skridt?",
+      "file": "audio/da/fd72e3a3fb05814805f5c156.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 95
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 295
+        }
+      ]
+    },
+    {
+      "text": "Hvem tager sig af det?",
+      "file": "audio/da/fb1ca27b640eb799f20a7811.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 96
+        }
+      ]
+    },
+    {
+      "text": "Hvornår skal det være færdigt?",
+      "file": "audio/da/6c67360e48b31be8b2d48f0a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 97
+        }
+      ]
+    },
+    {
+      "text": "Jeg vender tilbage med et svar.",
+      "file": "audio/da/06dc52915fcac42336c6204e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 98
+        }
+      ]
+    },
+    {
+      "text": "Vi kan tage resten senere.",
+      "file": "audio/da/4ec631221935c4785d6a69eb.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 99
+        }
+      ]
+    },
+    {
+      "text": "Tak for mødet.",
+      "file": "audio/da/416935cf6f0dfde0033a5275.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 4,
+          "id": 100
+        }
+      ]
+    },
+    {
+      "text": "Har du et øjeblik?",
+      "file": "audio/da/ff598f233abfd85ac5698fa7.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 101
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 5,
+          "id": 17,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Må jeg lige spørge om noget?",
+      "file": "audio/da/f859e4774281096752704cc8.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 102
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne tale med dig om min vagtplan.",
+      "file": "audio/da/942724ecd8d3470616373935.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 103
+        }
+      ]
+    },
+    {
+      "text": "Jeg har et spørgsmål om mine arbejdstider.",
+      "file": "audio/da/bd7dbfa356b98465529d9b58.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 104
+        }
+      ]
+    },
+    {
+      "text": "Kan vi finde et tidspunkt, hvor vi kan tale sammen?",
+      "file": "audio/da/a4cf705294c312a83748f70b.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 105
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne høre, hvad du tænker.",
+      "file": "audio/da/444164acb2e27bcc97c18492.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 106
+        }
+      ]
+    },
+    {
+      "text": "Jeg har brug for lidt mere tid.",
+      "file": "audio/da/f89ba60105f2ca28ddff100c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 107
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan ikke nå det i dag.",
+      "file": "audio/da/401676e1846193ebbdc94653.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 108
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan have det færdigt i morgen.",
+      "file": "audio/da/dc266d5f5b67e264d04f626a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 109
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne have det forklaret igen.",
+      "file": "audio/da/122cefdc59edc5a726d8f3c4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 110
+        }
+      ]
+    },
+    {
+      "text": "Jeg er ikke sikker på, om jeg gør det rigtigt.",
+      "file": "audio/da/157fa8928bd46519b53e2702.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 111
+        }
+      ]
+    },
+    {
+      "text": "Kan du give mig lidt feedback?",
+      "file": "audio/da/32c4c94d885ecdd9f24ea170.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 112
+        }
+      ]
+    },
+    {
+      "text": "Er der noget, jeg skal gøre anderledes?",
+      "file": "audio/da/da21e9e91eee009eee373720.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 113
+        }
+      ]
+    },
+    {
+      "text": "Hvad synes du, jeg skal fokusere på?",
+      "file": "audio/da/d5c207ac126cd52aa96662ae.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 114
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne blive bedre til det.",
+      "file": "audio/da/1bb0c9ec7440b51cc311f3c0.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 115
+        }
+      ]
+    },
+    {
+      "text": "Jeg har et forslag.",
+      "file": "audio/da/18b1358102ce47e2ad0a702a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 116
+        }
+      ]
+    },
+    {
+      "text": "Må jeg foreslå noget?",
+      "file": "audio/da/be441a4ece6f6f1fe5d06018.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 117
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne spørge om muligheden for flere timer.",
+      "file": "audio/da/99d6cda8211b960483f4f12c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 118
+        },
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 5,
+          "id": 7,
+          "index": 2
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 5,
+          "id": 19,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Kan vi tale om min arbejdstid?",
+      "file": "audio/da/af2935ad04662074521bb059.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 119
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne høre mere om mine muligheder.",
+      "file": "audio/da/fb189088981ebc0b8adf9a55.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 120
+        }
+      ]
+    },
+    {
+      "text": "Tak, fordi du tog dig tid.",
+      "file": "audio/da/b395cbb040222f511bba18b0.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 121
+        },
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 5,
+          "id": 7,
+          "index": 6
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 5,
+          "id": 20,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Det er jeg glad for at høre.",
+      "file": "audio/da/decc9dba4c3d605aba27038b.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 122
+        }
+      ]
+    },
+    {
+      "text": "Jeg forstår.",
+      "file": "audio/da/71bcd77e9f31f7039a05129c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 123
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 288
+        }
+      ]
+    },
+    {
+      "text": "Det skal jeg nok gøre.",
+      "file": "audio/da/c1fd4127f26eb194dda0c6f9.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 124
+        }
+      ]
+    },
+    {
+      "text": "Jeg vender tilbage til dig.",
+      "file": "audio/da/337bb699c4a0cc0c9fba9b79.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 5,
+          "id": 125
+        }
+      ]
+    },
+    {
+      "text": "Hej, hvordan går det?",
+      "file": "audio/da/a2d8476ab8db34dd326ebd22.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 126
+        }
+      ]
+    },
+    {
+      "text": "Hvordan har du det i dag?",
+      "file": "audio/da/bc3d660df73f3f16bdcc2d81.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 127
+        }
+      ]
+    },
+    {
+      "text": "Har du haft en god weekend?",
+      "file": "audio/da/d3e9bce6be4058f0b6193e4b.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 128
+        }
+      ]
+    },
+    {
+      "text": "Hvad har du lavet i weekenden?",
+      "file": "audio/da/0f8ec54dab8036a9fa816a1a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 129
+        }
+      ]
+    },
+    {
+      "text": "Har du nogle planer for weekenden?",
+      "file": "audio/da/02cd59d08ec65468f9c79ddd.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 130
+        }
+      ]
+    },
+    {
+      "text": "Hvordan var din ferie?",
+      "file": "audio/da/a266458d57d5dccb9ccfde17.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 131
+        }
+      ]
+    },
+    {
+      "text": "Hvor bor du henne?",
+      "file": "audio/da/93cdd2d9368a46ad8c0fea37.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 132
+        }
+      ]
+    },
+    {
+      "text": "Hvor længe har du arbejdet her?",
+      "file": "audio/da/003540f8528deaa9484e9856.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 133
+        }
+      ]
+    },
+    {
+      "text": "Kan du lide at arbejde her?",
+      "file": "audio/da/fbb041b61a7be0284eb39e96.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 134
+        }
+      ]
+    },
+    {
+      "text": "Skal du også have kaffe?",
+      "file": "audio/da/afe2fcf612d23ecf0db31a13.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 135
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 6,
+          "id": 23,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Skal vi spise frokost sammen?",
+      "file": "audio/da/c28299648dae4bb65801aeec.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 136
+        }
+      ]
+    },
+    {
+      "text": "Jeg tager lige en pause.",
+      "file": "audio/da/66dc9048c6b6e76e89bbf3a2.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 137
+        }
+      ]
+    },
+    {
+      "text": "Vil du med?",
+      "file": "audio/da/f0eed62384f984ca107aa10c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 138
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 6,
+          "id": 17
+        }
+      ]
+    },
+    {
+      "text": "Jeg er tilbage om lidt.",
+      "file": "audio/da/11bcdf439e9ac7a27dca947d.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 139
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 304
+        }
+      ]
+    },
+    {
+      "text": "Hvad laver du efter arbejde?",
+      "file": "audio/da/b4cc76c1729b07025b5cdb55.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 140
+        }
+      ]
+    },
+    {
+      "text": "Det var hyggeligt.",
+      "file": "audio/da/1fe26cd7fd75bb0861b0e269.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 141
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 6,
+          "id": 16
+        }
+      ]
+    },
+    {
+      "text": "Det lyder godt.",
+      "file": "audio/da/bae1b4fc2bddeeaaf938c7dd.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 142
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 278
+        },
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 6,
+          "id": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Hvor spændende!",
+      "file": "audio/da/8c9d9216e9aaaff6d21b33fa.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 143
+        }
+      ]
+    },
+    {
+      "text": "Det kan jeg godt forstå.",
+      "file": "audio/da/9ef08979d8f3f8038d5844e5.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 144
+        }
+      ]
+    },
+    {
+      "text": "Det kender jeg godt.",
+      "file": "audio/da/6045766b26bef63e8e56f7bc.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 145
+        }
+      ]
+    },
+    {
+      "text": "Jeg har det på samme måde.",
+      "file": "audio/da/d16e84374e15a78215b46180.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 146
+        }
+      ]
+    },
+    {
+      "text": "God arbejdslyst!",
+      "file": "audio/da/df635714e4182e84c821f8aa.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 147
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 6,
+          "id": 24,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Vi ses i morgen.",
+      "file": "audio/da/3427d9f9adbd48a716ece281.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 148
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 274
+        }
+      ]
+    },
+    {
+      "text": "God weekend!",
+      "file": "audio/da/3d3933118d5aa34fb40b5c68.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 149
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 6,
+          "id": 24,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Vi ses senere.",
+      "file": "audio/da/af857e279fe0d958e337b142.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 6,
+          "id": 150
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 305
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 12,
+          "id": 47,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Der er et problem.",
+      "file": "audio/da/0969723641ff60089ddc868e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 151
+        }
+      ]
+    },
+    {
+      "text": "Jeg tror, der er sket en fejl.",
+      "file": "audio/da/3a81b424ef319b2183a9755c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 152
+        }
+      ]
+    },
+    {
+      "text": "Jeg har lavet en fejl.",
+      "file": "audio/da/7197c6ea81a0ee5bafdd9550.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 153
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 7,
+          "id": 18
+        }
+      ]
+    },
+    {
+      "text": "Det var min fejl.",
+      "file": "audio/da/b13ea9ba5d222fd5dd74cfe9.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 154
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 7,
+          "id": 25,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg beklager.",
+      "file": "audio/da/9c9a011d1790ccc1efc6d53c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 155
+        }
+      ]
+    },
+    {
+      "text": "Jeg skal nok rette det.",
+      "file": "audio/da/fb248eb31455f6b6e79fc250.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 156
+        }
+      ]
+    },
+    {
+      "text": "Hvordan kan vi løse det?",
+      "file": "audio/da/decccaf0de66fdf78e9f2283.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 157
+        }
+      ]
+    },
+    {
+      "text": "Hvad skal jeg gøre nu?",
+      "file": "audio/da/acfc222abb9047205c687fac.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 158
+        }
+      ]
+    },
+    {
+      "text": "Jeg er ikke sikker på, hvad der gik galt.",
+      "file": "audio/da/710468282f4cd3ce60cca3ea.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 159
+        }
+      ]
+    },
+    {
+      "text": "Kan du hjælpe mig med at finde fejlen?",
+      "file": "audio/da/f5bfa3caba14bbe83d27a647.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 160
+        }
+      ]
+    },
+    {
+      "text": "Det virker ikke.",
+      "file": "audio/da/9195bfcf1cda15084e512a41.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 161
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 7,
+          "id": 25,
+          "index": 1
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 7,
+          "id": 28,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Systemet virker ikke.",
+      "file": "audio/da/b1b8288ba9e515b024692035.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 162
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan ikke få det til at virke.",
+      "file": "audio/da/1b13a12f7201a99b4323e0aa.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 163
+        }
+      ]
+    },
+    {
+      "text": "Jeg har prøvet flere gange.",
+      "file": "audio/da/2d49c9188ed5458ae1796a0f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 164
+        }
+      ]
+    },
+    {
+      "text": "Der mangler noget.",
+      "file": "audio/da/10a05e9119fc0fe54869fa96.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 165
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan ikke finde det.",
+      "file": "audio/da/cf41c8c7123098877b589333.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 166
+        }
+      ]
+    },
+    {
+      "text": "Det var ikke det, jeg mente.",
+      "file": "audio/da/901653db9752efa68f0e6c06.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 167
+        }
+      ]
+    },
+    {
+      "text": "Jeg tror, vi har misforstået hinanden.",
+      "file": "audio/da/6d2bcf4aeb27856e9ead2173.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 168
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 7,
+          "id": 19
+        }
+      ]
+    },
+    {
+      "text": "Kan vi tale om det?",
+      "file": "audio/da/eb6be3e13ff8a90b4a233edd.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 169
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne finde en løsning.",
+      "file": "audio/da/e9ca8b55f9ed577f62bc7b82.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 170
+        }
+      ]
+    },
+    {
+      "text": "Jeg forstår, hvad du siger.",
+      "file": "audio/da/426481cd265c507706146904.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 171
+        }
+      ]
+    },
+    {
+      "text": "Jeg ser det anderledes.",
+      "file": "audio/da/9deefe8ed26dc57e9c2d4e6c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 172
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 7,
+          "id": 27,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Lad os finde ud af det.",
+      "file": "audio/da/485429e26157d5b81bcf176c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 173
+        }
+      ]
+    },
+    {
+      "text": "Det sker.",
+      "file": "audio/da/7cee9d9d061e099504c0529c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 174
+        }
+      ]
+    },
+    {
+      "text": "Jeg sørger for, at det ikke sker igen.",
+      "file": "audio/da/3ff2f1187e14a0e611d32231.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 7,
+          "id": 175
+        }
+      ]
+    },
+    {
+      "text": "Hej, det er Anna.",
+      "file": "audio/da/e2182961bc6ff9b91980d4a8.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 176
+        }
+      ]
+    },
+    {
+      "text": "Hvem taler jeg med?",
+      "file": "audio/da/0b46a1c4b1f8ec60c8d0b2b4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 177
+        }
+      ]
+    },
+    {
+      "text": "Jeg hørte ikke det sidste.",
+      "file": "audio/da/32f778ad375fc2510323fa60.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 179
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 8,
+          "id": 29,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Kan du stave det?",
+      "file": "audio/da/4c2cfb805a40555852ba62d8.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 181
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 8,
+          "id": 30,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Kan du sende det på sms?",
+      "file": "audio/da/cebe28de9622d902c0f04a36.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 182
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 8,
+          "id": 30,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg sender dig en besked.",
+      "file": "audio/da/9c59e0e491bdae238d76afea.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 183
+        }
+      ]
+    },
+    {
+      "text": "Jeg har sendt dig en mail.",
+      "file": "audio/da/433f892a3a3c1079405f1ad2.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 184
+        }
+      ]
+    },
+    {
+      "text": "Har du set min besked?",
+      "file": "audio/da/2dea5dd620369354f611091e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 185
+        }
+      ]
+    },
+    {
+      "text": "Jeg vender tilbage senere.",
+      "file": "audio/da/c3918a8a62f18878e0a439d3.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 186
+        }
+      ]
+    },
+    {
+      "text": "Jeg ringer tilbage om lidt.",
+      "file": "audio/da/245a28ad80573355d610e181.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 187
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 8,
+          "id": 22
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 8,
+          "id": 32,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan ikke tale lige nu.",
+      "file": "audio/da/0a9b2ae0f46d1783eb38d1b0.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 188
+        }
+      ]
+    },
+    {
+      "text": "Må jeg ringe tilbage?",
+      "file": "audio/da/ac8f23fd9e9b67d00a46e919.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 189
+        }
+      ]
+    },
+    {
+      "text": "Kan du sende mig adressen?",
+      "file": "audio/da/a14b8f61579d206a2de21046.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 190
+        }
+      ]
+    },
+    {
+      "text": "Kan du sende mig oplysningerne?",
+      "file": "audio/da/531dd9d665d0d33d555c856a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 191
+        }
+      ]
+    },
+    {
+      "text": "Jeg skriver lige for at spørge om noget.",
+      "file": "audio/da/ab1b07d62de37d0b91250ee4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 193
+        }
+      ]
+    },
+    {
+      "text": "Tak for din besked.",
+      "file": "audio/da/ddfd5b9aa04645701cf377fd.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 194
+        }
+      ]
+    },
+    {
+      "text": "Jeg har modtaget din mail.",
+      "file": "audio/da/7fb443b77fa682cdfdb35112.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 195
+        }
+      ]
+    },
+    {
+      "text": "Jeg vender tilbage så hurtigt som muligt.",
+      "file": "audio/da/33b6059d4ac29ea7b4d4d20c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 196
+        }
+      ]
+    },
+    {
+      "text": "Vedhæftet finder du dokumentet.",
+      "file": "audio/da/309317b9affa3f305a166bfa.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 197
+        }
+      ]
+    },
+    {
+      "text": "Giv mig endelig besked.",
+      "file": "audio/da/eb11e155acafafc8e9abc2aa.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 198
+        }
+      ]
+    },
+    {
+      "text": "God dag.",
+      "file": "audio/da/c4b609144c534a85644f06c8.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 199
+        }
+      ]
+    },
+    {
+      "text": "Venlig hilsen",
+      "file": "audio/da/d70c7f2afdc4295f332de037.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 8,
+          "id": 200
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 8,
+          "id": 18,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Hvornår får jeg min løn?",
+      "file": "audio/da/702c586376245f41f674ca98.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 201
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 9,
+          "id": 23
+        }
+      ]
+    },
+    {
+      "text": "Hvor kan jeg se min lønseddel?",
+      "file": "audio/da/3013b7fa9025aa9a4e51e0f7.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 202
+        }
+      ]
+    },
+    {
+      "text": "Jeg har et spørgsmål om min løn.",
+      "file": "audio/da/8a09d8008056b46ef053fcb4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 203
+        }
+      ]
+    },
+    {
+      "text": "Jeg tror, der er en fejl på min lønseddel.",
+      "file": "audio/da/7e3069166872eda333c6d401.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 204
+        }
+      ]
+    },
+    {
+      "text": "Kan du hjælpe mig med at forstå min lønseddel?",
+      "file": "audio/da/b48bac2e7225fafdd417e437.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 205
+        }
+      ]
+    },
+    {
+      "text": "Hvor mange feriedage har jeg?",
+      "file": "audio/da/432006577beb8bfa4443c523.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 206
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne holde ferie i næste uge.",
+      "file": "audio/da/f076db64d670050e18ccf352.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 207
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 9,
+          "id": 24
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 9,
+          "id": 34,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Kan jeg holde fri på fredag?",
+      "file": "audio/da/9ed79a072c4b2c990825233e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 208
+        }
+      ]
+    },
+    {
+      "text": "Hvordan søger jeg om ferie?",
+      "file": "audio/da/f29294e9945873bdcfe952db.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 209
+        }
+      ]
+    },
+    {
+      "text": "Skal jeg registrere min ferie et sted?",
+      "file": "audio/da/1024c7ec919baab6bde6f34a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 210
+        }
+      ]
+    },
+    {
+      "text": "Hvordan fungerer ferie her?",
+      "file": "audio/da/3f21351e2817f6b545e65257.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 211
+        }
+      ]
+    },
+    {
+      "text": "Hvad står der i min kontrakt?",
+      "file": "audio/da/40816e3b19bcaf9b1593bfc9.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 212
+        }
+      ]
+    },
+    {
+      "text": "Hvor mange timer er jeg ansat til?",
+      "file": "audio/da/4a09e862bd51b41523ac9c39.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 213
+        }
+      ]
+    },
+    {
+      "text": "Er der mulighed for flere timer?",
+      "file": "audio/da/e52784e3ed44fcd11cf119b6.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 214
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 9,
+          "id": 35,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Er der mulighed for færre timer?",
+      "file": "audio/da/a16c745d45e4a765c4158f80.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 215
+        }
+      ]
+    },
+    {
+      "text": "Hvornår udløber min kontrakt?",
+      "file": "audio/da/dd79358d666133a8936e07b4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 216
+        }
+      ]
+    },
+    {
+      "text": "Skal min kontrakt forlænges?",
+      "file": "audio/da/2cc051ad1353b0ed864795d1.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 217
+        }
+      ]
+    },
+    {
+      "text": "Hvem kan jeg spørge om det?",
+      "file": "audio/da/de74d8ae52d6a1f02910f399.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 218
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne være sikker på, at jeg har forstået det rigtigt.",
+      "file": "audio/da/9936aaa829f688b433edc21e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 219
+        }
+      ]
+    },
+    {
+      "text": "Kan du forklare reglerne?",
+      "file": "audio/da/c2a7b9fdc85be4059d752382.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 220
+        }
+      ]
+    },
+    {
+      "text": "Er der noget, jeg skal være opmærksom på?",
+      "file": "audio/da/c447dd9e34b830ca2177152d.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 221
+        }
+      ]
+    },
+    {
+      "text": "Hvornår får jeg besked?",
+      "file": "audio/da/09e7987c3f9a24f4357cb41d.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 222
+        }
+      ]
+    },
+    {
+      "text": "Tak for informationen.",
+      "file": "audio/da/e1f1564014bdea5d73171699.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 223
+        }
+      ]
+    },
+    {
+      "text": "Det vil jeg gerne vide mere om.",
+      "file": "audio/da/3b096f426dc2cab3eeb1f6e1.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 224
+        }
+      ]
+    },
+    {
+      "text": "Kan vi tale om det senere?",
+      "file": "audio/da/c2e30c589c40d838586a969b.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 9,
+          "id": 225
+        }
+      ]
+    },
+    {
+      "text": "Hvem er min nærmeste leder?",
+      "file": "audio/da/6df681414ed9b3693058f033.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 226
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 10,
+          "id": 25
+        }
+      ]
+    },
+    {
+      "text": "Hvem skal jeg kontakte?",
+      "file": "audio/da/ae3cf858a0be9afe30122c1a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 227
+        }
+      ]
+    },
+    {
+      "text": "Hvor finder jeg personalepolitikken?",
+      "file": "audio/da/d1e8c10d661501169efbb46e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 228
+        }
+      ]
+    },
+    {
+      "text": "Hvor finder jeg medarbejderhåndbogen?",
+      "file": "audio/da/167a8e27d5880b9c646e4399.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 229
+        }
+      ]
+    },
+    {
+      "text": "Hvordan registrerer jeg mine timer?",
+      "file": "audio/da/af1d8939e27b463bb1822296.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 230
+        }
+      ]
+    },
+    {
+      "text": "Hvor registrerer jeg min arbejdstid?",
+      "file": "audio/da/02b80ee03ca5470cff3087c3.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 231
+        }
+      ]
+    },
+    {
+      "text": "Hvad gør jeg, hvis jeg kommer for sent?",
+      "file": "audio/da/dd830b0c21fcc93856e252a4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 232
+        }
+      ]
+    },
+    {
+      "text": "Hvem skal jeg melde mig syg til?",
+      "file": "audio/da/9f96d08ea4e3191426ba46c1.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 233
+        }
+      ]
+    },
+    {
+      "text": "Hvor finder jeg information om ferie?",
+      "file": "audio/da/d2c394dd55d3914ec0947573.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 234
+        }
+      ]
+    },
+    {
+      "text": "Hvor er personalerummet?",
+      "file": "audio/da/323147f085dcefda390ec9c0.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 235
+        },
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 259
+        }
+      ]
+    },
+    {
+      "text": "Hvor er toilettet?",
+      "file": "audio/da/497b2e6424c69bc06c8fe251.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 236
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 10,
+          "id": 26
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 10,
+          "id": 38,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Hvor kan jeg hænge min jakke?",
+      "file": "audio/da/a1e6e82e07d4f121cc5ed3ee.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 237
+        }
+      ]
+    },
+    {
+      "text": "Hvor kan jeg finde de nødvendige materialer?",
+      "file": "audio/da/6cc559a54d3930d3d4ed501a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 238
+        }
+      ]
+    },
+    {
+      "text": "Hvem har ansvar for det?",
+      "file": "audio/da/9fa93d9c1b1cf9ddbce47adb.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 239
+        }
+      ]
+    },
+    {
+      "text": "Hvem kan hjælpe mig med det?",
+      "file": "audio/da/4db4adcb3466651a69419235.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 240
+        }
+      ]
+    },
+    {
+      "text": "Er der nogle regler, jeg skal kende?",
+      "file": "audio/da/363b5e36ffca482b48638108.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 241
+        }
+      ]
+    },
+    {
+      "text": "Hvad forventer I af mig?",
+      "file": "audio/da/bf46d940339b4fdf6bb750f4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 242
+        }
+      ]
+    },
+    {
+      "text": "Er der noget, jeg skal læse?",
+      "file": "audio/da/f7776ec6376ae4f400f11116.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 243
+        }
+      ]
+    },
+    {
+      "text": "Hvor finder jeg informationen?",
+      "file": "audio/da/2ccb94266a6ef0c67730af5e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 244
+        }
+      ]
+    },
+    {
+      "text": "Hvem kan jeg spørge, hvis jeg er i tvivl?",
+      "file": "audio/da/801be21a9a9a19ff7685d3f1.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 245
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne være sikker på, at jeg gør det rigtigt.",
+      "file": "audio/da/012f125c32872e867d67e6d1.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 246
+        }
+      ]
+    },
+    {
+      "text": "Tak for hjælpen.",
+      "file": "audio/da/0295a7328977a04f60c5e25f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 247
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 10,
+          "id": 39,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Det er noteret.",
+      "file": "audio/da/29f8ea66d02dd4e3c0c9bc6c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 248
+        }
+      ]
+    },
+    {
+      "text": "Det skal jeg nok huske.",
+      "file": "audio/da/f0e30bbd9947fc824527c6d5.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 249
+        }
+      ]
+    },
+    {
+      "text": "Jeg vender tilbage, når jeg ved mere.",
+      "file": "audio/da/09da83baa2eff7d05d4a97cb.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 10,
+          "id": 250
+        }
+      ]
+    },
+    {
+      "text": "Det er min første dag.",
+      "file": "audio/da/1e86cf2e4616f43e628b2702.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 251
+        }
+      ]
+    },
+    {
+      "text": "Jeg er ny her.",
+      "file": "audio/da/fade38dbc4419db6cd2fb14f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 252
+        }
+      ]
+    },
+    {
+      "text": "Jeg hedder Anna.",
+      "file": "audio/da/2ee63c0e01cf3f8c266e8628.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 253
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 11,
+          "id": 27
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 11,
+          "id": 41,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg glæder mig til at komme i gang.",
+      "file": "audio/da/6e0c357a7fa0d38c3b7dc1e1.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 254
+        }
+      ]
+    },
+    {
+      "text": "Hvor skal jeg starte?",
+      "file": "audio/da/4358e29a59cfd04a4aecc622.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 255
+        }
+      ]
+    },
+    {
+      "text": "Hvem skal jeg gå til?",
+      "file": "audio/da/48cf8f7af25adddcb058326a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 256
+        }
+      ]
+    },
+    {
+      "text": "Kan du vise mig rundt?",
+      "file": "audio/da/df1e497429ce9bf296aba59f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 257
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 11,
+          "id": 42,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hvor er køkkenet?",
+      "file": "audio/da/e9e0c7ebef4304ddda10dda4.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 258
+        }
+      ]
+    },
+    {
+      "text": "Hvor lægger vi vores ting?",
+      "file": "audio/da/22b4cf12e77bb287132b5fc5.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 260
+        }
+      ]
+    },
+    {
+      "text": "Hvordan fungerer det her?",
+      "file": "audio/da/5d71092303e27717122254cd.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 261
+        }
+      ]
+    },
+    {
+      "text": "Hvad plejer I at gøre?",
+      "file": "audio/da/371ac3aefffdaab4dafa9d46.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 262
+        }
+      ]
+    },
+    {
+      "text": "Er der noget særligt, jeg skal vide?",
+      "file": "audio/da/9d1e81847a635a3f87cd5b41.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 263
+        }
+      ]
+    },
+    {
+      "text": "Hvem arbejder jeg sammen med?",
+      "file": "audio/da/904770c2c149bbc1fef9a91c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 264
+        }
+      ]
+    },
+    {
+      "text": "Hvem er ansvarlig i dag?",
+      "file": "audio/da/c5552f0b8b644086e5ba4743.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 265
+        }
+      ]
+    },
+    {
+      "text": "Hvad er min opgave?",
+      "file": "audio/da/148f1c14a60fc57d47445dab.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 266
+        }
+      ]
+    },
+    {
+      "text": "Kan du vise mig det en gang til?",
+      "file": "audio/da/5ef284bfeae59a3503abf299.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 267
+        }
+      ]
+    },
+    {
+      "text": "Jeg lærer stadig.",
+      "file": "audio/da/7c2d7309b8ebcf551e84803a.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 268
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 11,
+          "id": 43,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Du må gerne sige til, hvis jeg gør noget forkert.",
+      "file": "audio/da/11254358054032331882d5ac.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 269
+        }
+      ]
+    },
+    {
+      "text": "Jeg spørger hellere en gang for meget.",
+      "file": "audio/da/ea4a4ff361c198aaff0d4091.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 270
+        }
+      ]
+    },
+    {
+      "text": "Tak, det hjælper meget.",
+      "file": "audio/da/f59df359c667750d59120c03.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 271
+        },
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 11,
+          "id": 13,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "text": "Det er rart at møde jer.",
+      "file": "audio/da/5bf0787f26064acb0dc3ad5f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 272
+        }
+      ]
+    },
+    {
+      "text": "Jeg glæder mig til at arbejde sammen med jer.",
+      "file": "audio/da/0fd4173447c2a4a85a888e0d.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 273
+        }
+      ]
+    },
+    {
+      "text": "Tak for en god første dag.",
+      "file": "audio/da/e3a06572735adce1bfa03c23.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 11,
+          "id": 275
+        }
+      ]
+    },
+    {
+      "text": "Det kommer an på.",
+      "file": "audio/da/db25b4d0fde88992401c51cf.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 276
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 12,
+          "id": 29
+        }
+      ]
+    },
+    {
+      "text": "Det er helt fint.",
+      "file": "audio/da/821a8740dbb9514371b106b0.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 279
+        },
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 12,
+          "id": 14,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Det er ikke noget problem.",
+      "file": "audio/da/66fb10f0538e4c1843193f1e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 280
+        },
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 12,
+          "id": 14,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "text": "Det kan jeg godt.",
+      "file": "audio/da/c7c28a17f44f622874aee36c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 281
+        }
+      ]
+    },
+    {
+      "text": "Det kan jeg ikke lige nu.",
+      "file": "audio/da/12ad6f1d180283d774ed1bce.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 282
+        }
+      ]
+    },
+    {
+      "text": "Jeg er lige på vej.",
+      "file": "audio/da/23fb073af8f9ba08047a920f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 283
+        }
+      ]
+    },
+    {
+      "text": "Jeg vender tilbage.",
+      "file": "audio/da/5aa75e1986c54dd99a00f043.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 284
+        }
+      ]
+    },
+    {
+      "text": "Jeg skal nok gøre det.",
+      "file": "audio/da/13f266f649ab5d924aac9a4e.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 285
+        }
+      ]
+    },
+    {
+      "text": "Jeg er ikke sikker.",
+      "file": "audio/da/b951292a8d32a3f35cce436f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 286
+        }
+      ]
+    },
+    {
+      "text": "Jeg er i tvivl.",
+      "file": "audio/da/2b54ac4ae3a1db54b136b079.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 287
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 12,
+          "id": 48,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg forstår ikke.",
+      "file": "audio/da/df0f17b5838b7ae2635f9528.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 289
+        }
+      ]
+    },
+    {
+      "text": "Kan du hjælpe mig?",
+      "file": "audio/da/385aeeef7467b823b88094e2.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 290
+        }
+      ]
+    },
+    {
+      "text": "Kan du forklare det?",
+      "file": "audio/da/6b3ae072661e4ddf66bad348.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 291
+        }
+      ]
+    },
+    {
+      "text": "Hvad mener du?",
+      "file": "audio/da/c7e5d3b4ddb4f199dbbace72.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 293
+        }
+      ]
+    },
+    {
+      "text": "Hvad skal jeg gøre?",
+      "file": "audio/da/b6062dcea846b545ccd7c0d6.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 294
+        }
+      ]
+    },
+    {
+      "text": "Jeg er færdig.",
+      "file": "audio/da/6cc3d12608dfe7ae98d272b3.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 297
+        }
+      ]
+    },
+    {
+      "text": "Jeg har brug for hjælp.",
+      "file": "audio/da/dbf0979c5ab1a630bfa5bb8f.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 298
+        }
+      ]
+    },
+    {
+      "text": "Må jeg spørge om noget?",
+      "file": "audio/da/6d8b7105f078bff2b81b0074.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 300
+        }
+      ]
+    },
+    {
+      "text": "Et øjeblik.",
+      "file": "audio/da/f6a182af90480c848f66c34b.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 301
+        },
+        {
+          "kind": "mistake_better",
+          "chapter_id": 12,
+          "id": 30
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 12,
+          "id": 46,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Lige et øjeblik.",
+      "file": "audio/da/3316a2a224ecfd1e3d1c53b2.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 302
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 12,
+          "id": 47,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg kommer om lidt.",
+      "file": "audio/da/b734d231aad45b75dd56d80c.mp3",
+      "sources": [
+        {
+          "kind": "phrase",
+          "chapter_id": 12,
+          "id": 303
+        }
+      ]
+    },
+    {
+      "text": "Godmorgen, det er Anna. Jeg ringer for at melde mig syg.",
+      "file": "audio/da/ad2b3335cb1991ef91498a4c.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Åh, det var ærgerligt. Hvad er der galt?",
+      "file": "audio/da/40f32c93c4979dae00530056.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg har feber og ondt i halsen.",
+      "file": "audio/da/adab2eef5b2c79f76a041f74.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Okay. Hvornår forventer du at være tilbage?",
+      "file": "audio/da/9f74971d5dc7c8821e18269c.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Jeg håber at være tilbage i morgen. Jeg giver besked, hvis noget ændrer sig.",
+      "file": "audio/da/d40577aec8693bb42576ef86.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Fint. God bedring!",
+      "file": "audio/da/e500b9463a009e858f1a14d4.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "text": "Undskyld, jeg er blevet dårlig i løbet af dagen.",
+      "file": "audio/da/397f6735e1f0280765f0fc3c.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 2,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Du ser heller ikke så godt ud. Har du brug for at gå hjem?",
+      "file": "audio/da/9a94d8dafda0fc61b7b530fd.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 2,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Ja. Er det okay, at jeg går hjem?",
+      "file": "audio/da/91e79452409d0a61ae1e3673.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 2,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Selvfølgelig. Pas på dig selv.",
+      "file": "audio/da/16111618e9a349dd230934d1.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 1,
+          "id": 2,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Hej Mette, kan du bytte vagt med mig på fredag?",
+      "file": "audio/da/acadab28d9ea89ad6ad858c6.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 2,
+          "id": 3,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hvilken vagt har du?",
+      "file": "audio/da/f233e0cdb6bc479982752631.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 2,
+          "id": 3,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg har aftenvagt fra 16 til 22.",
+      "file": "audio/da/1aec42afcc0f411f7eb24dd5.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 2,
+          "id": 3,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Det kan jeg godt. Tager du så min morgenvagt på lørdag?",
+      "file": "audio/da/3a24983a4f32796c87ac1378.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 2,
+          "id": 3,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Ja, det passer fint. Tak! Jeg skriver det til chefen.",
+      "file": "audio/da/324a4f1441d7652e9241ad67.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 2,
+          "id": 3,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg er lidt forsinket. Bussen er ikke kommet.",
+      "file": "audio/da/92ab6c05e51143022fb273f7.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 2,
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Okay, hvornår er du her?",
+      "file": "audio/da/5ca5963bef6d15267a414364.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 2,
+          "id": 4,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Om cirka ti minutter.",
+      "file": "audio/da/f1a2985bf93d71ddd9a4d070.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 2,
+          "id": 4,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Fint, tak for besked.",
+      "file": "audio/da/c7e6509dc2a1d49b3316d3b6.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 2,
+          "id": 4,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Kan du rydde op på lageret og tjekke de nye varer?",
+      "file": "audio/da/7208fc80e9d7ebf942622016.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 3,
+          "id": 5,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Ja. Hvad skal jeg lave først?",
+      "file": "audio/da/ff010e8de1a63462ff53926f.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 3,
+          "id": 5,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Tjek varerne først, og ryd så op bagefter.",
+      "file": "audio/da/06aeb94a7fad3151e7d12076.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 3,
+          "id": 5,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Har jeg forstået det rigtigt: først varerne, så lageret?",
+      "file": "audio/da/647d49f0bfba565c028190f5.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 3,
+          "id": 5,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Præcis.",
+      "file": "audio/da/6160088d0bc994e6acf0087b.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 3,
+          "id": 5,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Hvor skal jeg lægge de nye varer?",
+      "file": "audio/da/d07f304b0382ee6d173fb154.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 3,
+          "id": 5,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "text": "På hylden ved døren.",
+      "file": "audio/da/4cbd7b13f004ff124248f49c.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 3,
+          "id": 5,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "text": "Er der nogen, der har spørgsmål?",
+      "file": "audio/da/1877d36a1a6a214df8798962.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 4,
+          "id": 6,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Ja, jeg har et spørgsmål. Hvornår skal det være færdigt?",
+      "file": "audio/da/ce211def67dacac15f25c588.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 4,
+          "id": 6,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Inden fredag.",
+      "file": "audio/da/21018a4607642f7611ef5098.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 4,
+          "id": 6,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Og hvem tager sig af kunderne?",
+      "file": "audio/da/50b4bae178002e8bd96ec947.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 4,
+          "id": 6,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Det gør Lars. Er det okay?",
+      "file": "audio/da/7604b99e8bff038b3e8266e2.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 4,
+          "id": 6,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Ja, det giver mening. Jeg skriver det ned.",
+      "file": "audio/da/9099d243c49f23f0a2856d0e.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 4,
+          "id": 6,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "text": "Har du et øjeblik? Jeg vil gerne tale med dig om mine timer.",
+      "file": "audio/da/b2f739224f908fdf44837e9a.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 5,
+          "id": 7,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Selvfølgelig. Hvad tænker du?",
+      "file": "audio/da/64b9e1ae89adb8496499b798.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 5,
+          "id": 7,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Det kan vi godt se på. Hvor mange timer tænker du?",
+      "file": "audio/da/f144fc94463aa45abc6745a5.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 5,
+          "id": 7,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Cirka 30 timer om ugen.",
+      "file": "audio/da/0bea3771be4d5128c5037fc2.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 5,
+          "id": 7,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Jeg vender tilbage til dig i næste uge.",
+      "file": "audio/da/f81a98b28dcdf331287a5ca6.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 5,
+          "id": 7,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "text": "Hej! Skal du også have kaffe?",
+      "file": "audio/da/3c842396333918b0f420a271.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 6,
+          "id": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Ja tak! Har du haft en god weekend?",
+      "file": "audio/da/0342beb226d2272440feaa4b.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 6,
+          "id": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Ja, vi var ude at gå en tur i skoven. Hvad med dig?",
+      "file": "audio/da/46ef011c5def4983a3eed9ea.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 6,
+          "id": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg slappede bare af derhjemme. Det var hyggeligt.",
+      "file": "audio/da/30adf3b640b1bc284d1f5438.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 6,
+          "id": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Undskyld, jeg tror, der er sket en fejl med bestillingen.",
+      "file": "audio/da/e7b9fcc5d4330a67979d3755.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 7,
+          "id": 9,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Okay, hvad er der sket?",
+      "file": "audio/da/a8b92243129279c9c236d20c.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 7,
+          "id": 9,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg har bestilt de forkerte varer. Det var min fejl.",
+      "file": "audio/da/37254a69848d2e1c3815fcc0.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 7,
+          "id": 9,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Det sker. Kan du ringe til leverandøren?",
+      "file": "audio/da/3bbf3da99d9be3cd602ae759.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 7,
+          "id": 9,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Ja, jeg ringer med det samme. Jeg sørger for, at det ikke sker igen.",
+      "file": "audio/da/30caf862502db770ba247a7a.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 7,
+          "id": 9,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Hej, det er Anna. Jeg ringer angående min vagt i morgen.",
+      "file": "audio/da/32c4172482dd854a1f76ec15.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 8,
+          "id": 10,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej Anna. Du starter klokken syv.",
+      "file": "audio/da/75cf120759fac7695e00bc10.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 8,
+          "id": 10,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Undskyld, jeg hørte ikke det sidste. Kan du gentage det?",
+      "file": "audio/da/dccff7062e8aa7a129145aa8.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 8,
+          "id": 10,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Klokken syv. Jeg sender det også på sms.",
+      "file": "audio/da/763d89dfa212506d8f623843.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 8,
+          "id": 10,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Tusind tak. Hav en god dag.",
+      "file": "audio/da/52f696498164bc6692f589dd.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 8,
+          "id": 10,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg har et spørgsmål om min lønseddel.",
+      "file": "audio/da/96633974bf7feb485a1b29d1.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 9,
+          "id": 11,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Selvfølgelig. Hvad drejer det sig om?",
+      "file": "audio/da/3b0aa0468a0f5aec52360f1e.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 9,
+          "id": 11,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg tror, der mangler nogle timer. Jeg arbejdede ekstra i sidste uge.",
+      "file": "audio/da/8f09134d37b0d2adf74fba32.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 9,
+          "id": 11,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Det tjekker jeg. Har du registreret timerne i systemet?",
+      "file": "audio/da/d8d4f1aaba5a8f117842a195.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 9,
+          "id": 11,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Ja, det har jeg. Tak for hjælpen.",
+      "file": "audio/da/6e1b9e259ab89d0630079106.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 9,
+          "id": 11,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Undskyld, hvem skal jeg melde mig syg til?",
+      "file": "audio/da/81fe448563500a552f600707.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 10,
+          "id": 12,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Du ringer til din nærmeste leder, inden din vagt starter.",
+      "file": "audio/da/1f2e8342898724febc32cac6.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 10,
+          "id": 12,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Okay. Og hvor registrerer jeg min arbejdstid?",
+      "file": "audio/da/f1f19d112e66efdf6509ec86.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 10,
+          "id": 12,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "I appen. Jeg viser dig det bagefter.",
+      "file": "audio/da/d63c82e852b844290e0fcff5.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 10,
+          "id": 12,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Tak for hjælpen. Det er noteret.",
+      "file": "audio/da/3b96664515c3f20626cbe6fc.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 10,
+          "id": 12,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Hej, du må være den nye?",
+      "file": "audio/da/ad36f97973be87ee211c09ee.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 11,
+          "id": 13,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Ja, jeg hedder Anna. Det er min første dag.",
+      "file": "audio/da/9d9964d4f42bb94c558d53e5.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 11,
+          "id": 13,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Velkommen! Jeg hedder Sofie. Skal jeg vise dig rundt?",
+      "file": "audio/da/744ada0b5bae2cecec51fef2.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 11,
+          "id": 13,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Ja tak, det vil jeg gerne. Hvor lægger vi vores ting?",
+      "file": "audio/da/d42a2c0c0a74a894af878346.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 11,
+          "id": 13,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Derovre i skabene. Og køkkenet er lige her.",
+      "file": "audio/da/a6e0f4a7750a4fbe14f5f36a.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 11,
+          "id": 13,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Kan du hjælpe mig med kasserne?",
+      "file": "audio/da/c77220c35aaee8cdd2b5dba7.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 12,
+          "id": 14,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Lige et øjeblik. Jeg er næsten færdig.",
+      "file": "audio/da/652a9d3ca69c48669273eb33.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 12,
+          "id": 14,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Så, nu kan jeg godt. Hvad skal jeg gøre?",
+      "file": "audio/da/903d613274f52e97dd1b53e9.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 12,
+          "id": 14,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Bare bær dem ud til bilen.",
+      "file": "audio/da/93d87f273b5a5ffd55db08ee.mp3",
+      "sources": [
+        {
+          "kind": "dialogue_line",
+          "chapter_id": 12,
+          "id": 14,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Jeg er syk i dag.",
+      "file": "audio/da/bdfef43cc2e990ee5d13c342.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 1,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg er syg i dag.",
+      "file": "audio/da/2f6386b9a7119f1e9eb2a85b.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 1,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg har en feber.",
+      "file": "audio/da/dd4b5d0ad50ae1d14100d875.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 1,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg føler mig ikke godt.",
+      "file": "audio/da/fb0398b213287a9706b758fd.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 1,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "text": "Jeg har det ikke godt.",
+      "file": "audio/da/8f63eddbec57d383bc5c68c0.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 1,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "text": "Jeg er sen.",
+      "file": "audio/da/fbd8f74d2261ae9e940c208d.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 2,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "text": "Jeg er forsinket.",
+      "file": "audio/da/0ff709adc54e6cf4ddb60d00.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 2,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "text": "Kan jeg ændre vagt med dig?",
+      "file": "audio/da/14fa4e4472b3b50da22210fc.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 2,
+          "id": 5
+        }
+      ]
+    },
+    {
+      "text": "Kan jeg bytte vagt med dig?",
+      "file": "audio/da/0647aba78102d335accf4652.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 2,
+          "id": 5
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 2,
+          "id": 6,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder på weekenden.",
+      "file": "audio/da/49e8769d9b89826931250ad6.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 2,
+          "id": 6
+        }
+      ]
+    },
+    {
+      "text": "Jeg forstår ikke dig.",
+      "file": "audio/da/f30ee138ca075eabab025cc1.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 3,
+          "id": 7
+        }
+      ]
+    },
+    {
+      "text": "Jeg forstår dig ikke.",
+      "file": "audio/da/86a8c80dd368f7068f89592b.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 3,
+          "id": 7
+        }
+      ]
+    },
+    {
+      "text": "Kan du forklare mig igen?",
+      "file": "audio/da/99beb4e578f7854048ff65fe.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 3,
+          "id": 8
+        }
+      ]
+    },
+    {
+      "text": "Jeg er færdig med denne opgaven.",
+      "file": "audio/da/633db9abc2d6e51b33cae3b6.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 3,
+          "id": 9
+        }
+      ]
+    },
+    {
+      "text": "Jeg har enig.",
+      "file": "audio/da/7e8229ea6c1748b033be05c9.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 4,
+          "id": 10
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 4,
+          "id": 16,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Kan du repetere det?",
+      "file": "audio/da/15f33bd1e033f86b8bc74d12.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 4,
+          "id": 11
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil tilføje noget.",
+      "file": "audio/da/be3d3c7d1151c1c8c41e57dd.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 4,
+          "id": 12
+        }
+      ]
+    },
+    {
+      "text": "Kan De give mig feedback?",
+      "file": "audio/da/f11e3e1942d0a07c40071125.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 5,
+          "id": 13
+        }
+      ]
+    },
+    {
+      "text": "Kan du give mig feedback?",
+      "file": "audio/da/b3c4c1b593a5df7fd43b631d.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 5,
+          "id": 13
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil have flere timer.",
+      "file": "audio/da/bf311e586106dc2461b71d48.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 5,
+          "id": 14
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 5,
+          "id": 19,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne have flere timer.",
+      "file": "audio/da/3cb53d1e915933cd20afb261.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 5,
+          "id": 14
+        }
+      ]
+    },
+    {
+      "text": "Hvordan har du?",
+      "file": "audio/da/45903573690098f3ad4413df.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 6,
+          "id": 15
+        }
+      ]
+    },
+    {
+      "text": "Hvordan har du det?",
+      "file": "audio/da/040f30cb4cc7f4143d39e99a.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 6,
+          "id": 15
+        }
+      ]
+    },
+    {
+      "text": "Det var hyggelig.",
+      "file": "audio/da/83357a4f0c8f3c96b41288e7.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 6,
+          "id": 16
+        }
+      ]
+    },
+    {
+      "text": "Vil du komme med mig?",
+      "file": "audio/da/3a3325fcc5b8f7deb657ddb4.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 6,
+          "id": 17
+        }
+      ]
+    },
+    {
+      "text": "Jeg har gjort en fejl.",
+      "file": "audio/da/803918a671478e4401cda8f4.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 7,
+          "id": 18
+        }
+      ]
+    },
+    {
+      "text": "Det er ikke min skyld!",
+      "file": "audio/da/20e9dfd3dc0ab58ad165bd4a.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 7,
+          "id": 19
+        }
+      ]
+    },
+    {
+      "text": "Undskyld mig for fejlen.",
+      "file": "audio/da/9d02a432c30813b69d937cd4.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 7,
+          "id": 20
+        }
+      ]
+    },
+    {
+      "text": "Undskyld fejlen.",
+      "file": "audio/da/0b562c3a79ca0cd91acffdc5.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 7,
+          "id": 20
+        }
+      ]
+    },
+    {
+      "text": "Kære chef, jeg skriver til Dem…",
+      "file": "audio/da/92a19d3cc62b4c0df845d2ee.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 8,
+          "id": 21
+        }
+      ]
+    },
+    {
+      "text": "Hej Mette, jeg skriver for at…",
+      "file": "audio/da/6d1c16015b9e3e943c5135a0.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 8,
+          "id": 21
+        }
+      ]
+    },
+    {
+      "text": "Jeg ringer tilbage om lidt tid.",
+      "file": "audio/da/4f99146df16ad2d5eb54066a.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 8,
+          "id": 22
+        }
+      ]
+    },
+    {
+      "text": "Hvornår får jeg min betaling?",
+      "file": "audio/da/bc11b8f8f7fa4b05a853bceb.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 9,
+          "id": 23
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne tage ferie næste uge.",
+      "file": "audio/da/1ca80bb99c540a5287696af9.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 9,
+          "id": 24
+        }
+      ]
+    },
+    {
+      "text": "Hvem er min boss?",
+      "file": "audio/da/1bb36b37b3a8e251cbbd9adb.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 10,
+          "id": 25
+        }
+      ]
+    },
+    {
+      "text": "Hvor er toilet?",
+      "file": "audio/da/2efb8e08982f896ad1df36da.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 10,
+          "id": 26
+        }
+      ]
+    },
+    {
+      "text": "Mit navn er Anna.",
+      "file": "audio/da/3f331df3ab5367230fca0d47.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 11,
+          "id": 27
+        }
+      ]
+    },
+    {
+      "text": "Det er rart at møde du.",
+      "file": "audio/da/a4aba522c496500563ecf1cc.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 11,
+          "id": 28
+        }
+      ]
+    },
+    {
+      "text": "Det er rart at møde dig.",
+      "file": "audio/da/386f98eb945257f2af74dfb6.mp3",
+      "sources": [
+        {
+          "kind": "mistake_better",
+          "chapter_id": 11,
+          "id": 28
+        }
+      ]
+    },
+    {
+      "text": "Det afhænger.",
+      "file": "audio/da/f5c285bf043c62422b59c813.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 12,
+          "id": 29
+        }
+      ]
+    },
+    {
+      "text": "Et moment.",
+      "file": "audio/da/cf66ff9535bd69cedad68505.mp3",
+      "sources": [
+        {
+          "kind": "mistake_wrong",
+          "chapter_id": 12,
+          "id": 30
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg er desværre syg i dag og kan ikke komme på arbejde. Jeg giver besked, når jeg ved mere.",
+      "file": "audio/da/deac21026730f8978c3e41b1.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 1,
+          "id": 1
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg er stadig syg og bliver hjemme i dag. Jeg regner med at være tilbage i morgen.",
+      "file": "audio/da/130d57ed68ce93d1cde25232.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 1,
+          "id": 2
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 1,
+          "id": 2,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej alle sammen, jeg er tilbage i dag. Tak, fordi I dækkede for mig.",
+      "file": "audio/da/48e15cbf0282144eee464461.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 1,
+          "id": 3
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 1,
+          "id": 3,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg er lidt forsinket i dag, men jeg er på vej.",
+      "file": "audio/da/a1fd6e12362c855f88d72be4.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 2,
+          "id": 4
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 2,
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, kan du sende mig vagtplanen for næste uge?",
+      "file": "audio/da/e582d53eff5799fd7e7902d8.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 2,
+          "id": 5
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 2,
+          "id": 5,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej! Har du mulighed for at bytte vagt med mig på fredag? Jeg kan tage en af dine vagter i stedet.",
+      "file": "audio/da/ddf83f698d401d012621f915.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 2,
+          "id": 6
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 2,
+          "id": 6,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg er ikke helt sikker på, at jeg har forstået opgaven. Kan du forklare den igen?",
+      "file": "audio/da/3b7e5e709e034d534ac98b53.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 3,
+          "id": 7
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 3,
+          "id": 7,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg er færdig med opgaven. Hvad skal jeg tage fat på nu?",
+      "file": "audio/da/f0777009130806bf9bfeabc5.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 3,
+          "id": 8
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 3,
+          "id": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, har du to minutter? Jeg har brug for lidt hjælp med systemet.",
+      "file": "audio/da/77ea04f3a065f0b0cc6971dd.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 3,
+          "id": 9
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 3,
+          "id": 9,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej alle, tak for mødet i dag. Jeg sender mine noter senere.",
+      "file": "audio/da/6ea59d783b9b6d6b3965e007.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 4,
+          "id": 10
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 4,
+          "id": 10,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, kan vi flytte vores møde til i morgen? Jeg har desværre en lægetid i dag.",
+      "file": "audio/da/c36dcf42ada11cc7d69c78d5.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 4,
+          "id": 11
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 4,
+          "id": 11,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, har du tid til en kort snak? Jeg har et spørgsmål om mine arbejdstider.",
+      "file": "audio/da/d658b173c8a6194e4fe08958.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 5,
+          "id": 12
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 5,
+          "id": 12,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg vil gerne høre, om der er mulighed for flere timer. Kan vi tale om det, når det passer dig?",
+      "file": "audio/da/3371cb6ea26d32fa9eb1abac.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 5,
+          "id": 13
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 5,
+          "id": 13,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej alle! Jeg har fødselsdag i dag, så der er kage i personalerummet kl. 12.",
+      "file": "audio/da/78c82bf79c9679baa9bf72f5.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 6,
+          "id": 14
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 6,
+          "id": 14,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Tak for i dag, det var hyggeligt at arbejde sammen med dig. God weekend!",
+      "file": "audio/da/6342dcad094048f236ea773b.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 6,
+          "id": 15
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 6,
+          "id": 15,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg har desværre lavet en fejl i dag. Jeg har allerede rettet den, men jeg ville gerne sige det til dig.",
+      "file": "audio/da/069dafae1762e860683c2a46.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 7,
+          "id": 16
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 7,
+          "id": 16,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, systemet virker ikke hos mig. Jeg har prøvet flere gange. Kan du hjælpe?",
+      "file": "audio/da/2c0f6e63d8335794c38a1296.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 7,
+          "id": 17
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 7,
+          "id": 17,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej Mette Jeg skriver lige for at spørge, om jeg kan få fri på fredag. Giv mig endelig besked. Venlig hilsen Anna",
+      "file": "audio/da/b547fdaaac86b87799c1f3cb.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 8,
+          "id": 18
+        }
+      ]
+    },
+    {
+      "text": "Hej Mette",
+      "file": "audio/da/34cbf67ddba4f8c9a0cf254a.mp3",
+      "sources": [
+        {
+          "kind": "message_line",
+          "chapter_id": 8,
+          "id": 18,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg skriver lige for at spørge, om jeg kan få fri på fredag. Giv mig endelig besked.",
+      "file": "audio/da/f984d8114b0cf82446e0be55.mp3",
+      "sources": [
+        {
+          "kind": "message_line",
+          "chapter_id": 8,
+          "id": 18,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Anna",
+      "file": "audio/da/d9e5886b573c2c79fb632b3d.mp3",
+      "sources": [
+        {
+          "kind": "message_line",
+          "chapter_id": 8,
+          "id": 18,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg kan ikke tale lige nu. Jeg ringer tilbage om lidt.",
+      "file": "audio/da/55501ccfe477b68b8b0d02f0.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 8,
+          "id": 19
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 8,
+          "id": 19,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg vil gerne holde ferie i uge 29 og 30. Hvordan søger jeg om det?",
+      "file": "audio/da/0402289b7b3d6a39c48e57af.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 9,
+          "id": 20
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 9,
+          "id": 20,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg tror, der er en fejl på min lønseddel for marts. Kan du hjælpe mig med at se på det?",
+      "file": "audio/da/29477a2f17d380431198387c.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 9,
+          "id": 21
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 9,
+          "id": 21,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej, jeg er ny i afdelingen. Hvor kan jeg finde medarbejderhåndbogen?",
+      "file": "audio/da/5b427f9b9d8b835630f5ff4d.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 10,
+          "id": 22
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 10,
+          "id": 22,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Tak for informationen. Det er noteret.",
+      "file": "audio/da/f539004d2ab74ef15dda1493.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 10,
+          "id": 23
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 10,
+          "id": 23,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hej alle sammen! Jeg hedder Anna og er ny her. Jeg glæder mig til at arbejde sammen med jer.",
+      "file": "audio/da/f41ac00cba4943e3bf05cb5a.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 11,
+          "id": 24
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 11,
+          "id": 24,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Tak for en god første dag. Vi ses i morgen!",
+      "file": "audio/da/009dd518604a2d4718226ce6.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 11,
+          "id": 25
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 11,
+          "id": 25,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Et øjeblik, jeg kommer om lidt.",
+      "file": "audio/da/334a007a1828e25d1464ff4f.mp3",
+      "sources": [
+        {
+          "kind": "message",
+          "chapter_id": 12,
+          "id": 26
+        },
+        {
+          "kind": "message_line",
+          "chapter_id": 12,
+          "id": 26,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg har ferie.",
+      "file": "audio/da/6547152838b13192e0f0c82f.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg kommer tidligere.",
+      "file": "audio/da/63c189e45f4db5a398394f1e.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg er syg.",
+      "file": "audio/da/f3caa09d1ffeb5cfa7e732ae.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 1,
+          "id": 1,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg føler mig ikke godt i dag.",
+      "file": "audio/da/2dbe6bb1f5e6ad343d289846.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 1,
+          "id": 3,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg er ikke god i dag.",
+      "file": "audio/da/27ccc2e457f5c0246a3d6a01.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 1,
+          "id": 3,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg er på arbejde.",
+      "file": "audio/da/7c688b284fb514b53061da58.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 2,
+          "id": 5,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Kan jeg tage en pause?",
+      "file": "audio/da/47cd57858aaee8bfa6561f0f.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 2,
+          "id": 6,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg er lidt tidlig.",
+      "file": "audio/da/2ac6bbf23b62c0cc5f7d80e1.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 2,
+          "id": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg er lidt sen.",
+      "file": "audio/da/72c0543bd8be41420126dc63.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 2,
+          "id": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Er det dit?",
+      "file": "audio/da/d5a8cdd1874e5ea0a1cd53d7.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 3,
+          "id": 10,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hvad laver du?",
+      "file": "audio/da/db8c55daff665faabf987bfc.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 3,
+          "id": 10,
+          "index": 1
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 5,
+          "id": 17,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg er helt færdig.",
+      "file": "audio/da/b19ee977f77e09bd3980125c.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 3,
+          "id": 12,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg er ikke færdig.",
+      "file": "audio/da/c938aeb3e963ba04aba2eba5.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 3,
+          "id": 12,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg tilføjer noget nu.",
+      "file": "audio/da/6f0baa3ee45ad6e7aeadffb2.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 4,
+          "id": 13,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg har noget.",
+      "file": "audio/da/e8b86f1f441bf8b5b9c8dc46.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 4,
+          "id": 13,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Kan du tage det?",
+      "file": "audio/da/29f7353c998360877c437ffd.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 4,
+          "id": 14,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Kan du skrive det?",
+      "file": "audio/da/d20593e8793d2ea74270e01e.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 4,
+          "id": 14,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg enig.",
+      "file": "audio/da/f3194193a445139c74363508.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 4,
+          "id": 16,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Er du færdig?",
+      "file": "audio/da/016d8075ab476f247d99363f.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 5,
+          "id": 17,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Giv mig flere timer.",
+      "file": "audio/da/318a458b6bb3ca0952d72e34.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 5,
+          "id": 19,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Vi ses aldrig.",
+      "file": "audio/da/5e711e0d81d3d17d80b5368b.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 5,
+          "id": 20,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Det er ikke mit problem.",
+      "file": "audio/da/6c8149d8084c099739b11dc2.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 5,
+          "id": 20,
+          "index": 2
+        },
+        {
+          "kind": "exercise_option",
+          "chapter_id": 7,
+          "id": 25,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Godt, tak. Hvad med dig?",
+      "file": "audio/da/2a640ff9d607c46f3ed71f55.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 6,
+          "id": 21,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg går hjem.",
+      "file": "audio/da/5f9105fdb0fe8b9da6f50687.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 6,
+          "id": 21,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Det går til kl. 16.",
+      "file": "audio/da/27ce8a0750d5cdb9176d65bf.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 6,
+          "id": 21,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Kaffe nu?",
+      "file": "audio/da/2e626f692937850aaa0a3268.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 6,
+          "id": 23,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Har du kaffe?",
+      "file": "audio/da/31dea31a3b1ff8cff0b1d8aa.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 6,
+          "id": 23,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "God bedring!",
+      "file": "audio/da/36158ccd69e97a6b9bbc9411.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 6,
+          "id": 24,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Du tager fejl!",
+      "file": "audio/da/26a0fcdeefdc78b3d8a9f367.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 7,
+          "id": 27,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Nej, nej, nej.",
+      "file": "audio/da/a683df823d63dd4df053c50d.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 7,
+          "id": 27,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Det arbejder ikke.",
+      "file": "audio/da/157786625983d3c63e5f1e46.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 7,
+          "id": 28,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Det går ikke hjem.",
+      "file": "audio/da/92b4b1096e513af76841cdd9.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 7,
+          "id": 28,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg har ikke tid.",
+      "file": "audio/da/ebdc28f0f89b61ea5e410e55.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 8,
+          "id": 29,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Kan du ringe til mig?",
+      "file": "audio/da/00119971196b167f4d89be46.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 8,
+          "id": 30,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg ringede i går.",
+      "file": "audio/da/85439c76c479f03fa147db0e.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 8,
+          "id": 32,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg ringer aldrig.",
+      "file": "audio/da/0709d12a338052867f3af8fb.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 8,
+          "id": 32,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg holder altid fri.",
+      "file": "audio/da/394e15916d860fd1897b26ff.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 9,
+          "id": 34,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg havde ferie i går.",
+      "file": "audio/da/a24d79f809a7397d7a7cdcfc.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 9,
+          "id": 34,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Har du tid?",
+      "file": "audio/da/d96d9f4192f3240001947800.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 9,
+          "id": 35,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hvor mange timer er klokken?",
+      "file": "audio/da/e97de9d1b92f3a1718307e21.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 9,
+          "id": 35,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Hvornår er toilettet?",
+      "file": "audio/da/8cc14c716bbfad34a1525bfd.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 10,
+          "id": 38,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Hvem er toilettet?",
+      "file": "audio/da/88f845e399ba479b8e8befb6.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 10,
+          "id": 38,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Tak for mad.",
+      "file": "audio/da/a2a6215a405e3e1b6da3b4ca.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 10,
+          "id": 39,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Tak for sidst.",
+      "file": "audio/da/3be12221cc7aab243d571a32.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 10,
+          "id": 39,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Hedder jeg Anna.",
+      "file": "audio/da/31f6c4738b2ed6ff5891e3f7.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 11,
+          "id": 41,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg er Anna navn.",
+      "file": "audio/da/0eb83a309bce19051a17f827.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 11,
+          "id": 41,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Kan du gå rundt?",
+      "file": "audio/da/ba631bfd240465946b86ac08.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 11,
+          "id": 42,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Kan du se mig?",
+      "file": "audio/da/5655b3710d8ce9bc8481ef27.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 11,
+          "id": 42,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg lærer aldrig.",
+      "file": "audio/da/d7638ba792069c8db8e2f0c8.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 11,
+          "id": 43,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg har lært.",
+      "file": "audio/da/824a41b82aa3d81c634f155f.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 11,
+          "id": 43,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Et minut nu.",
+      "file": "audio/da/7fa51b51db46540aed99e9e3.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 12,
+          "id": 46,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "En tid.",
+      "file": "audio/da/2107f335e2420526c6695ca4.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 12,
+          "id": 46,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Nej tak.",
+      "file": "audio/da/5b0ec83d17980dfdecf183be.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 12,
+          "id": 47,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg er tvivl.",
+      "file": "audio/da/615ece8330994658d0a85421.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 12,
+          "id": 48,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg har tvivlet.",
+      "file": "audio/da/be58c561b42a78c23d950d87.mp3",
+      "sources": [
+        {
+          "kind": "exercise_option",
+          "chapter_id": 12,
+          "id": 48,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "syg",
+      "file": "audio/da/3d51ec7bc9033e1bb4ce1328.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "text": "sygdom",
+      "file": "audio/da/e747f1a5796dff6efe6f05ed.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "text": "fravær",
+      "file": "audio/da/30343079ea8e5cc85822c619.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "text": "feber",
+      "file": "audio/da/d235b7100e447c270a7d4754.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "text": "hovedpine",
+      "file": "audio/da/363cc7f7d5adb62049a19e53.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 5
+        }
+      ]
+    },
+    {
+      "text": "ondt i halsen",
+      "file": "audio/da/8aee8510767ff0e717123007.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 6
+        }
+      ]
+    },
+    {
+      "text": "læge",
+      "file": "audio/da/c76dd91d82590f94fb5b21fe.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 7
+        }
+      ]
+    },
+    {
+      "text": "lægetid",
+      "file": "audio/da/df16df1348e34ef227782f39.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 8
+        }
+      ]
+    },
+    {
+      "text": "god bedring",
+      "file": "audio/da/7e8b7ea7e2a05c31eac5bf93.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 9
+        }
+      ]
+    },
+    {
+      "text": "varsel",
+      "file": "audio/da/e29a1e9a2365746e050a2455.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 1,
+          "id": 10
+        }
+      ]
+    },
+    {
+      "text": "vagt",
+      "file": "audio/da/a178a5cae56720f82ec67205.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 11
+        }
+      ]
+    },
+    {
+      "text": "vagtplan",
+      "file": "audio/da/7da3a35a1123aa1a2658ee7f.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 12
+        }
+      ]
+    },
+    {
+      "text": "morgenvagt",
+      "file": "audio/da/e44bfeca4947a804471b1fdc.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 13
+        }
+      ]
+    },
+    {
+      "text": "aftenvagt",
+      "file": "audio/da/81c854b97eac59248f32ddc9.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 14
+        }
+      ]
+    },
+    {
+      "text": "nattevagt",
+      "file": "audio/da/1cb2fd82f5a4536c19f6e018.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 15
+        }
+      ]
+    },
+    {
+      "text": "pause",
+      "file": "audio/da/7ee15dfb9087a880f0506e4d.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 16
+        }
+      ]
+    },
+    {
+      "text": "have fri",
+      "file": "audio/da/d50c6cd375b9f7cf202807d0.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 17
+        }
+      ]
+    },
+    {
+      "text": "bytte",
+      "file": "audio/da/b65a450b4738e0f520cb030e.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 18
+        }
+      ]
+    },
+    {
+      "text": "forsinket",
+      "file": "audio/da/d349375332dfdfa3818fe9c1.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 19
+        }
+      ]
+    },
+    {
+      "text": "overarbejde",
+      "file": "audio/da/e760ea034b675ecf860a680f.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 2,
+          "id": 20
+        }
+      ]
+    },
+    {
+      "text": "opgave",
+      "file": "audio/da/5d3e527cd7d03542729f4cf6.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 21
+        }
+      ]
+    },
+    {
+      "text": "instruktion",
+      "file": "audio/da/83884c1892e5e1d135565228.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 22
+        }
+      ]
+    },
+    {
+      "text": "forklare",
+      "file": "audio/da/7a7710deca9c25df9577c904.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 23
+        }
+      ]
+    },
+    {
+      "text": "forstå",
+      "file": "audio/da/5ae7f1718780b110018fc063.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 24
+        }
+      ]
+    },
+    {
+      "text": "vise",
+      "file": "audio/da/477e441d71d05cc0af6af433.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 25
+        }
+      ]
+    },
+    {
+      "text": "færdig",
+      "file": "audio/da/d8359336468de99abf3e94b3.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 26
+        },
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 114
+        }
+      ]
+    },
+    {
+      "text": "først",
+      "file": "audio/da/abb8eb6eb2c42786e5bddab2.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 27
+        }
+      ]
+    },
+    {
+      "text": "bagefter",
+      "file": "audio/da/6c003f112bc7fa09dc48ba7e.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 28
+        }
+      ]
+    },
+    {
+      "text": "rigtigt",
+      "file": "audio/da/105ad9ac566831b3ddfca0d1.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 29
+        }
+      ]
+    },
+    {
+      "text": "forkert",
+      "file": "audio/da/100f807c3d44d350eb2b5720.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 3,
+          "id": 30
+        }
+      ]
+    },
+    {
+      "text": "møde",
+      "file": "audio/da/ea10f287c22cfaa59681cd5d.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 31
+        }
+      ]
+    },
+    {
+      "text": "samtale",
+      "file": "audio/da/8e2814643b2c4de5d2c33a46.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 32
+        }
+      ]
+    },
+    {
+      "text": "spørgsmål",
+      "file": "audio/da/554bf9d9aa65a5b35c7b8e01.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 33
+        }
+      ]
+    },
+    {
+      "text": "svar",
+      "file": "audio/da/0a85f742d3602ec0fe96f8b7.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 34
+        }
+      ]
+    },
+    {
+      "text": "enig",
+      "file": "audio/da/e81ead47422e684eb8ae1c9d.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 35
+        }
+      ]
+    },
+    {
+      "text": "forslag",
+      "file": "audio/da/95c6f84c156d2b4830645619.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 36
+        },
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 46
+        }
+      ]
+    },
+    {
+      "text": "punkt",
+      "file": "audio/da/d32dedf21d19e9e484152668.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 37
+        }
+      ]
+    },
+    {
+      "text": "referat",
+      "file": "audio/da/5918ff62c1682e439d6468a7.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 38
+        }
+      ]
+    },
+    {
+      "text": "deadline",
+      "file": "audio/da/a1360728d94267e93701b9f2.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 39
+        }
+      ]
+    },
+    {
+      "text": "næste skridt",
+      "file": "audio/da/cc762597d84e70f08501cbc4.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 4,
+          "id": 40
+        }
+      ]
+    },
+    {
+      "text": "chef",
+      "file": "audio/da/017f8c665d01ab1630682165.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 41
+        }
+      ]
+    },
+    {
+      "text": "leder",
+      "file": "audio/da/da1fdc549052ad23b18d52c2.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 42
+        },
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 91
+        }
+      ]
+    },
+    {
+      "text": "feedback",
+      "file": "audio/da/aa7a48188fc6aefd66ea5523.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 43
+        }
+      ]
+    },
+    {
+      "text": "timer",
+      "file": "audio/da/1b94afd93054b6f98cadbde1.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 44
+        }
+      ]
+    },
+    {
+      "text": "mulighed",
+      "file": "audio/da/a22e40df7d4fa54097e6f1a4.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 45
+        }
+      ]
+    },
+    {
+      "text": "fokusere",
+      "file": "audio/da/dacbd2d1e1153c017ba48601.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 47
+        }
+      ]
+    },
+    {
+      "text": "medarbejdersamtale",
+      "file": "audio/da/b36008b6664e30e59fbf1c22.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 48
+        }
+      ]
+    },
+    {
+      "text": "anderledes",
+      "file": "audio/da/7436beecdb0ffa98fe5075c6.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 49
+        }
+      ]
+    },
+    {
+      "text": "tid",
+      "file": "audio/da/66d25b002b960e4213ef4bd9.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 5,
+          "id": 50
+        }
+      ]
+    },
+    {
+      "text": "kollega",
+      "file": "audio/da/bebf54169881f873b1c1d438.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 51
+        }
+      ]
+    },
+    {
+      "text": "kaffe",
+      "file": "audio/da/83cdf9cb092091220fc17d0f.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 52
+        }
+      ]
+    },
+    {
+      "text": "frokost",
+      "file": "audio/da/52e0e3609cdef777f890fbc4.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 53
+        }
+      ]
+    },
+    {
+      "text": "weekend",
+      "file": "audio/da/86a6296f5cbc9d7ebc08f39c.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 54
+        }
+      ]
+    },
+    {
+      "text": "ferie",
+      "file": "audio/da/f25c6a01725bc048b13863c3.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 55
+        },
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 83
+        }
+      ]
+    },
+    {
+      "text": "hyggeligt",
+      "file": "audio/da/c4c907e7f05da60b1a7b9218.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 56
+        }
+      ]
+    },
+    {
+      "text": "spændende",
+      "file": "audio/da/777b4adf2dcb139de8ff811e.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 57
+        }
+      ]
+    },
+    {
+      "text": "planer",
+      "file": "audio/da/bfe7ed47268ee2326b4831b5.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 58
+        }
+      ]
+    },
+    {
+      "text": "fødselsdag",
+      "file": "audio/da/4a450c19671ce581dc52d6a3.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 59
+        }
+      ]
+    },
+    {
+      "text": "kage",
+      "file": "audio/da/dda004b5713ef59943845b16.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 6,
+          "id": 60
+        }
+      ]
+    },
+    {
+      "text": "fejl",
+      "file": "audio/da/16dc5f25093dd16b345e7957.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 61
+        }
+      ]
+    },
+    {
+      "text": "problem",
+      "file": "audio/da/b345aab1803f6d5292c09fb4.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 62
+        }
+      ]
+    },
+    {
+      "text": "løsning",
+      "file": "audio/da/ff166eae21e330bcd968f0bc.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 63
+        }
+      ]
+    },
+    {
+      "text": "rette",
+      "file": "audio/da/03f664d368216efa9b4a7bb5.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 64
+        }
+      ]
+    },
+    {
+      "text": "misforståelse",
+      "file": "audio/da/e436866c6926db2c70b44493.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 65
+        }
+      ]
+    },
+    {
+      "text": "virke",
+      "file": "audio/da/f5cefd3067d6a7f6b7d331bc.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 66
+        }
+      ]
+    },
+    {
+      "text": "beklage",
+      "file": "audio/da/ac3cd26ebbe11f2783e07c2d.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 67
+        }
+      ]
+    },
+    {
+      "text": "konflikt",
+      "file": "audio/da/d9b0e698955bc3c890a980ad.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 68
+        }
+      ]
+    },
+    {
+      "text": "uenig",
+      "file": "audio/da/f5d396e5c42fb4ca904fce57.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 69
+        }
+      ]
+    },
+    {
+      "text": "skyld",
+      "file": "audio/da/b24b0743a31dd590cdaaa707.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 7,
+          "id": 70
+        }
+      ]
+    },
+    {
+      "text": "ringe",
+      "file": "audio/da/548b631e417f7eb3507d6b61.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 71
+        }
+      ]
+    },
+    {
+      "text": "besked",
+      "file": "audio/da/b9b85a920667cb0e278240e7.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 72
+        }
+      ]
+    },
+    {
+      "text": "sms",
+      "file": "audio/da/6c8d0a4ac955074f0d555b2c.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 73
+        }
+      ]
+    },
+    {
+      "text": "mail",
+      "file": "audio/da/a75b20cc30b531c383c29f60.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 74
+        }
+      ]
+    },
+    {
+      "text": "svare",
+      "file": "audio/da/59b0a988a2c3397b47ed9481.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 75
+        }
+      ]
+    },
+    {
+      "text": "vedhæftet",
+      "file": "audio/da/541111326f5e3142c8f4496e.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 76
+        }
+      ]
+    },
+    {
+      "text": "stave",
+      "file": "audio/da/f37db475086aa499141d2d87.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 77
+        }
+      ]
+    },
+    {
+      "text": "adresse",
+      "file": "audio/da/a8273f6b531927c7ce759280.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 78
+        }
+      ]
+    },
+    {
+      "text": "angående",
+      "file": "audio/da/b41723a83fa2c2afc7ec7032.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 79
+        }
+      ]
+    },
+    {
+      "text": "venlig hilsen",
+      "file": "audio/da/f2f235b4f2020cc978e7dcfb.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 8,
+          "id": 80
+        }
+      ]
+    },
+    {
+      "text": "løn",
+      "file": "audio/da/2fa31f4d276c5387c96749f3.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 81
+        }
+      ]
+    },
+    {
+      "text": "lønseddel",
+      "file": "audio/da/e37826731f868af7f5274640.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 82
+        }
+      ]
+    },
+    {
+      "text": "feriedage",
+      "file": "audio/da/a0c874bff6d043aabc3321a3.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 84
+        }
+      ]
+    },
+    {
+      "text": "feriepenge",
+      "file": "audio/da/39f087073af8dad6d1f41232.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 85
+        }
+      ]
+    },
+    {
+      "text": "kontrakt",
+      "file": "audio/da/557c7e4946a101b709f86fe5.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 86
+        }
+      ]
+    },
+    {
+      "text": "vilkår",
+      "file": "audio/da/f43c8ed38f03309ea2b7c7b6.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 87
+        }
+      ]
+    },
+    {
+      "text": "skat",
+      "file": "audio/da/6e72b49cef432cdffac2089e.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 88
+        }
+      ]
+    },
+    {
+      "text": "overenskomst",
+      "file": "audio/da/32e62e2b300c549ae35e1b37.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 89
+        }
+      ]
+    },
+    {
+      "text": "ansat",
+      "file": "audio/da/3b6f4b670c50399ee713f94b.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 9,
+          "id": 90
+        }
+      ]
+    },
+    {
+      "text": "HR",
+      "file": "audio/da/483e20daf0ce7e79a8016a25.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 92
+        }
+      ]
+    },
+    {
+      "text": "afdeling",
+      "file": "audio/da/250ed5127b2763afbac4dada.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 93
+        }
+      ]
+    },
+    {
+      "text": "personalerum",
+      "file": "audio/da/a0541050bc4d32e23a405e5e.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 94
+        }
+      ]
+    },
+    {
+      "text": "regler",
+      "file": "audio/da/d6b7f518004b7cdda0b3a74c.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 95
+        }
+      ]
+    },
+    {
+      "text": "registrere",
+      "file": "audio/da/d263dae063448e3351ce84a5.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 96
+        }
+      ]
+    },
+    {
+      "text": "arbejdstid",
+      "file": "audio/da/2ee1e5ee66cb1d8cf3be5eab.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 97
+        }
+      ]
+    },
+    {
+      "text": "ansvar",
+      "file": "audio/da/ddb2838494922d9a7268a4ca.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 98
+        }
+      ]
+    },
+    {
+      "text": "medarbejder",
+      "file": "audio/da/2d9b914df3462d00a3abbaac.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 99
+        }
+      ]
+    },
+    {
+      "text": "i tvivl",
+      "file": "audio/da/6a66341ea8743762beda00c8.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 10,
+          "id": 100
+        }
+      ]
+    },
+    {
+      "text": "ny",
+      "file": "audio/da/eaa9c5ad01d22470d47cec81.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 101
+        }
+      ]
+    },
+    {
+      "text": "første dag",
+      "file": "audio/da/0e81e870fcd94125c2a09983.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 102
+        }
+      ]
+    },
+    {
+      "text": "vise rundt",
+      "file": "audio/da/bf6a6121bc1e9d0ea00cd173.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 103
+        }
+      ]
+    },
+    {
+      "text": "køkken",
+      "file": "audio/da/b402694e1844d647cab50eb9.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 104
+        }
+      ]
+    },
+    {
+      "text": "skab",
+      "file": "audio/da/1c466336bf94f8609084a154.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 105
+        }
+      ]
+    },
+    {
+      "text": "ansvarlig",
+      "file": "audio/da/4d61d79c6107924dc006ed51.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 106
+        }
+      ]
+    },
+    {
+      "text": "lære",
+      "file": "audio/da/9cf0caec7ce2e7b7c44d941c.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 107
+        }
+      ]
+    },
+    {
+      "text": "velkommen",
+      "file": "audio/da/72c4820cc56cc8a3363cb93e.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 108
+        }
+      ]
+    },
+    {
+      "text": "rart",
+      "file": "audio/da/ee4d0c197c77f47e82e93644.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 109
+        }
+      ]
+    },
+    {
+      "text": "hedde",
+      "file": "audio/da/efe55c3cff7248074f9a814c.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 11,
+          "id": 110
+        }
+      ]
+    },
+    {
+      "text": "øjeblik",
+      "file": "audio/da/107b673070b93ac8d1254ce8.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 111
+        }
+      ]
+    },
+    {
+      "text": "tvivl",
+      "file": "audio/da/91bb5946990e99465e80f8db.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 112
+        }
+      ]
+    },
+    {
+      "text": "næsten",
+      "file": "audio/da/ab9df99b696d44a63f6eb4e0.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 113
+        }
+      ]
+    },
+    {
+      "text": "lige",
+      "file": "audio/da/882ebe09f9d5024afff7888e.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 115
+        }
+      ]
+    },
+    {
+      "text": "hjælp",
+      "file": "audio/da/f979ebaaa072e836b6c50fa0.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 116
+        }
+      ]
+    },
+    {
+      "text": "senere",
+      "file": "audio/da/7c9ff42cfa34fa4649a20619.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 117
+        }
+      ]
+    },
+    {
+      "text": "skridt",
+      "file": "audio/da/ff00e83ed84e9628f90cdd98.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 118
+        }
+      ]
+    },
+    {
+      "text": "mene",
+      "file": "audio/da/5d09a77110f74d0493f5b192.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 119
+        }
+      ]
+    },
+    {
+      "text": "om lidt",
+      "file": "audio/da/d88c20aabd282305c6ead475.mp3",
+      "sources": [
+        {
+          "kind": "vocab",
+          "chapter_id": 12,
+          "id": 120
+        }
+      ]
+    },
+    {
+      "text": "Du gjorde det!",
+      "file": "audio/da/4321275d48fefb8c75e2e728.mp3",
+      "sources": [
+        {
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "text": "Hej!",
+      "file": "audio/da/ebeea8e00186f2c0790d5405.mp3",
+      "sources": [
+        {
+          "kind": "home"
+        }
+      ]
+    }
+  ]
+}
