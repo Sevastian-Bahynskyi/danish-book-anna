@@ -1,0 +1,61 @@
+name: Generate Danish audio
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Generate one real MP3 to review, or the whole book
+        required: true
+        default: sample
+        type: choice
+        options:
+          - sample
+          - all
+
+permissions:
+  contents: write
+
+concurrency:
+  group: danish-audio-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.ref == 'refs/heads/feat/azure-jeppe-audio-generator'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check Azure credentials
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+        run: |
+          if [ -z "$AZURE_SPEECH_KEY" ]; then
+            echo "Add the AZURE_SPEECH_KEY repository Actions secret first."
+            exit 1
+          fi
+      - name: Generate recordings
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: northeurope
+          MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$MODE" = sample ]; then
+            node scripts/generate-audio.mjs --sample
+          else
+            node scripts/generate-audio.mjs
+          fi
+      # Preserve successful recordings if a later Azure request fails.
+      - name: Commit audio to this branch
+        if: always()
+        run: |
+          if [ ! -d audio ]; then exit 0; fi
+          git add -- audio/
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Generate Danish audio with Jeppe'
+          git push origin HEAD:${{ github.ref_name }}
