@@ -15,10 +15,11 @@ const format = 'audio-24khz-48kbitrate-mono-mp3';
 const minIntervalMs = 3500; // 17 starts/minute, with headroom below F0's 20/60s.
 const args = process.argv.slice(2);
 const inventoryOnly = args.includes('--inventory');
+const sampleOnly = args.includes('--sample');
 const envIndex = args.indexOf('--env');
 const limitIndex = args.indexOf('--limit');
 if ((envIndex >= 0 && !args[envIndex + 1]) || (limitIndex >= 0 && !/^[1-9]\d*$/.test(args[limitIndex + 1] ?? ''))) {
-  throw new Error('Usage: node scripts/generate-audio.mjs [--inventory] [--env path/to/secrets.env] [--limit N]');
+  throw new Error('Usage: node scripts/generate-audio.mjs [--inventory] [--sample] [--env path/to/secrets.env] [--limit N]');
 }
 const maxNew = limitIndex >= 0 ? Number(args[limitIndex + 1]) : Infinity;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -133,13 +134,16 @@ async function main() {
   const missing = entries.filter((x) => !existsSync(join(root, x.file)) || statSync(join(root, x.file)).size < 128);
   console.log(`${entries.length} unique Danish recordings; ${chars} characters; ${missing.length} files to create; ~${Math.ceil(missing.length * minIntervalMs / 60000)} minutes minimum.`);
   if (inventoryOnly) return;
+  const sample = sampleOnly ? entries.find((x) => x.sources.some((s) => s.kind === 'phrase')) : null;
+  const pending = sample ? missing.filter((x) => x.file === sample.file) : missing;
+  if (sample) console.log(`Sample sentence: ${sample.text}`);
   loadEnv(envIndex >= 0 ? args[envIndex + 1] : undefined);
   const key = process.env.AZURE_SPEECH_KEY;
   const region = process.env.AZURE_SPEECH_REGION;
   if (!key || !region || !/^[a-z0-9-]+$/.test(region)) throw new Error('Supply AZURE_SPEECH_KEY and AZURE_SPEECH_REGION, or pass --env path/to/secrets.env');
   if (process.env.AZURE_SPEECH_VOICE && process.env.AZURE_SPEECH_VOICE !== voice) console.log(`Using requested voice ${voice} (overrides AZURE_SPEECH_VOICE).`);
   let created = 0;
-  for (const item of missing.slice(0, maxNew)) {
+  for (const item of pending.slice(0, maxNew)) {
     const target = join(root, item.file);
     mkdirSync(dirname(target), { recursive: true });
     const bytes = await synthesize(item, key, region);
@@ -151,7 +155,7 @@ async function main() {
       rmSync(temp, { force: true });
     }
     created++;
-    if (created === 1 || created % 20 === 0 || created === missing.length) console.log(`Generated ${created}/${Math.min(missing.length, maxNew)} new; remaining ${missing.length - created}. Last: ${item.file}`);
+    if (created === 1 || created % 20 === 0 || created === pending.length) console.log(`Generated ${created}/${Math.min(pending.length, maxNew)} selected; remaining in book ${missing.length - created}. Last: ${item.file}`);
   }
   if (created < missing.length) {
     console.log('Partial run: resume with the same command. Manifest will be written when all files exist.');
