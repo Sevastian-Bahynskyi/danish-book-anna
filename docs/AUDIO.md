@@ -4,8 +4,9 @@ The audio source is the same `supabase/content/source.txt` and
 `supabase/content/extras.mjs` content that builds the book. This generator
 does not connect to, change, or deploy a database. It includes chapter names,
 all 305 phrases, each dialogue line, both displayed mistake examples,
-ready-made messages and their individual lines, all exercise options, every
+ready-made messages and their individual lines, Danish exercise options, every
 vocabulary entry, and the two short Danish phrases on the home/finish pages.
+Ukrainian exercise answers are excluded from Jeppe's Danish recordings.
 Repeated identical text uses one recording, with all occurrences listed in
 `audio/manifest.json`.
 
@@ -27,8 +28,8 @@ omit `--env`. Keep the secrets file **outside this repository**. Commit
 `audio/da/*.mp3`, `audio/state.json`, and `audio/manifest.json` after generation. The manifest is
 written only when the full current inventory exists. An interrupted run
 keeps completed MP3 files, skips verified files at the selected speed on rerun,
-and retries transient errors. `audio/state.json` records each file's
-speed and checksum.
+and retries transient errors, including an HTTP 200 response without valid MP3 audio.
+`audio/state.json` records each file's speed and checksum.
 Changed text creates a new filename; review and remove obsolete MP3 files
 after content edits.
 
