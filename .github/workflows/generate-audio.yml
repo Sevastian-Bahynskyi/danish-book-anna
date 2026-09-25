@@ -11,6 +11,16 @@ on:
         options:
           - sample
           - all
+      slowdown:
+        description: Jeppe speaking speed, percent slower than normal
+        required: true
+        default: '15'
+        type: choice
+        options:
+          - '10'
+          - '15'
+          - '20'
+          - '30'
 
 permissions:
   contents: write
@@ -44,7 +54,9 @@ jobs:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: northeurope
           MODE: ${{ inputs.mode }}
+          SLOWDOWN: ${{ inputs.slowdown }}
         run: |
+          export AZURE_SPEECH_RATE="-${SLOWDOWN}%"
           if [ "$MODE" = sample ]; then
             node scripts/generate-audio.mjs --sample
           else
