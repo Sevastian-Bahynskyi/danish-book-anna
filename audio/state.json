@@ -3,8 +3,8 @@
   "format": "audio-24khz-48kbitrate-mono-mp3",
   "files": {
     "audio/da/fb7a79180c6a1f2819e88753.mp3": {
-      "rate": "-15%",
-      "sha256": "625382a8db2210cd97160033853fbe04c3fdbd53b5be41ed7319030d7c01f4c0"
+      "rate": "-30%",
+      "sha256": "b95b20351ab3ba55a6a5bd8424f43a85d9f27119e5fd3cadc6d8a681fc27c8cd"
     }
   }
 }
