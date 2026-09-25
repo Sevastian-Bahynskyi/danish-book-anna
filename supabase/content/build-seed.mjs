@@ -73,7 +73,8 @@ for (const c of chapters) {
   out.push("insert into public.vocab (chapter_id, sort, da, ua) values " + x.vocab.map(([da, ua], i) => `(${c.id}, ${i + 1}, ${q(da)}, ${q(ua)})`).join(", ") + ";");
 }
 out.push("commit;");
-writeFileSync(new URL("../seed.sql", import.meta.url), out.join("\n") + "\n");
+// Inventory consumers can obtain the exact library without touching seed.sql.
+if (!process.argv.includes("--json-only")) writeFileSync(new URL("../seed.sql", import.meta.url), out.join("\n") + "\n");
 // Optional: node build-seed.mjs --json <file> writes the same content as JSON (used by UI tests).
 const jsonAt = process.argv.indexOf("--json");
 if (jsonAt > 0) writeFileSync(process.argv[jsonAt + 1], JSON.stringify(lib));
