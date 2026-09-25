@@ -12,7 +12,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const output = join(root, 'audio');
 const voice = 'da-DK-JeppeNeural';
 const format = 'audio-24khz-48kbitrate-mono-mp3';
-// Part of the recording identity: changing pace must generate new files.
+// The filename stays stable when this changes; recorded speed is tracked in state.json.
 const rate = process.env.AZURE_SPEECH_RATE || '0%';
 if (!['0%', '-10%', '-15%', '-20%', '-30%'].includes(rate)) {
   throw new Error('AZURE_SPEECH_RATE must be 0%, -10%, -15%, -20%, or -30%');
@@ -59,7 +59,7 @@ function catalog(lib) {
     const clean = normalize(text);
     if (!clean) return;
     // Preserve punctuation and case in the hash: these can affect pronunciation.
-    const key = hash(JSON.stringify([voice, format, rate, clean])).slice(0, 24);
+    const key = hash(JSON.stringify([voice, format, clean])).slice(0, 24);
     const existing = byText.get(clean);
     if (existing) existing.sources.push(source);
     else byText.set(clean, { text: clean, file: `audio/da/${key}.mp3`, sources: [source] });
@@ -88,6 +88,26 @@ function catalog(lib) {
 }
 
 let lastRequest = 0;
+function writeJson(target, data) {
+  mkdirSync(dirname(target), { recursive: true });
+  const temp = `${target}.tmp-${process.pid}`;
+  try {
+    writeFileSync(temp, JSON.stringify(data, null, 2) + '\n');
+    renameSync(temp, target);
+  } finally {
+    rmSync(temp, { force: true });
+  }
+}
+
+function removeOldSpeedFiles(item) {
+  // Clean up filenames written by earlier versions that included speed in the hash.
+  for (const oldRate of ['0%', '-10%', '-15%', '-20%', '-30%']) {
+    const oldKey = hash(JSON.stringify([voice, format, oldRate, item.text])).slice(0, 24);
+    const oldFile = join(output, 'da', `${oldKey}.mp3`);
+    if (oldFile !== join(root, item.file)) rmSync(oldFile, { force: true });
+  }
+}
+
 async function pace() {
   const wait = lastRequest + minIntervalMs - Date.now();
   if (wait > 0) await sleep(wait);
@@ -136,8 +156,19 @@ async function synthesize(item, key, region) {
 async function main() {
   const entries = catalog(library());
   const chars = entries.reduce((n, x) => n + x.text.length, 0);
-  const missing = entries.filter((x) => !existsSync(join(root, x.file)) || statSync(join(root, x.file)).size < 128);
-  console.log(`${entries.length} unique Danish recordings at ${rate}; ${chars} characters; ${missing.length} files to create; ~${Math.ceil(missing.length * minIntervalMs / 60000)} minutes minimum.`);
+  const statePath = join(output, 'state.json');
+  const manifestPath = join(output, 'manifest.json');
+  const previous = existsSync(statePath) ? JSON.parse(readFileSync(statePath, 'utf8')) : null;
+  const state = previous?.voice === voice && previous?.format === format && previous?.files && typeof previous.files === 'object'
+    ? previous : { voice, format, files: {} };
+  const isCurrent = (item) => {
+    const file = join(root, item.file);
+    const recorded = state.files[item.file];
+    return recorded?.rate === rate && existsSync(file) &&
+      statSync(file).size >= 128 && hash(readFileSync(file)) === recorded.sha256;
+  };
+  const missing = entries.filter((x) => !isCurrent(x));
+  console.log(`${entries.length} unique Danish recordings at ${rate}; ${chars} characters; ${missing.length} files to create or replace; ~${Math.ceil(missing.length * minIntervalMs / 60000)} minutes minimum.`);
   if (inventoryOnly) return;
   const sample = sampleOnly ? entries.find((x) => x.sources.some((s) => s.kind === 'phrase')) : null;
   const pending = sample ? missing.filter((x) => x.file === sample.file) : missing;
@@ -147,6 +178,8 @@ async function main() {
   const region = process.env.AZURE_SPEECH_REGION;
   if (!key || !region || !/^[a-z0-9-]+$/.test(region)) throw new Error('Supply AZURE_SPEECH_KEY and AZURE_SPEECH_REGION, or pass --env path/to/secrets.env');
   if (process.env.AZURE_SPEECH_VOICE && process.env.AZURE_SPEECH_VOICE !== voice) console.log(`Using requested voice ${voice} (overrides AZURE_SPEECH_VOICE).`);
+  // A previous manifest must not point at a partially replaced set of files.
+  if (missing.length) rmSync(manifestPath, { force: true });
   let created = 0;
   for (const item of pending.slice(0, maxNew)) {
     const target = join(root, item.file);
@@ -159,6 +192,9 @@ async function main() {
     } finally {
       rmSync(temp, { force: true });
     }
+    state.files[item.file] = { rate, sha256: hash(bytes) };
+    writeJson(statePath, state);
+    removeOldSpeedFiles(item);
     created++;
     if (created === 1 || created % 20 === 0 || created === pending.length) console.log(`Generated ${created}/${Math.min(pending.length, maxNew)} selected; remaining in book ${missing.length - created}. Last: ${item.file}`);
   }
@@ -166,12 +202,10 @@ async function main() {
     console.log('Partial run: resume with the same command. Manifest will be written when all files exist.');
     return;
   }
-  mkdirSync(output, { recursive: true });
+  if (!entries.every(isCurrent)) throw new Error('One or more audio files failed verification; rerun to replace them.');
+  for (const item of entries) removeOldSpeedFiles(item);
   const manifest = { voice, format, rate, entries };
-  const target = join(output, 'manifest.json');
-  const temp = `${target}.tmp-${process.pid}`;
-  writeFileSync(temp, JSON.stringify(manifest, null, 2) + '\n');
-  renameSync(temp, target);
+  writeJson(manifestPath, manifest);
   console.log(`Complete: ${entries.length} recordings indexed in audio/manifest.json`);
 }
 
