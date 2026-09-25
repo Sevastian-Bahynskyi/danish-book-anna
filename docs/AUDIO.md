@@ -24,9 +24,11 @@ node scripts/generate-audio.mjs --env /absolute/path/to/secrets.env
 
 Alternatively export `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` and
 omit `--env`. Keep the secrets file **outside this repository**. Commit
-`audio/da/*.mp3` and `audio/manifest.json` after generation. The manifest is
+`audio/da/*.mp3`, `audio/state.json`, and `audio/manifest.json` after generation. The manifest is
 written only when the full current inventory exists. An interrupted run
-keeps completed MP3 files, skips them on rerun, and retries transient errors.
+keeps completed MP3 files, skips verified files at the selected speed on rerun,
+and retries transient errors. `audio/state.json` records each file's
+speed and checksum.
 Changed text creates a new filename; review and remove obsolete MP3 files
 after content edits.
 
@@ -57,9 +59,12 @@ Playback and protected delivery can be designed separately.
    generates the remaining recordings,
    and commits the full `audio/manifest.json` index.
 
-Speed is included in each MP3's content hash and in the manifest. A later
-change to speed creates new files, leaving any old-speed MP3s for you to
-remove after reviewing the new recordings.
+Each sentence has a stable filename. Changing speed overwrites its MP3 at
+the same path, and the script tracks which files still need replacement in
+`audio/state.json`. During a partial replacement, the old manifest is
+removed. Once the entire library matches the chosen speed, it is written
+again. Files created by the earlier speed-specific naming scheme are removed
+as their replacements are generated.
 
 The workflow is registered on the repository's current default branch so
 GitHub displays its Run workflow button. It can only generate audio when
