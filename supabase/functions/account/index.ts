@@ -27,8 +27,9 @@ const admin = createClient(Deno.env.get("SUPABASE_URL")!, secretKey, {
 export function normalizePhone(raw: string): string {
   const s = String(raw ?? "").replace(/[^0-9+]/g, "");
   if (s.startsWith("+")) return "+" + s.slice(1).replace(/\+/g, "");
-  if (s.startsWith("00")) return "+" + s.slice(2);
+  // 8 digits is a Danish number, even one that starts with 00 (the test account).
   if (s.length === 8) return "+45" + s;
+  if (s.startsWith("00")) return "+" + s.slice(2);
   return "+" + s;
 }
 const validPhone = (p: string) => /^\+[0-9]{8,15}$/.test(p);
