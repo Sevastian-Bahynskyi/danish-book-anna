@@ -1,0 +1,1 @@
+Use the project-scoped `supabase` MCP server for Supabase work in this repository. Its project ref is `yojtljapcpcpqddukzxg` (`dansk-paa-arbejde`). Verify that ref before database or Storage writes; the Codex app's Supabase connector may be signed into a different account.

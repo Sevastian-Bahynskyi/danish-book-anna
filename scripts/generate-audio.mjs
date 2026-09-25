@@ -8,16 +8,13 @@ import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import grammar from '../client/src/content/grammar.json' with { type: 'json' };
+
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const output = join(root, 'audio');
 const voice = 'da-DK-JeppeNeural';
 const format = 'audio-24khz-48kbitrate-mono-mp3';
 // The filename stays stable when this changes; recorded speed is tracked in state.json.
-const rate = process.env.AZURE_SPEECH_RATE || '0%';
-if (!['0%', '-10%', '-15%', '-20%', '-30%'].includes(rate)) {
-  throw new Error('AZURE_SPEECH_RATE must be 0%, -10%, -15%, -20%, or -30%');
-}
-const minIntervalMs = 3500; // 17 starts/minute, with headroom below F0's 20/60s.
 const args = process.argv.slice(2);
 const inventoryOnly = args.includes('--inventory');
 const sampleOnly = args.includes('--sample');
@@ -36,10 +33,21 @@ function loadEnv(path) {
   if (!path) return;
   const raw = readFileSync(resolve(path), 'utf8');
   for (const line of raw.split(/\r?\n/)) {
-    const match = line.match(/^\s*(AZURE_SPEECH_KEY|AZURE_SPEECH_REGION|AZURE_SPEECH_VOICE)\s*=\s*(.*?)\s*$/);
-    if (match) process.env[match[1]] = match[2].replace(/^(['"])(.*)\1$/, '$2');
+    const match = line.match(/^\s*(AZURE_SPEECH_KEY|AZURE_SPEECH_REGION|AZURE_SPEECH_VOICE|AZURE_SPEECH_RATE)\s*=\s*(.*?)\s*$/);
+    // Values already in the environment (the workflow's inputs) win over the file.
+    if (match && !process.env[match[1]]) process.env[match[1]] = match[2].replace(/^(['"])(.*)\1$/, '$2');
   }
 }
+
+loadEnv(envIndex >= 0 ? args[envIndex + 1] : undefined);
+// The filename stays stable when this changes; recorded speed is tracked in state.json.
+const rate = process.env.AZURE_SPEECH_RATE || '0%';
+if (!['0%', '-10%', '-15%', '-20%', '-30%'].includes(rate)) {
+  throw new Error('AZURE_SPEECH_RATE must be 0%, -10%, -15%, -20%, or -30%');
+}
+// Standard (S0) tier allows 30 requests/second; stay at 20 with a few in flight.
+const minIntervalMs = 50;
+const concurrency = 8;
 
 function library() {
   const temp = mkdtempSync(join(tmpdir(), 'danish-audio-'));
@@ -84,11 +92,16 @@ function catalog(lib) {
   for (const x of lib.vocab) add(x.da, { kind: 'vocab', chapter_id: x.chapter_id, id: x.id });
   // This is Danish text in the app, outside the structured chapter library.
   add('Du gjorde det!', { kind: 'finish' });
+  // Grammar examples: the same **Danish**  + Ukrainian blocks that GrammarText plays.
+  for (const topic of grammar.topics) topic.body.split(/\n\s*\n/).forEach((block, index) => {
+    const match = block.trim().match(/^\*\*([^*\n]+)\*\*\s{2}\n([^\n]+)$/);
+    if (match && /[\u0400-\u052F]/u.test(match[2])) add(match[1], { kind: 'grammar_example', topic_id: topic.id, index });
+  });
   add('Hej!', { kind: 'home' });
   return [...byText.values()];
 }
 
-let lastRequest = 0;
+let nextSlot = 0;
 function writeJson(target, data) {
   mkdirSync(dirname(target), { recursive: true });
   const temp = `${target}.tmp-${process.pid}`;
@@ -110,9 +123,11 @@ function removeOldSpeedFiles(item) {
 }
 
 async function pace() {
-  const wait = lastRequest + minIntervalMs - Date.now();
+  // Reserve a start slot before waiting so parallel workers never share one; failed attempts count too.
+  const slot = Math.max(Date.now(), nextSlot);
+  nextSlot = slot + minIntervalMs;
+  const wait = slot - Date.now();
   if (wait > 0) await sleep(wait);
-  lastRequest = Date.now(); // count failed attempts too
 }
 
 async function synthesize(item, key, region) {
@@ -197,7 +212,6 @@ async function main() {
   const sample = sampleOnly ? entries.find((x) => x.sources.some((s) => s.kind === 'phrase')) : null;
   const pending = sample ? missing.filter((x) => x.file === sample.file) : missing;
   if (sample) console.log(`Sample sentence: ${sample.text}`);
-  loadEnv(envIndex >= 0 ? args[envIndex + 1] : undefined);
   const key = process.env.AZURE_SPEECH_KEY;
   const region = process.env.AZURE_SPEECH_REGION;
   if (!key || !region || !/^[a-z0-9-]+$/.test(region)) throw new Error('Supply AZURE_SPEECH_KEY and AZURE_SPEECH_REGION, or pass --env path/to/secrets.env');
@@ -205,7 +219,9 @@ async function main() {
   // A previous manifest must not point at a partially replaced set of files.
   if (missing.length) rmSync(manifestPath, { force: true });
   let created = 0;
-  for (const item of pending.slice(0, maxNew)) {
+  const queue = pending.slice(0, maxNew);
+  const total = queue.length;
+  const generate = async (item) => {
     const target = join(root, item.file);
     mkdirSync(dirname(target), { recursive: true });
     const bytes = await synthesize(item, key, region);
@@ -220,8 +236,11 @@ async function main() {
     writeJson(statePath, state);
     removeOldSpeedFiles(item);
     created++;
-    if (created === 1 || created % 20 === 0 || created === pending.length) console.log(`Generated ${created}/${Math.min(pending.length, maxNew)} selected; remaining in book ${missing.length - created}. Last: ${item.file}`);
-  }
+    if (created === 1 || created % 50 === 0 || created === total) console.log(`Generated ${created}/${total} selected; remaining in book ${missing.length - created}. Last: ${item.file}`);
+  };
+  await Promise.all(Array.from({ length: concurrency }, async () => {
+    for (let item = queue.shift(); item; item = queue.shift()) await generate(item);
+  }));
   if (created < missing.length) {
     console.log('Partial run: resume with the same command. Manifest will be written when all files exist.');
     return;

@@ -315,6 +315,16 @@
           "kind": "phrase",
           "chapter_id": 1,
           "id": 14
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.3",
+          "index": 9
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.9",
+          "index": 3
         }
       ]
     },
@@ -2065,6 +2075,11 @@
           "kind": "phrase",
           "chapter_id": 7,
           "id": 151
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.5",
+          "index": 3
         }
       ]
     },
@@ -3665,6 +3680,11 @@
           "kind": "phrase",
           "chapter_id": 12,
           "id": 289
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 3
         }
       ]
     },
@@ -3676,6 +3696,11 @@
           "kind": "phrase",
           "chapter_id": 12,
           "id": 290
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.9",
+          "index": 11
         }
       ]
     },
@@ -5645,6 +5670,11 @@
           "chapter_id": 2,
           "id": 5,
           "index": 2
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.3",
+          "index": 5
         }
       ]
     },
@@ -5981,6 +6011,11 @@
           "chapter_id": 8,
           "id": 29,
           "index": 2
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 5
         }
       ]
     },
@@ -7550,6 +7585,917 @@
       "sources": [
         {
           "kind": "finish"
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder i dag.",
+      "file": "audio/da/f40c68dd5a32a01f70142a62.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.1",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "I dag arbejder jeg.",
+      "file": "audio/da/a901100b10ac1e9c39a73aed.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.1",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "text": "I morgen arbejder jeg.",
+      "file": "audio/da/e51cb1f0c9fd39b6f1ecd062.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.1",
+          "index": 17
+        }
+      ]
+    },
+    {
+      "text": "I dag skal jeg på arbejde.",
+      "file": "audio/da/0eaa35a578bcfeb92a468d82.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.1",
+          "index": 18
+        }
+      ]
+    },
+    {
+      "text": "På fredag har jeg fri.",
+      "file": "audio/da/4f677cc26698757f92fc0e84.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.1",
+          "index": 19
+        }
+      ]
+    },
+    {
+      "text": "Næste uge starter jeg på arbejde.",
+      "file": "audio/da/ab5f2529073781692c1079b9.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.1",
+          "index": 20
+        }
+      ]
+    },
+    {
+      "text": "Efter arbejde tager jeg hjem.",
+      "file": "audio/da/f26598382e096f3e51b3a63c.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.1",
+          "index": 21
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.4",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder ikke i morgen.",
+      "file": "audio/da/077a5dd2c0f36dd042d9e8c0.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 2
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "text": "Jeg kommer ikke i dag.",
+      "file": "audio/da/7e763115fec96eb22ea13054.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan ikke komme.",
+      "file": "audio/da/11214f9d557c440d98d6ad2e.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "text": "I morgen arbejder jeg ikke.",
+      "file": "audio/da/6036fcc79956db8129640e37.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "text": "Jeg tror, at jeg ikke arbejder i morgen.",
+      "file": "audio/da/24737681bb46b6177753b8df.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "text": "Jeg kommer ikke, fordi jeg ikke har tid.",
+      "file": "audio/da/1eb44629fb8bce1b7e3bb718.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 16
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder altid om mandagen.",
+      "file": "audio/da/a3764c3c5f8c623e7b04d5b0.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 23
+        }
+      ]
+    },
+    {
+      "text": "Jeg kommer aldrig for sent.",
+      "file": "audio/da/4d074ddf228bfc7c9c89b5cc.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 24
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder ofte hjemme.",
+      "file": "audio/da/a713d9542a34ce4fa49df133.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 25
+        }
+      ]
+    },
+    {
+      "text": "Jeg ved, at hun altid kommer til tiden.",
+      "file": "audio/da/0b2172e9d12d4169f861420a.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.2",
+          "index": 26
+        }
+      ]
+    },
+    {
+      "text": "et arbejde",
+      "file": "audio/da/60ac5ddb9ded8e33d3408463.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.3",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "at arbejde → arbejder",
+      "file": "audio/da/7c059d61b5d41e1c3a91f937.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.4",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "at komme → kommer",
+      "file": "audio/da/1b4b55a1f13a0f83912d6802.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.4",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "at spise → spiser",
+      "file": "audio/da/a28ff531bf63e44d156601af.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.4",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "at skrive → skriver",
+      "file": "audio/da/67d0db635e889f1ad355d800.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.4",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Der er mange mennesker her.",
+      "file": "audio/da/60e67a8a769237086ba5e1e5.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.5",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Der er ikke mere kaffe.",
+      "file": "audio/da/0f9212ab974422e0cccce031.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.5",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "text": "Der er en fejl i systemet.",
+      "file": "audio/da/0a8c4adde3d63621e9cc8541.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.5",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder der.",
+      "file": "audio/da/ea9eeff0fe18be73b353a21e.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.5",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "text": "Vi bor der.",
+      "file": "audio/da/1b84452ef4018d15acb53cbb.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.5",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "text": "Jeg prøver at lære dansk.",
+      "file": "audio/da/8f1eeab5d34b536647d72ca3.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg håber at få et arbejde.",
+      "file": "audio/da/0d81ab5367b4a13806c49a0b.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne lære dansk.",
+      "file": "audio/da/c1361881b3d12f5a00b5ab67.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 4
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.9",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan hjælpe dig.",
+      "file": "audio/da/78bcb3651a7f7a3875a5425b.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "text": "Jeg skal arbejde i morgen.",
+      "file": "audio/da/ac54b56f423acbc3a40f56f4.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 7
+        },
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.9",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil lære dansk.",
+      "file": "audio/da/b61a5aeb41c4555608adeb0b.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "text": "Jeg må gå nu.",
+      "file": "audio/da/1534e05415fb6e1d9be9b795.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "text": "Jeg ved, at du arbejder i morgen.",
+      "file": "audio/da/4a5b91bead12553f86295d24.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "text": "Hun siger, at hun er syg.",
+      "file": "audio/da/d6b4c115372720dfc75e7294.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "text": "Jeg tror, at han kommer senere.",
+      "file": "audio/da/0af20719ab7c7e91c7b91698.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.6",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "text": "Manden hjælper kvinden.",
+      "file": "audio/da/36e65b8077a2e865c7c2888a.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.7",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Kvinden hjælper manden.",
+      "file": "audio/da/3cc1e8f46c53ac3ea1457d93.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "13.7",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Anna taler med sin chef.",
+      "file": "audio/da/70945a68d41398f77c0b7e42.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.1",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Anna taler med hendes chef.",
+      "file": "audio/da/2c323a9ace82979e147dfa84.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.1",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "min bil",
+      "file": "audio/da/c839eec78014091794c9bde3.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.2",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "text": "Jeg bor i Danmark.",
+      "file": "audio/da/3cc545b76883775648c22ba8.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.3",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder i Aarhus.",
+      "file": "audio/da/b76056e42865d24482b48a1b.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.3",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Jeg er på kontoret.",
+      "file": "audio/da/d047474b280641a5ac7ffc59.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.3",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder på en skole.",
+      "file": "audio/da/1ce9693bd5eabdad3033b70c.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.3",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "text": "Jeg tager til Aarhus.",
+      "file": "audio/da/8b6214be158f6cdce5e9ab85.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.3",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "text": "Vi taler om arbejdet.",
+      "file": "audio/da/f527c25bdfe469c280d84ebf.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.3",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "text": "Filmen handler om en familie.",
+      "file": "audio/da/dc10c41ba3e17981a413b5e5.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.3",
+          "index": 13
+        }
+      ]
+    },
+    {
+      "text": "Efter mødet går jeg hjem.",
+      "file": "audio/da/5aee236de6c57e7f7a43aa50.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.4",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Vi spiser først. Derefter går vi hjem.",
+      "file": "audio/da/6a3444c4755123cbf60ac6ab.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.4",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "text": "Jeg arbejder først, og bagefter tager jeg hjem.",
+      "file": "audio/da/3830245d966c79776337b724.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.4",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "text": "Jeg kommer lige om lidt.",
+      "file": "audio/da/46aec27860701116248a3c33.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.5",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Jeg skal lige spørge dig.",
+      "file": "audio/da/2d380e39b2a100e07a0c992a.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.5",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg skal lige hente min jakke.",
+      "file": "audio/da/42934ebc08dec58b08fb3486.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.5",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Jeg har lige været på arbejde.",
+      "file": "audio/da/9b2c85121fce2a496363b2d4.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.5",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Manden, der arbejder her, er min chef.",
+      "file": "audio/da/1cc95b7838048488b5a33a53.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.6",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Bogen, som jeg læser, er interessant.",
+      "file": "audio/da/7ad93e7af47c8f4998505d56.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.6",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "text": "Jeg har spist.",
+      "file": "audio/da/5f14b8fea54ffa460573add0.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.7",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "text": "Jeg har arbejdet.",
+      "file": "audio/da/2e354da79adacf718f908443.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.7",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Jeg har skrevet en besked.",
+      "file": "audio/da/4b2b4b5371645ca0b3394022.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.7",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Jeg er kommet.",
+      "file": "audio/da/bb57ff28165975a52aee29de.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.7",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "text": "Jeg er gået hjem.",
+      "file": "audio/da/c9a24f3da3160f11f04a01d5.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.7",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "text": "Hun er rejst til Danmark.",
+      "file": "audio/da/d8b7f2b68c09d538d842edf2.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.7",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "text": "Chefen sender beskeden.",
+      "file": "audio/da/511efbdceae8acd147c7c5fb.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.8",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "text": "Beskeden bliver sendt.",
+      "file": "audio/da/511393f641941710e9049b82.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.8",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Døren bliver åbnet.",
+      "file": "audio/da/a7be08c2756e2bd80a734359.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.8",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "text": "Beskeden bliver sendt i morgen.",
+      "file": "audio/da/9618bcd296c14e6ed706db03.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.8",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "text": "Maden bliver lavet i køkkenet.",
+      "file": "audio/da/ca79a33241208f92ef79be41.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.8",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "text": "Døren åbnes kl. 8.",
+      "file": "audio/da/a15c26e622d0e30b6641da31.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.8",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "text": "Der betales med kort.",
+      "file": "audio/da/5dfe69a07567696be3bd2875.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.8",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "text": "Jeg vil gerne have en kaffe.",
+      "file": "audio/da/25807da365353b3412cc5d9a.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.9",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "text": "Jeg kan tale dansk.",
+      "file": "audio/da/1ed60bfa5bb43a0939bded4a.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.9",
+          "index": 10
+        }
+      ]
+    },
+    {
+      "text": "Må jeg komme ind?",
+      "file": "audio/da/e883c954f23db94a44becda8.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.9",
+          "index": 14
+        }
+      ]
+    },
+    {
+      "text": "Du må ikke parkere her.",
+      "file": "audio/da/1807ad460948ae2d77a8cc4e.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.9",
+          "index": 15
+        }
+      ]
+    },
+    {
+      "text": "Jeg har arbejdet hele dagen.",
+      "file": "audio/da/cce664ae32c75de3f6495c1f.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.10",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "text": "Jeg har skrevet en mail.",
+      "file": "audio/da/f0095b19fa7db8a76af6ae8e.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.10",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "text": "Jeg er kommet på arbejde.",
+      "file": "audio/da/e7fa13d15f4faa16e0ddcb3b.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.10",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "text": "Maden bliver lavet nu.",
+      "file": "audio/da/e1b42f9449e718d3f5a7e359.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.10",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "text": "Beskeden bliver sendt senere.",
+      "file": "audio/da/b504243e02f4370a468b3c78.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.10",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "text": "tænke på",
+      "file": "audio/da/68f41c3757a3e17e42c86748.mp3",
+      "sources": [
+        {
+          "kind": "grammar_example",
+          "topic_id": "14.11",
+          "index": 0
         }
       ]
     },

@@ -10,7 +10,10 @@ const state = JSON.parse(await readFile(join(root, 'audio', 'state.json'), 'utf8
 const envPath = join(root, 'client', '.env');
 const envText = await readFile(envPath, 'utf8');
 const url = envText.match(/^EXPO_PUBLIC_SUPABASE_URL=(.+)$/m)?.[1]?.trim();
-const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+// Locally the key can live in the gitignored secrets.env; CI passes it as an environment variable.
+const secrets = await readFile(join(root, 'secrets.env'), 'utf8').catch(() => '');
+const key = process.env.SUPABASE_SERVICE_ROLE_KEY ||
+  secrets.match(/^\s*SUPABASE_SERVICE_ROLE_KEY\s*=\s*['"]?([^'"\s]+)['"]?\s*$/m)?.[1];
 
 if (!url || !url.includes('yojtljapcpcpqddukzxg.supabase.co')) {
   throw new Error('The configured Supabase URL does not match the expected project.');

@@ -8,6 +8,12 @@ const FORMAT = 'audio-24khz-48kbitrate-mono-mp3';
 let player: ReturnType<typeof createAudioPlayer> | null = null;
 let currentUrl: string | null = null;
 
+export function stopDanishAudio(): void {
+  player?.remove();
+  player = null;
+  currentUrl = null;
+}
+
 export async function playDanishAudio(text: string): Promise<void> {
   const normalized = text.normalize('NFC').replace(/\s+/g, ' ').trim();
   const hash = await Crypto.digestStringAsync(

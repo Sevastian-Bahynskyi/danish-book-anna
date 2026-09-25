@@ -1,5 +1,5 @@
 import { Link, type Href } from 'expo-router';
-import { BookOpenTextIcon, CaretRightIcon, CircleHalfIcon, DeviceMobileIcon, FlowerIcon, MoonIcon, ShieldCheckIcon, SignOutIcon, SunIcon } from 'phosphor-react-native';
+import { BookOpenTextIcon, CaretRightIcon, CircleHalfIcon, DeviceMobileIcon, FlowerIcon, MoonIcon, ShieldCheckIcon, SignOutIcon, SunIcon, TextAlignLeftIcon } from 'phosphor-react-native';
 import { Text, View } from 'react-native';
 
 import { Screen, Section } from '@/components/Screen';
@@ -111,6 +111,8 @@ export default function More() {
       </Section>
       <Section>
         <View style={{ borderRadius: radius.card, overflow: 'hidden', borderWidth: 1, borderColor: c.line, maxWidth: 560 }}>
+          <Row icon={TextAlignLeftIcon} label="Граматика простими словами" href="/grammar" />
+          <View style={{ height: 1, backgroundColor: c.line, marginLeft: 50 }} />
           <Row icon={BookOpenTextIcon} label="Про Анну і як користуватися" href="/about" />
           <View style={{ height: 1, backgroundColor: c.line, marginLeft: 50 }} />
           <Row icon={FlowerIcon} label="Фінальна сторінка" href="/finish" />

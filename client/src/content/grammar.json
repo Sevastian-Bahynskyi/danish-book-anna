@@ -1,0 +1,309 @@
+{
+  "intro": "# Як користуватися цим розділом\n\nВи вже знаєте певну кількість данських слів. Але іноді проблема не в словах.\n\nВи бачите речення і думаєте:\n\n> «Я знаю всі ці слова. Але чому вони стоять саме в такому порядку?»\n\nАбо:\n\n> «Чому тут є **at**, а тут його немає?»\n\n> «Чому тут **sin**, а не **hans**?»\n\n> «Чому кажуть **I dag arbejder jeg**, а не **I dag jeg arbejder**?»\n\n> «Чому тут **har**, а тут **er**?»\n\nСаме для таких ситуацій створений цей розділ.\n\nТут ми не намагаємося пояснити всю граматику данської мови. Ми розбираємо ті конструкції, які ви найчастіше бачите, чуєте та використовуєте в повсякденному житті й на роботі.\n\n### Формат кожної теми\n\n**Що це?** — коротке пояснення простими словами.  \n**Подивіться на приклад** — данське речення + український переклад.  \n**Чому саме так?** — пояснення логіки.  \n**⚠️ Типова помилка** — неправильний → правильний варіант.  \n**💡 Запам'ятайте** — одна коротка думка.  \n**✏️ Спробуйте самі** — коротке інтерактивне завдання.",
+  "chapters": [
+    {
+      "id": 13,
+      "title": "Як будувати речення данською",
+      "intro": "## Вступ\n\nОдне з найважливіших правил данської мови:\n\n**у данській важливий не тільки сам словниковий запас, а й порядок слів.**\n\nВ українській ми часто можемо змінювати порядок слів, не змінюючи основного значення речення.\n\nУ данській порядок слів набагато важливіший.\n\nТому перше, що варто зрозуміти:\n\n> **Я знаю слова ≠ я знаю, як побудувати речення.**"
+    },
+    {
+      "id": 14,
+      "title": "Маленькі слова, які постійно плутають",
+      "intro": "---"
+    }
+  ],
+  "topics": [
+    {
+      "id": "13.1",
+      "title": "Ordstilling — порядок слів",
+      "body": "## Що це?\n\n**Ordstilling** означає порядок слів у реченні.\n\nУ звичайному данському головному реченні дієслово займає **друге місце в реченні — другий елемент**. Це називають **V2-reglen**.\n\n### Простий приклад\n\n**Jeg arbejder i dag.**  \nЯ працюю сьогодні.\n\nТут:\n\n**Jeg** → перший елемент  \n**arbejder** → другий елемент\n\nАле першим елементом може бути не тільки людина.\n\n### Якщо ми починаємо з часу:\n\n**I dag arbejder jeg.**  \nСьогодні я працюю.\n\nТут:\n\n**I dag** → перший елемент  \n**arbejder** → другий елемент  \n**jeg** → після дієслова\n\nТому:\n\n❌ **I dag jeg arbejder.**\n\n✅ **I dag arbejder jeg.**\n\n---\n\n## Час на початку речення\n\n**I morgen arbejder jeg.**  \nЗавтра я працюю.\n\n**I dag skal jeg på arbejde.**  \nСьогодні я йду на роботу.\n\n**På fredag har jeg fri.**  \nУ п'ятницю я вихідна.\n\n**Næste uge starter jeg på arbejde.**  \nНаступного тижня я починаю працювати.\n\n**Efter arbejde tager jeg hjem.**  \nПісля роботи я йду додому.\n\n### Схема\n\nЯкщо підмет стоїть на початку:\n\n**SUBJEKT + VERBUM + ...**\n\n> Jeg arbejder i dag.\n\nЯкщо на початку стоїть час / місце / інший елемент:\n\n**FØRSTE LED + VERBUM + SUBJEKT + ...**\n\n> I dag arbejder jeg.\n\n> På mandag starter jeg.\n\n> På arbejdet møder jeg min chef.\n\n### ⚠️ Типові помилки\n\n❌ I morgen jeg skal arbejde.  \n✅ I morgen skal jeg arbejde.\n\n❌ På mandag jeg arbejder hjemme.  \n✅ På mandag arbejder jeg hjemme.\n\n### 💡 Запам'ятайте\n\nНе думайте: «друге слово = дієслово».\n\nДумайте:\n\n> **«Другий елемент = дієслово».**\n\nТому **I dag** може бути одним першим елементом, навіть якщо це два слова.\n\n### ✏️ Спробуйте\n\nПоставте слова в правильному порядку:\n\n1. i morgen / arbejder / jeg\n2. i dag / skal / jeg / på arbejde\n3. på fredag / har / jeg / fri\n4. næste uge / starter / hun / på arbejde",
+      "answers": "1. I morgen arbejder jeg.  \n2. I dag skal jeg på arbejde.  \n3. På fredag har jeg fri.  \n4. Næste uge starter hun på arbejde."
+    },
+    {
+      "id": "13.2",
+      "title": "Ikke — де ставити «не»?",
+      "body": "**Ikke = не.**\n\nУ простому головному реченні **ikke** зазвичай стоїть після дієслова.\n\n**Jeg arbejder ikke i morgen.**  \nЯ не працюю завтра.\n\n**Jeg forstår ikke.**  \nЯ не розумію.\n\n**Jeg kommer ikke i dag.**  \nЯ не прийду сьогодні.\n\n**Jeg har ikke tid.**  \nУ мене немає часу.\n\n**Jeg kan ikke komme.**  \nЯ не можу прийти.\n\nЯкщо речення починається з часу, пам'ятаємо V2:\n\n**I morgen arbejder jeg ikke.**  \nЗавтра я не працюю.\n\nНе:\n\n❌ I morgen jeg arbejder ikke.\n\n---\n\n## Ikke у підрядному реченні\n\nПісля **at, fordi, hvis, når, selvom** та інших сполучників **ikke** зазвичай стоїть перед повнозначним дієсловом.\n\n**Jeg arbejder ikke i morgen.**  \nЯ не працюю завтра.\n\n**Jeg tror, at jeg ikke arbejder i morgen.**  \nЯ думаю, що завтра я не працюю.\n\n**Jeg kommer ikke, fordi jeg ikke har tid.**  \nЯ не прийду, тому що в мене немає часу.\n\n### Схема\n\n**Головне:** Jeg + VERBUM + ikke\n\n> Jeg arbejder ikke.\n\n**Підрядне:** at + jeg + ikke + VERBUM\n\n> at jeg ikke arbejder\n\nПодібне розташування часто мають **altid, aldrig, ofte, tit, også, kun**.\n\n**Jeg arbejder altid om mandagen.**  \nЯ завжди працюю по понеділках.\n\n**Jeg kommer aldrig for sent.**  \nЯ ніколи не запізнююся.\n\n**Jeg arbejder ofte hjemme.**  \nЯ часто працюю вдома.\n\n**Jeg ved, at hun altid kommer til tiden.**  \nЯ знаю, що вона завжди приходить вчасно.\n\n### ✏️ Спробуйте\n\n1. A. Jeg ikke arbejder i morgen. / B. Jeg arbejder ikke i morgen.\n2. A. Jeg tror, at jeg ikke arbejder i morgen. / B. Jeg tror, at jeg arbejder ikke i morgen.\n3. A. I morgen arbejder jeg ikke. / B. I morgen jeg arbejder ikke.",
+      "answers": "1B, 2A, 3A."
+    },
+    {
+      "id": "13.3",
+      "title": "En eller et — чому іноді en, а іноді et?",
+      "body": "**et arbejde**  \nробота\n\nУ данській іменники мають два граматичні роди:\n\n**en-ord** та **et-ord**.\n\n**en bil** — автомобіль  \n**en kollega** — колега  \n**en arbejdsplads** — робоче місце  \n**et arbejde** — робота  \n**et møde** — зустріч  \n**et problem** — проблема\n\n### Чому це важливо?\n\n**en stor bil** — великий автомобіль  \n**et stort hus** — великий будинок  \n**en ny arbejdsplads** — нове робоче місце  \n**et nyt arbejde** — нова робота  \n**en god kollega** — хороший колега  \n**et godt møde** — хороша зустріч\n\nНе існує простого правила, яке дозволяє завжди вгадати en або et. Тому краще вчити слово разом з артиклем.\n\nНе: **arbejde**  \nА: **et arbejde**\n\nНе: **arbejdsplads**  \nА: **en arbejdsplads**\n\n### 💡 Запам'ятайте\n\n**en bil**, а не просто **bil**.  \n**et arbejde**, а не просто **arbejde**.\n\n### ✏️ Вправа\n\n1. ___ arbejde\n2. ___ bil\n3. ___ møde\n4. ___ kollega\n5. ___ problem\n6. ___ arbejdsplads",
+      "answers": "et, en, et, en, et, en."
+    },
+    {
+      "id": "13.4",
+      "title": "Nutids-r — закінчення -r у теперішньому часі",
+      "body": "У теперішньому часі (**nutid / præsens**) багато дієслів мають закінчення **-r**.\n\n**at arbejde → arbejder**  \nпрацювати → працюю / працює\n\n**at komme → kommer**  \nприходити → приходжу / приходить\n\n**at spise → spiser**  \nїсти → їм / їсть\n\n**at skrive → skriver**  \nписати → пишу / пише\n\n### Одна форма для різних осіб\n\n**Jeg arbejder.** — Я працюю.  \n**Du arbejder.** — Ти працюєш.  \n**Han arbejder.** — Він працює.  \n**Vi arbejder.** — Ми працюємо.  \n**De arbejder.** — Вони працюють.\n\n### ⚠️ Типова помилка\n\n❌ Jeg arbejde hver dag.  \n✅ Jeg arbejder hver dag.\n\n❌ Hun arbejde i Aarhus.  \n✅ Hun arbejder i Aarhus.\n\nНе всі дієслова утворюють форму просто додаванням -r:\n\n**at være → er**  \n**at have → har**  \n**at gå → går**  \n**at bo → bor**\n\nТому корисно вчити дієслово разом із формою теперішнього часу.\n\n### ✏️ Вправа\n\n1. Jeg arbejde / arbejder i Aarhus.\n2. Hun komme / kommer klokken otte.\n3. Vi bo / bor i Danmark.\n4. Jeg være / er på arbejde.\n5. Han have / har fri i dag.",
+      "answers": "arbejder, kommer, bor, er, har."
+    },
+    {
+      "id": "13.5",
+      "title": "Der — «є», «там» та інші значення",
+      "body": "Одна з найважливіших конструкцій:\n\n**Der er ...**\n\nЇї часто можна зрозуміти як «є / знаходиться».\n\n**Der er et problem.**  \nЄ проблема.\n\n**Der er mange mennesker her.**  \nТут багато людей.\n\n**Der er ikke mere kaffe.**  \nБільше немає кави.\n\n**Der er en fejl i systemet.**  \nУ системі є помилка.\n\nНе потрібно перекладати **der** окремо в кожному реченні.\n\nАле **der** може означати і «там»:\n\n**Jeg arbejder der.**  \nЯ працюю там.\n\n**Vi bor der.**  \nМи живемо там.\n\n### ✏️ Спробуйте\n\n1. Der er en café her.  \nA. є  \nB. завжди «там»\n\n2. Jeg arbejder der.  \nA. є  \nB. там",
+      "answers": "1A, 2B."
+    },
+    {
+      "id": "13.6",
+      "title": "At — коли воно потрібне?",
+      "body": "**At** використовується в різних конструкціях.\n\n## At + infinitiv\n\n**Jeg prøver at lære dansk.**  \nЯ намагаюся вивчати данську.\n\n**Jeg håber at få et arbejde.**  \nЯ сподіваюся отримати роботу.\n\n**Jeg vil gerne lære dansk.**  \nЯ хочу вивчити данську.\n\n## Після kan / skal / vil / må — без at\n\n**Jeg kan hjælpe dig.**  \nЯ можу тобі допомогти.\n\n**Jeg skal arbejde i morgen.**  \nЯ маю працювати завтра.\n\n**Jeg vil lære dansk.**  \nЯ хочу вивчити данську.\n\n**Jeg må gå nu.**  \nМені потрібно / можна зараз піти.\n\nНе:\n\n❌ Jeg kan at hjælpe dig.  \n❌ Jeg skal at arbejde.  \n❌ Jeg vil at lære dansk.\n\n## At = «що»\n\n**Jeg ved, at du arbejder i morgen.**  \nЯ знаю, що ти працюєш завтра.\n\n**Hun siger, at hun er syg.**  \nВона каже, що вона хвора.\n\n**Jeg tror, at han kommer senere.**  \nЯ думаю, що він прийде пізніше.\n\n### ✏️ Вправа\n\n1. Jeg prøver ___ lære dansk.\n2. Jeg kan ___ hjælpe dig.\n3. Jeg håber ___ få et arbejde.\n4. Jeg skal ___ arbejde i morgen.\n5. Jeg ved, ___ du arbejder i morgen.",
+      "answers": "at, —, at, —, at."
+    },
+    {
+      "id": "13.7",
+      "title": "Немає відмінків як в українській — чому порядок слів важливий?",
+      "body": "Для україномовних це особливо важливо.\n\nВ українській закінчення слів часто показують, яку роль слово виконує в реченні.\n\nУ данській значно більшу роль відіграє порядок слів.\n\n**Manden hjælper kvinden.**  \nЧоловік допомагає жінці.\n\n**Kvinden hjælper manden.**  \nЖінка допомагає чоловікові.\n\nСлова майже ті самі. Змінилося їхнє місце — змінилося значення.\n\nТому в данській потрібно знати не тільки слова, а й те, **де вони стоять у реченні**.",
+      "answers": ""
+    },
+    {
+      "id": "14.1",
+      "title": "Sin / sit / sine — «свій»",
+      "body": "**Sin / sit / sine** використовуються, коли річ належить саме підмету речення.\n\n**Anna taler med sin chef.**  \nАнна розмовляє зі своїм начальником.\n\n**Anna taler med hendes chef.**  \nАнна розмовляє з її начальником.\n\nУ другому реченні **hendes** стосується іншої жінки.\n\n### Форма залежить від слова\n\n**sin + en-слово**\n\n> sin bil  \n> sin chef\n\n**sit + et-слово**\n\n> sit arbejde  \n> sit møde\n\n**sine + множина**\n\n> sine kolleger  \n> sine børn\n\n### 💡 Просте питання\n\n> **«Це належить підмету речення?»**\n\nЯкщо так: **sin / sit / sine**.\n\nЯкщо іншій людині: **hans / hendes / deres**.\n\n### ✏️ Вправа\n\n1. Anna tager ___ jakke. (її власна)\n2. Anna taler med ___ chef. (іншої жінки)\n3. Peter finder ___ nøgle. (його власний)",
+      "answers": "sin, hendes, sin."
+    },
+    {
+      "id": "14.2",
+      "title": "Min / mit / mine та din / dit / dine",
+      "body": "**min bil**  \nмоя машина\n\nФорма залежить від en, et або множини.\n\n**min bil** — моя машина  \n**min kollega** — мій колега\n\n**mit arbejde** — моя робота  \n**mit møde** — моя зустріч\n\n**mine kolleger** — мої колеги  \n**mine børn** — мої діти\n\nТак само:\n\n**din bil**  \n**dit arbejde**  \n**dine kolleger**\n\n### Формула\n\n**en → min / din**\n\n**et → mit / dit**\n\n**flertal → mine / dine**",
+      "answers": ""
+    },
+    {
+      "id": "14.3",
+      "title": "Præpositioner — i, på, til, om, for, ved",
+      "body": "Прийменники не завжди можна перекласти слово в слово. Тому краще вчити готові словосполучення.\n\n### I\n\n**Jeg bor i Danmark.**  \nЯ живу в Данії.\n\n**Jeg arbejder i Aarhus.**  \nЯ працюю в Орхусі.\n\n### På\n\n**Jeg er på arbejde.**  \nЯ на роботі.\n\n**Jeg er på kontoret.**  \nЯ в офісі.\n\n**Jeg arbejder på en skole.**  \nЯ працюю в школі.\n\n### Til\n\n**Jeg skal til lægen.**  \nЯ йду до лікаря.\n\n**Jeg tager til Aarhus.**  \nЯ їду до Орхуса.\n\n### Om\n\n**Vi taler om arbejdet.**  \nМи говоримо про роботу.\n\n**Filmen handler om en familie.**  \nФільм розповідає про сім'ю.\n\n### Вчіть конструкції\n\n**tænke på** — думати про  \n**vente på** — чекати на  \n**tale med** — розмовляти з  \n**lytte til** — слухати  \n**spørge om** — запитувати про  \n**være god til** — бути хорошим у чомусь\n\n### ✏️ Вправа\n\n1. Jeg bor ___ Danmark.\n2. Jeg er ___ arbejde.\n3. Jeg skal ___ lægen.\n4. Vi taler ___ arbejdet.\n5. Jeg venter ___ bussen.",
+      "answers": "i, på, til, om, på."
+    },
+    {
+      "id": "14.4",
+      "title": "Efter / derefter / bagefter",
+      "body": "### Efter\n\nЧасто означає «після» і стоїть перед іменником або іншою конструкцією.\n\n**Efter arbejde tager jeg hjem.**  \nПісля роботи я йду додому.\n\n**Efter mødet går jeg hjem.**  \nПісля зустрічі я йду додому.\n\n### Derefter\n\n= після цього / потім\n\n**Vi spiser først. Derefter går vi hjem.**  \nМи спочатку їмо. Після цього йдемо додому.\n\n### Bagefter\n\n= потім / після цього\n\n**Jeg arbejder først, og bagefter tager jeg hjem.**  \nСпочатку я працюю, а потім іду додому.\n\n### 💡 Запам'ятайте\n\n**efter + щось**\n\n> efter arbejde\n\n**derefter / bagefter = що відбувається потім**",
+      "answers": ""
+    },
+    {
+      "id": "14.5",
+      "title": "Lige — маленьке слово з багатьма значеннями",
+      "body": "**Lige** дуже часто зустрічається в живій данській.\n\n**Jeg kommer lige om lidt.**  \nЯ зараз прийду.\n\n**Jeg skal lige spørge dig.**  \nЯ зараз тільки хочу тебе дещо запитати.\n\n**Jeg skal lige hente min jakke.**  \nЯ зараз тільки заберу свою куртку.\n\n**Jeg har lige været på arbejde.**  \nЯ щойно була на роботі.\n\nНе намагайтеся щоразу перекладати **lige** одним словом. Дивіться на всю фразу.",
+      "answers": ""
+    },
+    {
+      "id": "14.6",
+      "title": "Der / som — «який / яка / що»",
+      "body": "## Der\n\nКоли «який» сам виконує дію:\n\n**Manden, der arbejder her, er min chef.**  \nЧоловік, який працює тут, — мій начальник.\n\nМожна подумати:\n\n> Manden arbejder her.\n\n## Som\n\nКоли дія направлена на того/те, про кого говоримо:\n\n**Bogen, som jeg læser, er interessant.**  \nКнига, яку я читаю, цікава.\n\nМожна подумати:\n\n> Jeg læser bogen.\n\n### Простий орієнтир\n\n**der + дієслово**\n\n> Manden, der arbejder...\n\n**som + підмет + дієслово**\n\n> Bogen, som jeg læser...\n\nЦе орієнтир для початку, а не абсолютне правило для всіх можливих конструкцій.",
+      "answers": ""
+    },
+    {
+      "id": "14.7",
+      "title": "Perfektum — har / er + форма дієслова",
+      "body": "Це конструкція для дій, які вже відбулися.\n\n### Har\n\n**Jeg har spist.**  \nЯ поїла.\n\n**Jeg har arbejdet.**  \nЯ працювала.\n\n**Jeg har skrevet en besked.**  \nЯ написала повідомлення.\n\n### Er\n\nЗ деякими дієсловами:\n\n**Jeg er kommet.**  \nЯ прийшла.\n\n**Jeg er gået hjem.**  \nЯ пішла додому.\n\n**Hun er rejst til Danmark.**  \nВона поїхала до Данії.\n\n### Не потрібно вчити все одразу\n\nЗапам'ятовуйте готові конструкції:\n\n**har arbejdet**  \n**har spist**  \n**har skrevet**  \n**har været**  \n**er kommet**  \n**er gået**",
+      "answers": ""
+    },
+    {
+      "id": "14.8",
+      "title": "Passiv — коли важлива дія, а не людина",
+      "body": "Порівняйте:\n\n**Chefen sender beskeden.**  \nНачальник надсилає повідомлення.\n\nТут важливий той, хто виконує дію.\n\n**Beskeden bliver sendt.**  \nПовідомлення надсилається / повідомлення відправляють.\n\nТут важливий сам об'єкт.\n\n### Blive-passiv\n\n**Døren bliver åbnet.**  \nДвері відчиняють / двері відчиняються.\n\n**Beskeden bliver sendt i morgen.**  \nПовідомлення буде надіслано завтра.\n\n**Maden bliver lavet i køkkenet.**  \nЇжу готують на кухні.\n\n### -s-passiv\n\n**Døren åbnes kl. 8.**  \nДвері відчиняються о 8.\n\n**Der betales med kort.**  \nОплата здійснюється карткою.\n\nТакі конструкції особливо часто зустрічаються в правилах, інструкціях, оголошеннях та офіційній мові.",
+      "answers": ""
+    },
+    {
+      "id": "14.9",
+      "title": "Skal / vil / kan / må",
+      "body": "## Skal\n\nПлан, необхідність або те, що має відбутися.\n\n**Jeg skal arbejde i morgen.**  \nЯ маю працювати завтра.\n\n**Jeg skal til lægen.**  \nЯ йду до лікаря.\n\n## Vil\n\nБажання або намір.\n\n**Jeg vil gerne lære dansk.**  \nЯ хочу вивчити данську.\n\n**Jeg vil gerne have en kaffe.**  \nЯ хотіла б каву.\n\n## Kan\n\nМожу / вмію.\n\n**Jeg kan tale dansk.**  \nЯ вмію говорити данською.\n\n**Kan du hjælpe mig?**  \nТи можеш мені допомогти?\n\n## Må\n\nДозвіл або необхідність залежно від контексту.\n\n**Må jeg komme ind?**  \nМожна я зайду?\n\n**Du må ikke parkere her.**  \nТут не можна паркуватися.\n\n### Важливо\n\nПісля **skal / vil / kan / må** наступне дієслово йде без **at**:\n\n**Jeg skal arbejde.**\n\n**Jeg vil lære dansk.**\n\n**Jeg kan hjælpe dig.**\n\n**Jeg må gå nu.**",
+      "answers": ""
+    },
+    {
+      "id": "14.10",
+      "title": "Kort tillægsform — форми, які ви постійно бачите",
+      "body": "Ви часто зустрічатимете:\n\n**arbejdet, spist, skrevet, kommet, gået, lavet, sendt**\n\nВони можуть використовуватися в різних конструкціях.\n\n**Jeg har arbejdet hele dagen.**  \nЯ працювала весь день.\n\n**Jeg har skrevet en mail.**  \nЯ написала електронного листа.\n\n**Jeg er kommet på arbejde.**  \nЯ прийшла на роботу.\n\n**Maden bliver lavet nu.**  \nЇжу зараз готують.\n\n**Beskeden bliver sendt senere.**  \nПовідомлення буде надіслано пізніше.",
+      "answers": ""
+    },
+    {
+      "id": "14.11",
+      "title": "Прийменники краще вчити разом із дієсловом",
+      "body": "**tænke på**  \nдумати про\n\nНе вчіть тільки:\n\n> tænke = думати\n\nВчіть:\n\n> **tænke på = думати про**\n\nНе тільки:\n\n> vente = чекати\n\nА:\n\n> **vente på = чекати на**\n\nНе тільки:\n\n> lytte = слухати\n\nА:\n\n> **lytte til = слухати**\n\nЦе особливо важливо для розмовної данської.",
+      "answers": ""
+    }
+  ],
+  "extras": {
+    "ФІНАЛЬНА ШПАРГАЛКА": "**Якщо речення починається з часу:**\n\n> I morgen arbejder jeg.\n\n**Якщо хочете сказати «не»:**\n\n> Jeg arbejder ikke.\n\n**Якщо є підрядне речення:**\n\n> Jeg tror, at jeg ikke arbejder.\n\n**Якщо це en-слово:**\n\n> en bil → min bil → en stor bil\n\n**Якщо це et-слово:**\n\n> et arbejde → mit arbejde → et stort arbejde\n\n**Якщо це множина:**\n\n> mine kolleger\n\n**Якщо річ належить підмету:**\n\n> sin / sit / sine\n\n**Якщо належить іншій людині:**\n\n> hans / hendes / deres\n\n**Після kan / skal / vil / må:**\n\n> Jeg kan arbejde.\n\n**Після багатьох інших дієслів:**\n\n> Jeg prøver at arbejde.\n\n**«Є»:**\n\n> Der er ...\n\n**«Там»:**\n\n> Jeg arbejder der.\n\n**Дія вже відбулася:**\n\n> Jeg har arbejdet.  \n> Jeg er kommet.\n\n**Пасив:**\n\n> Døren bliver åbnet.  \n> Døren åbnes.",
+    "Якщо ви зробили помилки": "Це нормально.\n\nГраматика не повинна запам'ятовуватися за один раз.\n\nПоверніться до теми, де виникла помилка, подивіться ще кілька прикладів і спробуйте ще раз.\n\n**Ваша мета — не вивчити всі правила напам'ять.**\n\nВаша мета:\n\n> **побачити конструкцію → зрозуміти її → почати впізнавати її в реальній данській → використати самостійно.**",
+    "💬 Створіть власне речення": "Виберіть одну конструкцію:\n\n**I morgen...**  \n**På arbejde...**  \n**Jeg kan...**  \n**Jeg skal...**  \n**Jeg vil gerne...**  \n**Jeg har...**\n\nІ закінчіть речення самостійно.\n\n### Приклади\n\n**I morgen skal jeg arbejde.**  \nЗавтра я маю працювати.\n\n**Jeg kan hjælpe min kollega.**  \nЯ можу допомогти своєму колезі.\n\n**Jeg har skrevet en besked til min chef.**  \nЯ написала повідомлення своєму начальнику.",
+    "⭐ 10 КОНСТРУКЦІЙ, ЯКІ ВАРТО ЗАПАМ'ЯТАТИ": "1. **I dag arbejder jeg.**  \n   Сьогодні я працюю.\n\n2. **Jeg arbejder ikke i morgen.**  \n   Я не працюю завтра.\n\n3. **Der er et problem.**  \n   Є проблема.\n\n4. **Jeg skal arbejde i morgen.**  \n   Я маю працювати завтра.\n\n5. **Jeg kan hjælpe dig.**  \n   Я можу тобі допомогти.\n\n6. **Jeg vil gerne lære dansk.**  \n   Я хочу вивчити данську.\n\n7. **Jeg prøver at lære dansk.**  \n   Я намагаюся вивчати данську.\n\n8. **Jeg har skrevet en besked.**  \n   Я написала повідомлення.\n\n9. **Jeg er kommet på arbejde.**  \n   Я прийшла на роботу.\n\n10. **Beskeden bliver sendt senere.**  \n    Повідомлення буде надіслано пізніше.",
+    "🌿 На завершення": "Данська граматика може здаватися дивною, особливо якщо ваша рідна мова — українська.\n\nАле вам не потрібно вивчати десятки сторінок правил, щоб почати розуміти данську.\n\nПочніть із конструкцій, які ви реально бачите щодня.\n\n**I dag arbejder jeg.**\n\n**Jeg arbejder ikke.**\n\n**Jeg skal arbejde.**\n\n**Jeg kan hjælpe.**\n\n**Der er et problem.**\n\n**Jeg har skrevet.**\n\nКоли такі конструкції стають знайомими, речення починають сприйматися не як набір окремих слів, а як зрозумілі готові моделі.\n\nІ саме тоді говорити данською стає набагато легше."
+  },
+  "quiz": [
+    {
+      "id": 1,
+      "group": "Частина 1 — порядок слів",
+      "prompt": "",
+      "options": [
+        "I morgen jeg arbejder.",
+        "I morgen arbejder jeg."
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "group": "Частина 1 — порядок слів",
+      "prompt": "",
+      "options": [
+        "På fredag har jeg fri.",
+        "På fredag jeg har fri."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "group": "Частина 1 — порядок слів",
+      "prompt": "",
+      "options": [
+        "Jeg arbejder ikke i morgen.",
+        "Jeg ikke arbejder i morgen."
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "group": "Частина 2 — at",
+      "prompt": "Jeg prøver ___ lære dansk.",
+      "options": [
+        "at",
+        "—"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "group": "Частина 2 — at",
+      "prompt": "Jeg kan ___ hjælpe dig.",
+      "options": [
+        "at",
+        "—"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "group": "Частина 2 — at",
+      "prompt": "Jeg ved, ___ du arbejder i morgen.",
+      "options": [
+        "at",
+        "—"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "group": "Частина 3 — en / et",
+      "prompt": "___ arbejde",
+      "options": [
+        "en",
+        "et"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "group": "Частина 3 — en / et",
+      "prompt": "___ arbejdsplads",
+      "options": [
+        "en",
+        "et"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "group": "Частина 3 — en / et",
+      "prompt": "___ møde",
+      "options": [
+        "en",
+        "et"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "group": "Частина 4 — sin / hans / hendes",
+      "prompt": "Peter tager ___ jakke.  \n(його власна куртка)",
+      "options": [
+        "sin",
+        "hans"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "group": "Частина 4 — sin / hans / hendes",
+      "prompt": "Anna taler med ___ chef.  \n(начальник іншої жінки)",
+      "options": [
+        "sin",
+        "hendes"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "group": "Частина 5 — прийменники",
+      "prompt": "Jeg bor ___ Danmark.",
+      "options": [
+        "i",
+        "på",
+        "til"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "group": "Частина 5 — прийменники",
+      "prompt": "Jeg er ___ arbejde.",
+      "options": [
+        "i",
+        "på",
+        "til"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "group": "Частина 5 — прийменники",
+      "prompt": "Jeg skal ___ lægen.",
+      "options": [
+        "i",
+        "på",
+        "til"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "group": "Частина 6 — конструкції",
+      "prompt": "___ er et problem.",
+      "options": [
+        "Der",
+        "Det"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "group": "Частина 6 — конструкції",
+      "prompt": "Jeg har ___ en besked.",
+      "options": [
+        "skrive",
+        "skrevet",
+        "skriver"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "group": "Частина 6 — конструкції",
+      "prompt": "Beskeden ___ sendt i morgen.",
+      "options": [
+        "bliver",
+        "er",
+        "har"
+      ],
+      "correct": 0
+    }
+  ]
+}

@@ -13,7 +13,7 @@ export const useIsWide = () => useWindowDimensions().width >= WIDE;
 
 const TABS: { href: Href; label: string; icon: Icon; match: (p: string) => boolean }[] = [
   { href: '/', label: 'Головна', icon: HouseIcon, match: (p) => p === '/' },
-  { href: '/chapters', label: 'Розділи', icon: BooksIcon, match: (p) => p.startsWith('/chapter') },
+  { href: '/chapters', label: 'Розділи', icon: BooksIcon, match: (p) => p.startsWith('/chapter') || p.startsWith('/grammar') },
   { href: '/search', label: 'Пошук', icon: MagnifyingGlassIcon, match: (p) => p.startsWith('/search') },
   { href: '/saved', label: 'Збережені', icon: HeartIcon, match: (p) => p.startsWith('/saved') },
   { href: '/more', label: 'Ще', icon: DotsThreeCircleIcon, match: (p) => ['/more', '/about', '/admin', '/finish'].some((x) => p.startsWith(x)) },
