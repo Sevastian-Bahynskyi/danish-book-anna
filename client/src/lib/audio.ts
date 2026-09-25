@@ -31,6 +31,20 @@ export async function playDanishAudio(text: string): Promise<void> {
 
   player?.remove();
   currentUrl = data.publicUrl;
-  player = createAudioPlayer(data.publicUrl, { downloadFirst: true });
-  player.play();
+  const next = createAudioPlayer(data.publicUrl, { downloadFirst: true });
+  player = next;
+  // Resolve once sound actually starts, so the button can show a spinner while
+  // the recording downloads. Give up waiting after 8 s rather than spin forever.
+  await new Promise<void>((resolve) => {
+    const timeout = setTimeout(done, 8000);
+    const sub = next.addListener('playbackStatusUpdate', (status) => {
+      if (status.playing) done();
+    });
+    function done(): void {
+      clearTimeout(timeout);
+      sub.remove();
+      resolve();
+    }
+    next.play();
+  });
 }
