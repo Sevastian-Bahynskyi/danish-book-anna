@@ -90,7 +90,7 @@ function UserRow({ u }: { u: AdminUser }) {
             {formatPhone(u.phone)}
           </Text>
           <Muted style={{ fontSize: 14 }}>
-            {u.status === 'blocked' ? 'Заблоковано · ' : ''}Останній вхід: {timeAgo(u.last_login_at)} · {u.chapters_done}/{total} розділів
+            {u.status === 'blocked' ? 'Заблоковано · ' : ''}Востаннє заходила: {timeAgo(u.last_seen_at ?? u.last_login_at)} · {u.chapters_done}/{total} розділів
           </Muted>
         </View>
         {u.online && u.status === 'active' ? <CircleIcon size={10} color={c.ok} weight="fill" aria-label="Має активну сесію" /> : null}

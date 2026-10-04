@@ -79,6 +79,7 @@ export default function AdminUser() {
         <Surface style={{ flexGrow: 1, flexBasis: 320, gap: space(2) }}>
           <H3>Активність</H3>
           <Body>Зареєструвалася: {new Date(p.created_at).toLocaleDateString('uk-UA')}</Body>
+          <Body>Востаннє заходила: {timeAgo(p.last_seen_at ?? p.last_login_at)}</Body>
           <Body>Останній вхід: {timeAgo(p.last_login_at)}</Body>
           <Body>Зараз: {p.online ? 'має активну сесію' : 'не в системі'}</Body>
           <Body>Збережено: {d.saved}</Body>

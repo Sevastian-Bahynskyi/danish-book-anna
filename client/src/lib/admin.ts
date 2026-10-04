@@ -10,6 +10,7 @@ export type AdminUser = {
   status: 'active' | 'blocked';
   online: boolean;
   last_login_at: string | null;
+  last_seen_at: string | null;
   created_at: string;
   chapters_done: number;
   saved: number;

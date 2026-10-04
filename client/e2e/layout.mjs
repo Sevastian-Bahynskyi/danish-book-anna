@@ -42,9 +42,9 @@ const now = new Date().toISOString();
 const ago = (m) => new Date(Date.now() - m * 60000).toISOString();
 const profile = { id: uid, phone: '+4512345678', display_name: 'Анна', role: 'admin', status: 'active' };
 const users = [
-  { id: uid, phone: '+4512345678', display_name: 'Анна', role: 'admin', status: 'active', online: true, last_login_at: now, created_at: ago(9000), chapters_done: 12, saved: 14, logins: 31 },
-  { id: '00000000-0000-4000-8000-000000000002', phone: '+4587654321', display_name: 'Олена Коваленко-Петренко', role: 'user', status: 'active', online: false, last_login_at: ago(300), created_at: ago(4000), chapters_done: 3, saved: 2, logins: 4 },
-  { id: '00000000-0000-4000-8000-000000000003', phone: '+4522334455', display_name: null, role: 'user', status: 'blocked', online: false, last_login_at: null, created_at: ago(100), chapters_done: 0, saved: 0, logins: 0 },
+  { id: uid, phone: '+4512345678', display_name: 'Анна', role: 'admin', status: 'active', online: true, last_login_at: now, last_seen_at: now, created_at: ago(9000), chapters_done: 12, saved: 14, logins: 31 },
+  { id: '00000000-0000-4000-8000-000000000002', phone: '+4587654321', display_name: 'Олена Коваленко-Петренко', role: 'user', status: 'active', online: false, last_login_at: ago(300), last_seen_at: ago(5), created_at: ago(4000), chapters_done: 3, saved: 2, logins: 4 },
+  { id: '00000000-0000-4000-8000-000000000003', phone: '+4522334455', display_name: null, role: 'user', status: 'blocked', online: false, last_login_at: null, last_seen_at: null, created_at: ago(100), chapters_done: 0, saved: 0, logins: 0 },
 ];
 const rpc = {
   session_status: 'ok',
